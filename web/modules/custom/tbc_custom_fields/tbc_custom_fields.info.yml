@@ -1,0 +1,8 @@
+name: TBC - Cusotm fields Content
+type: module
+description: TBC - Custom fields
+core: 8.x
+package: Catch.
+
+dependencies:
+  - field

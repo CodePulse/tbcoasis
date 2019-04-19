@@ -1,0 +1,17 @@
+{% for accordion in content %}
+  <div class="buffer">
+    <div class="tbc-help-card tbc-help-card">
+      <div class="tbc-help-card__inner">
+        <div class="tbc-collapsible context-html context-light">
+          <div class="tbc-collapsible__toggle">
+            <p class="tbc-text-normal">{{ accordion.title }}</p>
+            <button class="tbc-collapsible__button" data-toggle="{{ accordion.title }}" data-toggle-type="slide">{{ 'Show more'|t }}</button>
+          </div>
+          <div class="tbc-collapsible__content margin-reset-children" data-toggle-target="{{ accordion.title }}">
+            {{ accordion.value|raw }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endfor %}

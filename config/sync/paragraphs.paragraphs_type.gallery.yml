@@ -1,0 +1,9 @@
+uuid: 1fcf1457-73a1-4a35-bf36-aebecc2d918f
+langcode: en
+status: true
+dependencies: {  }
+id: gallery
+label: Gallery
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,24 @@
+uuid: 724c0276-24b1-4ff9-ad22-0e2dc7d3c36e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.carousel.field_slides
+    - paragraphs.paragraphs_type.carousel
+  module:
+    - tbc_custom_fields
+id: paragraph.carousel.default
+targetEntityType: paragraph
+bundle: carousel
+mode: default
+content:
+  field_slides:
+    weight: 0
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: tile_text
+    region: content
+hidden: {  }
