@@ -1,0 +1,22 @@
+uuid: bb1e62ea-6452-434c-8a64-78b84ae1ed16
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.text_background_image_button.field_image
+    - paragraphs.paragraphs_type.text_background_image_button
+id: paragraph.text_background_image_button.default
+targetEntityType: paragraph
+bundle: text_background_image_button
+mode: default
+content:
+  field_image:
+    type: entity_reference_entity_view
+    weight: 0
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+hidden: {  }
