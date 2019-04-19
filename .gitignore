@@ -23,4 +23,10 @@
 # Ignore .env files as they are personal
 /.env
 
-./idea
+/.idea
+*.DS_Store
+
+# SASS ignores
+.sass-cache
+.sass-cache/*
+*.css.map

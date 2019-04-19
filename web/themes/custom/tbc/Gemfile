@@ -1,0 +1,9 @@
+source 'https://rubygems.org'
+
+gem 'compass-normalize', '~>1.5'
+gem 'compass-rgbapng', '~>0.2.1'
+gem 'toolkit', '~>2.10.2'
+gem 'breakpoint', '~>2.7.1'
+gem 'singularitygs', '~>1.8.0'
+gem 'susy', '~>2.2.14'
+gem 'sass-globbing', '~>1.1.5'
