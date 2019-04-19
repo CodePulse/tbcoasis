@@ -1,18 +1,18 @@
-uuid: 20aa9942-369f-4810-95b4-df75dd7a1b7c
+uuid: 26a23ac9-b710-4369-8889-d705e93b4d19
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_image
+    - field.storage.node.field_image
     - media.type.image
-    - paragraphs.paragraphs_type.text_background_image_button
-id: paragraph.text_background_image_button.field_image
+    - node.type.branch
+id: node.branch.field_image
 field_name: field_image
-entity_type: paragraph
-bundle: text_background_image_button
+entity_type: node
+bundle: branch
 label: Image
 description: ''
-required: false
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''

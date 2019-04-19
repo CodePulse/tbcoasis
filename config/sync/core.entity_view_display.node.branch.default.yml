@@ -1,0 +1,47 @@
+uuid: 5dc3dc2b-49f0-494e-a74c-daea93b8a7e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.branch.body
+    - field.field.node.branch.field_address
+    - field.field.node.branch.field_image
+    - node.type.branch
+  module:
+    - address
+    - text
+    - user
+id: node.branch.default
+targetEntityType: node
+bundle: branch
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_address:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: address_default
+    region: content
+  field_image:
+    type: entity_reference_entity_view
+    weight: 103
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

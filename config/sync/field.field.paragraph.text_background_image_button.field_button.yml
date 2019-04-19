@@ -1,0 +1,23 @@
+uuid: 9ac1284d-9a42-4542-9f16-6b6dcb7319c0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_button
+    - paragraphs.paragraphs_type.text_background_image_button
+  module:
+    - link
+id: paragraph.text_background_image_button.field_button
+field_name: field_button
+entity_type: paragraph
+bundle: text_background_image_button
+label: Button
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 2
+field_type: link

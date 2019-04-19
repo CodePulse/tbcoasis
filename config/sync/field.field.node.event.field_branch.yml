@@ -1,0 +1,21 @@
+uuid: 2dc405bd-fa24-4f84-99b6-32e528f17ab7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_branch
+    - node.type.event
+id: node.event.field_branch
+field_name: field_branch
+entity_type: node
+bundle: event
+label: Branch
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings: {  }
+field_type: entity_reference

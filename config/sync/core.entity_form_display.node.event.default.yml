@@ -1,53 +1,51 @@
-uuid: a96b402d-f5e4-4e41-aebc-9e6ef7beba78
+uuid: 29f5f36c-bf06-46bb-9567-24c9b158f513
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.article.body
-    - field.field.node.article.comment
-    - field.field.node.article.field_tags
-    - node.type.article
+    - field.field.node.event.body
+    - field.field.node.event.field_branch
+    - field.field.node.event.field_date_time
+    - node.type.event
   module:
-    - comment
+    - datetime
     - path
     - text
-_core:
-  default_config_hash: vPb_yvhA-xuNoV_yOmOwYxGuHNRIH1CoMK2qi7BSga0
-id: node.article.default
+id: node.event.default
 targetEntityType: node
-bundle: article
+bundle: event
 mode: default
 content:
   body:
     type: text_textarea_with_summary
-    weight: 1
-    region: content
+    weight: 121
     settings:
       rows: 9
       summary_rows: 3
       placeholder: ''
     third_party_settings: {  }
-  comment:
-    type: comment_default
-    weight: 20
     region: content
-    settings: {  }
-    third_party_settings: {  }
   created:
     type: datetime_timestamp
     weight: 10
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_tags:
-    type: entity_reference_autocomplete_tags
-    weight: 3
-    region: content
+  field_branch:
+    weight: 123
     settings:
       match_operator: CONTAINS
       size: 60
       placeholder: ''
     third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_date_time:
+    weight: 122
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
   path:
     type: path
     weight: 30
@@ -77,7 +75,7 @@ content:
     third_party_settings: {  }
   title:
     type: string_textfield
-    weight: 0
+    weight: -5
     region: content
     settings:
       size: 60
@@ -86,10 +84,10 @@ content:
   uid:
     type: entity_reference_autocomplete
     weight: 5
-    region: content
     settings:
       match_operator: CONTAINS
       size: 60
       placeholder: ''
+    region: content
     third_party_settings: {  }
 hidden: {  }
