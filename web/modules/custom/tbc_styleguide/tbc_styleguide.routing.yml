@@ -1,0 +1,7 @@
+tbc_styleguide.tbc_home:
+  path: '/styleguide/home'
+  defaults:
+    _controller: '\Drupal\tbc_styleguide\Controller\StyleguideController::tbcHome'
+    _title: 'Styleguide | Home'
+  requirements:
+    _permission: 'access content'

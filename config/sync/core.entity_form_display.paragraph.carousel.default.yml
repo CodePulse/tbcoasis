@@ -3,23 +3,26 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.carousel.field_slides
-    - image.style.thumbnail
+    - field.field.paragraph.carousel.field_slide
     - paragraphs.paragraphs_type.carousel
   module:
-    - tbc_custom_fields
+    - paragraphs
 id: paragraph.carousel.default
 targetEntityType: paragraph
 bundle: carousel
 mode: default
 content:
-  field_slides:
+  field_slide:
+    type: entity_reference_paragraphs
     weight: 0
     settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
     third_party_settings: {  }
-    type: tile_text
     region: content
 hidden:
   created: true

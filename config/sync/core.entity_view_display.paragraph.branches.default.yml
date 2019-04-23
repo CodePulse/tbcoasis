@@ -1,0 +1,30 @@
+uuid: 8454a2a6-487d-4964-9e3a-939cf56b8204
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.branches.field_branches
+    - field.field.paragraph.branches.field_title
+    - paragraphs.paragraphs_type.branches
+id: paragraph.branches.default
+targetEntityType: paragraph
+bundle: branches
+mode: default
+content:
+  field_branches:
+    weight: 0
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_title:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

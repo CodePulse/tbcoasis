@@ -1,0 +1,8 @@
+name: TBC - Styleguide
+type: module
+description: TBC - Custom styleguide
+core: 8.x
+package: TBC.
+
+dependencies:
+  - field

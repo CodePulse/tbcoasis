@@ -1,0 +1,46 @@
+uuid: 524a3723-07ec-4e72-9b33-946d95bf0856
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_slide
+    - paragraphs.paragraphs_type.carousel
+    - paragraphs.paragraphs_type.slide
+  module:
+    - entity_reference_revisions
+id: paragraph.carousel.field_slide
+field_name: field_slide
+entity_type: paragraph
+bundle: carousel
+label: Slide
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      slide: slide
+    target_bundles_drag_drop:
+      branches:
+        weight: 7
+        enabled: false
+      carousel:
+        weight: 8
+        enabled: false
+      gallery:
+        weight: 9
+        enabled: false
+      slide:
+        enabled: true
+        weight: 10
+      text:
+        weight: 11
+        enabled: false
+      text_background_image_button:
+        weight: 12
+        enabled: false
+field_type: entity_reference_revisions

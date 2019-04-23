@@ -1,0 +1,33 @@
+uuid: 70bd655a-95cf-4652-88fd-29fe48800535
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.branches.field_branches
+    - field.field.paragraph.branches.field_title
+    - paragraphs.paragraphs_type.branches
+id: paragraph.branches.default
+targetEntityType: paragraph
+bundle: branches
+mode: default
+content:
+  field_branches:
+    weight: 1
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true

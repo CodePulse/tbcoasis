@@ -1,0 +1,22 @@
+uuid: 582a4c86-e319-44d2-b562-a1edf536739e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tbc
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: tbc_content
+theme: tbc
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,23 @@
+uuid: 6ae1f884-e254-439f-93b5-6297a93a426d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_slide_button
+    - paragraphs.paragraphs_type.slide
+  module:
+    - link
+id: paragraph.slide.field_slide_button
+field_name: field_slide_button
+entity_type: paragraph
+bundle: slide
+label: 'Slide button'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

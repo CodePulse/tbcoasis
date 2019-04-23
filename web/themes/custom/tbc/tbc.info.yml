@@ -14,7 +14,8 @@ regions:
   content: 'Content'
   right_sidebar: 'Right sidebar'
   footer: 'Footer'
-
+stylesheets-remove:
+  - core/modules/system/css/components/container-inline.module.css
 libraries-extend:
   bootstrap/framework:
     - tbc/framework

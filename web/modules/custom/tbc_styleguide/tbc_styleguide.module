@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function tbc_styleguide_theme($existing, $type, $theme, $path) {
+  return [
+    'tbc-home' => [
+      'variables' => ['content' => NULL],
+      'template' => 'tbc-home',
+    ],
+  ];
+}
