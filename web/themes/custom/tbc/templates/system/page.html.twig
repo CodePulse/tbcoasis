@@ -56,33 +56,29 @@
 {# Main #}
 {% block main %}
   <div role="main" class="main-container js-quickedit-main-content">
-      {# Header #}
-      {% if page.header %}
-        {% block header %}
-          <div class="col-sm-12" role="heading">
-            {{ page.header }}
-          </div>
-        {% endblock %}
-      {% endif %}
+    {# Header #}
+    {% if page.header %}
+      {{ page.header }}
+    {% endif %}
 
-      {# Sidebar First #}
-      {% if page.sidebar_first %}
-        {% block sidebar_first %}
-          <aside class="col-sm-3" role="complementary">
-            {{ page.sidebar_first }}
-          </aside>
-        {% endblock %}
-      {% endif %}
+    {# Sidebar First #}
+    {% if page.sidebar_first %}
+      {% block sidebar_first %}
+        <aside class="col-sm-3" role="complementary">
+          {{ page.sidebar_first }}
+        </aside>
+      {% endblock %}
+    {% endif %}
 
+    {# Content #}
+
+    <section{{ content_attributes.addClass(content_classes) }}>
       {# Content #}
-
-      <section{{ content_attributes.addClass(content_classes) }}>
-        {# Content #}
-        {% block content %}
-          <a id="main-content"></a>
-          {{ page.content }}
-        {% endblock %}
-      </section>
+      {% block content %}
+        <a id="main-content"></a>
+        {{ page.content }}
+      {% endblock %}
+    </section>
   </div>
 {% endblock %}
 

@@ -4876,106 +4876,89 @@ ul.sermons_meta {
 /*** banner main ***/
 /* line 3573, ../scss/sacremedia-tbc/_style.scss */
 .main-banner-section {
-  background: url(/modules/custom/tbc_styleguide/templates/assets/images/banner/3.jpg);
   background-position: center;
+  background-size: cover;
+  position: relative;
+}
+/* line 3578, ../scss/sacremedia-tbc/_style.scss */
+.main-banner-section .item {
   background-size: cover;
 }
 
-/* line 3578, ../scss/sacremedia-tbc/_style.scss */
+/* line 3583, ../scss/sacremedia-tbc/_style.scss */
 .main-banner-section2 {
   background: url(/modules/custom/tbc_styleguide/templates/assets/images/banner/5.jpg);
   background-position: center;
   background-size: cover;
 }
 
-/* line 3583, ../scss/sacremedia-tbc/_style.scss */
+/* line 3588, ../scss/sacremedia-tbc/_style.scss */
 .sa-intro-text-2 {
   padding: 180px 0 0 0;
 }
 
-/* line 3586, ../scss/sacremedia-tbc/_style.scss */
+/* line 3591, ../scss/sacremedia-tbc/_style.scss */
 .main-banner-section-2 {
   padding-bottom: 160px;
 }
 
-/*.sa-main-banner .owl-next,
-.sa-main-banner .owl-prev {
-    height: 60px;
-    width: 60px;
-    background-color: rgba( 255, 255, 255, 0.05);
-    line-height: 60px;
-    border-radius: 50%;
-    transition: 0.3s;
-}
-.sa-main-banner .owl-prev:after {
-    top: 8px;
-    left: -2px;
-}
-.sa-main-banner .owl-next:after {
-    top: 8px;
-    right: -2px;
-}
-.sa-main-banner .owl-next:hover,
-.sa-main-banner .owl-prev:hover {
-	background-color: #deb668;
-}*/
 /****** sa-banner-carousel *******/
 @media all and (min-width: 1600px) {
-  /* line 3614, ../scss/sacremedia-tbc/_style.scss */
+  /* line 3597, ../scss/sacremedia-tbc/_style.scss */
   .sa-banner-carousel {
     padding: 330px 0 50px 0;
   }
 }
 @media all and (min-width: 1024px) {
-  /* line 3619, ../scss/sacremedia-tbc/_style.scss */
+  /* line 3602, ../scss/sacremedia-tbc/_style.scss */
   .sa-main-banner .owl-prev {
     left: 45px;
   }
 
-  /* line 3622, ../scss/sacremedia-tbc/_style.scss */
+  /* line 3605, ../scss/sacremedia-tbc/_style.scss */
   .sa-main-banner .owl-next {
     right: 45px;
   }
 }
 @media all and (max-width: 1024px) {
-  /* line 3627, ../scss/sacremedia-tbc/_style.scss */
+  /* line 3610, ../scss/sacremedia-tbc/_style.scss */
   .sa-banner-slider .banner-details h2 {
     font-size: 56px;
   }
 
-  /* line 3630, ../scss/sacremedia-tbc/_style.scss */
+  /* line 3613, ../scss/sacremedia-tbc/_style.scss */
   .sa-banner-slider .banner-details p br {
     display: none;
   }
 }
 @media all and (max-width: 992px) {
-  /* line 3635, ../scss/sacremedia-tbc/_style.scss */
+  /* line 3618, ../scss/sacremedia-tbc/_style.scss */
   .sa-banner-slider .banner-details {
     text-align: center;
   }
 
-  /* line 3638, ../scss/sacremedia-tbc/_style.scss */
+  /* line 3621, ../scss/sacremedia-tbc/_style.scss */
   .sa-banner-slider .banner-details .sa-btn-transparent {
     margin-bottom: 70px;
   }
 
-  /* line 3641, ../scss/sacremedia-tbc/_style.scss */
+  /* line 3624, ../scss/sacremedia-tbc/_style.scss */
   .sa-banner-audio-area p {
     margin-bottom: 10px;
   }
 
-  /* line 3644, ../scss/sacremedia-tbc/_style.scss */
+  /* line 3627, ../scss/sacremedia-tbc/_style.scss */
   .sa-banner-slider .owl-dots {
     float: inherit;
     text-align: center;
   }
 
-  /* line 3648, ../scss/sacremedia-tbc/_style.scss */
+  /* line 3631, ../scss/sacremedia-tbc/_style.scss */
   .sa-banner-audio-area {
     margin-top: 100px;
   }
 
-  /* line 3651, ../scss/sacremedia-tbc/_style.scss */
+  /* line 3634, ../scss/sacremedia-tbc/_style.scss */
   .sa-banner-audio-area .audio-player .player-controls.scrubber {
     background-color: transparent;
     padding: 0;
@@ -4983,63 +4966,63 @@ ul.sermons_meta {
     margin-left: 10px;
   }
 
-  /* line 3657, ../scss/sacremedia-tbc/_style.scss */
+  /* line 3640, ../scss/sacremedia-tbc/_style.scss */
   .main-banner-section-2 {
     padding-bottom: 0;
   }
 }
 @media all and (max-width: 767px) {
-  /* line 3662, ../scss/sacremedia-tbc/_style.scss */
+  /* line 3645, ../scss/sacremedia-tbc/_style.scss */
   .sa-banner-slider .banner-details h2 {
     font-size: 43px;
   }
 
-  /* line 3665, ../scss/sacremedia-tbc/_style.scss */
+  /* line 3648, ../scss/sacremedia-tbc/_style.scss */
   .sa-banner-slider .banner-details .sa-btn-transparent {
     margin-bottom: 30px;
   }
 
-  /* line 3668, ../scss/sacremedia-tbc/_style.scss */
+  /* line 3651, ../scss/sacremedia-tbc/_style.scss */
   .sa-banner-slider .banner-details p {
     margin-bottom: 35px;
   }
 
-  /* line 3671, ../scss/sacremedia-tbc/_style.scss */
+  /* line 3654, ../scss/sacremedia-tbc/_style.scss */
   .sa-banner-audio-area {
     margin-top: 80px;
   }
 
-  /* line 3674, ../scss/sacremedia-tbc/_style.scss */
+  /* line 3657, ../scss/sacremedia-tbc/_style.scss */
   .sa-banner-slider .sa-btn-transparent {
     font-size: 12px;
     padding: 13px 30px;
   }
 
-  /* line 3678, ../scss/sacremedia-tbc/_style.scss */
+  /* line 3661, ../scss/sacremedia-tbc/_style.scss */
   .main-banner-section .intro_text {
     margin: 0 auto;
     padding: 180px 0 60px;
   }
 
-  /* line 3682, ../scss/sacremedia-tbc/_style.scss */
+  /* line 3665, ../scss/sacremedia-tbc/_style.scss */
   .sa-banner-carousel {
     padding: 260px 0 50px 0;
   }
 
-  /* line 3685, ../scss/sacremedia-tbc/_style.scss */
+  /* line 3668, ../scss/sacremedia-tbc/_style.scss */
   .sa-banner-carousel .sa-banner-slider .banner-details .sa-btn-transparent {
     font-size: 12px;
   }
 }
 @media all and (max-width: 424px) {
-  /* line 3690, ../scss/sacremedia-tbc/_style.scss */
+  /* line 3673, ../scss/sacremedia-tbc/_style.scss */
   .sa-banner-slider .banner-details h2 {
     font-size: 32px;
     font-weight: 600;
   }
 }
 /** All banner banner bg **/
-/* line 3698, ../scss/sacremedia-tbc/_style.scss */
+/* line 3681, ../scss/sacremedia-tbc/_style.scss */
 .banner-bg-charity {
   background: url(/modules/custom/tbc_styleguide/templates/assets/images/banner/2.jpg);
   background-position: center;
@@ -5047,88 +5030,88 @@ ul.sermons_meta {
   padding-bottom: 10px;
 }
 
-/* line 3704, ../scss/sacremedia-tbc/_style.scss */
+/* line 3687, ../scss/sacremedia-tbc/_style.scss */
 .sa-intro-section-3 .sa-intro-area {
   padding: 40px 20px 0 20px;
 }
 
-/* line 3707, ../scss/sacremedia-tbc/_style.scss */
+/* line 3690, ../scss/sacremedia-tbc/_style.scss */
 .sa-intro-section-3 .sa-intro-area h2 {
   font-size: 18px;
   color: #022147 !important;
   font-weight: 600;
 }
 
-/* line 3712, ../scss/sacremedia-tbc/_style.scss */
+/* line 3695, ../scss/sacremedia-tbc/_style.scss */
 .banner-bg-charity .intro_text h1 {
   font-size: 54px;
 }
 
 /** banner nonprofit **/
-/* line 3716, ../scss/sacremedia-tbc/_style.scss */
+/* line 3699, ../scss/sacremedia-tbc/_style.scss */
 .banner-bg-nonprofit {
   background: url(/modules/custom/tbc_styleguide/templates/assets/images/banner/10.jpg);
   background-position: center;
   background-size: cover;
 }
 
-/* line 3721, ../scss/sacremedia-tbc/_style.scss */
+/* line 3704, ../scss/sacremedia-tbc/_style.scss */
 .banner-bg-nonprofit .intro_text h3 {
   font-size: 24px;
 }
 
-/* line 3724, ../scss/sacremedia-tbc/_style.scss */
+/* line 3707, ../scss/sacremedia-tbc/_style.scss */
 .banner-bg-nonprofit .intro_text h1 {
   font-size: 48px;
 }
 
-/* line 3727, ../scss/sacremedia-tbc/_style.scss */
+/* line 3710, ../scss/sacremedia-tbc/_style.scss */
 .sa-nonprofit-intro .sa-intro-area h2 {
   font-weight: 700;
 }
 
 /** banner event **/
-/* line 3731, ../scss/sacremedia-tbc/_style.scss */
+/* line 3714, ../scss/sacremedia-tbc/_style.scss */
 .banner-bg-event {
   background: url(/modules/custom/tbc_styleguide/templates/assets/images/banner/10.jpg);
   background-position: center;
   background-size: cover;
 }
 
-/* line 3736, ../scss/sacremedia-tbc/_style.scss */
+/* line 3719, ../scss/sacremedia-tbc/_style.scss */
 .banner-bg-event .intro_text h3 {
   font-size: 24px;
 }
 
-/* line 3739, ../scss/sacremedia-tbc/_style.scss */
+/* line 3722, ../scss/sacremedia-tbc/_style.scss */
 .banner-bg-event .intro_text h1 {
   font-size: 48px;
 }
 
 @media all and (min-width: 1200px) {
-  /* line 3743, ../scss/sacremedia-tbc/_style.scss */
+  /* line 3726, ../scss/sacremedia-tbc/_style.scss */
   .banner-bg-charity .intro_text {
     min-width: 1000px;
   }
 
-  /* line 3746, ../scss/sacremedia-tbc/_style.scss */
+  /* line 3729, ../scss/sacremedia-tbc/_style.scss */
   .banner-bg-nonprofit .intro_text {
     min-width: 1000px;
   }
 
-  /* line 3749, ../scss/sacremedia-tbc/_style.scss */
+  /* line 3732, ../scss/sacremedia-tbc/_style.scss */
   .banner-bg-event .intro_text {
     min-width: 1000px;
   }
 }
 @media all and (min-width: 1600px) {
-  /* line 3754, ../scss/sacremedia-tbc/_style.scss */
+  /* line 3737, ../scss/sacremedia-tbc/_style.scss */
   .banner-bg-charity {
     padding: 80px 0;
   }
 }
 @media all and (max-width: 480px) {
-  /* line 3759, ../scss/sacremedia-tbc/_style.scss */
+  /* line 3742, ../scss/sacremedia-tbc/_style.scss */
   .sa-landing-ngo-banner .intro_text h1,
   .banner-bg-event .intro_text h1,
   .banner-bg-charity .intro_text h1,
@@ -5141,24 +5124,24 @@ ul.sermons_meta {
 | 1.about-us
 |---------------------------------------------
 */
-/* line 3771, ../scss/sacremedia-tbc/_style.scss */
+/* line 3754, ../scss/sacremedia-tbc/_style.scss */
 .sa-about-us-section {
   background-color: #f7f7f7;
   padding: 108px 0 101px 0;
 }
 
-/* line 3775, ../scss/sacremedia-tbc/_style.scss */
+/* line 3758, ../scss/sacremedia-tbc/_style.scss */
 .sa-about-us-section .sa-btn-transparent {
   color: #022147;
   font-size: 16px;
 }
 
-/* line 3779, ../scss/sacremedia-tbc/_style.scss */
+/* line 3762, ../scss/sacremedia-tbc/_style.scss */
 .sa-about-us-section .sa-btn-transparent:hover {
   color: #fff;
 }
 
-/* line 3782, ../scss/sacremedia-tbc/_style.scss */
+/* line 3765, ../scss/sacremedia-tbc/_style.scss */
 .sa-about-us-section .entry-title {
   font-family: 'Poppins', sans-serif;
   font-size: 36px;
@@ -5168,7 +5151,7 @@ ul.sermons_meta {
   margin-bottom: 58px;
 }
 
-/* line 3790, ../scss/sacremedia-tbc/_style.scss */
+/* line 3773, ../scss/sacremedia-tbc/_style.scss */
 .sa-about-us-single h4 {
   font-family: 'Poppins', sans-serif;
   font-size: 24px;
@@ -5179,7 +5162,7 @@ ul.sermons_meta {
   position: relative;
 }
 
-/* line 3799, ../scss/sacremedia-tbc/_style.scss */
+/* line 3782, ../scss/sacremedia-tbc/_style.scss */
 .sa-about-us-single h4:after {
   content: ' ';
   position: absolute;
@@ -5191,7 +5174,7 @@ ul.sermons_meta {
   background-color: #deb668;
 }
 
-/* line 3809, ../scss/sacremedia-tbc/_style.scss */
+/* line 3792, ../scss/sacremedia-tbc/_style.scss */
 .sa-about-us-single p {
   font-family: 'Nunito', sans-serif;
   font-size: 15px;
@@ -5203,18 +5186,18 @@ ul.sermons_meta {
 
 /***** about-usresponsive ******/
 @media all and (max-width: 1024px) {
-  /* line 3819, ../scss/sacremedia-tbc/_style.scss */
+  /* line 3802, ../scss/sacremedia-tbc/_style.scss */
   .sa-about-us-single h4 {
     font-size: 23px;
   }
 }
 @media all and (max-width: 992px) {
-  /* line 3824, ../scss/sacremedia-tbc/_style.scss */
+  /* line 3807, ../scss/sacremedia-tbc/_style.scss */
   .sa-about-us-single h4 {
     font-size: 16px;
   }
 
-  /* line 3827, ../scss/sacremedia-tbc/_style.scss */
+  /* line 3810, ../scss/sacremedia-tbc/_style.scss */
   .sa-about-us-single p {
     font-size: 14px;
   }
@@ -5224,12 +5207,12 @@ ul.sermons_meta {
 |   place-single style
 |---------------------------------------------
 */
-/* line 3838, ../scss/sacremedia-tbc/_style.scss */
+/* line 3821, ../scss/sacremedia-tbc/_style.scss */
 .sa-place-section {
   background: #f7f7f7;
 }
 
-/* line 3841, ../scss/sacremedia-tbc/_style.scss */
+/* line 3824, ../scss/sacremedia-tbc/_style.scss */
 .sa-place-single {
   border-radius: 5px;
   background-color: white;
@@ -5238,7 +5221,7 @@ ul.sermons_meta {
   margin-bottom: 30px;
 }
 
-/* line 3848, ../scss/sacremedia-tbc/_style.scss */
+/* line 3831, ../scss/sacremedia-tbc/_style.scss */
 .sa-place-section .sa-place-single h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
@@ -5247,12 +5230,12 @@ ul.sermons_meta {
   margin: 0;
 }
 
-/* line 3855, ../scss/sacremedia-tbc/_style.scss */
+/* line 3838, ../scss/sacremedia-tbc/_style.scss */
 .sa-place-info {
   padding: 20px 10px 37px 10px;
 }
 
-/* line 3858, ../scss/sacremedia-tbc/_style.scss */
+/* line 3841, ../scss/sacremedia-tbc/_style.scss */
 .sa-place-single p {
   margin: 0px;
   padding: 10px 0px 32px 0px;
@@ -5263,7 +5246,7 @@ ul.sermons_meta {
   color: #7c8187;
 }
 
-/* line 3870, ../scss/sacremedia-tbc/_style.scss */
+/* line 3853, ../scss/sacremedia-tbc/_style.scss */
 .sa-place-single img {
   width: 100%;
   height: auto;
@@ -5271,7 +5254,7 @@ ul.sermons_meta {
 
 /* Place section Responcive */
 @media All and (max-width: 1024px) {
-  /* line 3876, ../scss/sacremedia-tbc/_style.scss */
+  /* line 3859, ../scss/sacremedia-tbc/_style.scss */
   .sa-place-section .sa-place-single h2 {
     font-size: 18px;
   }
@@ -5281,7 +5264,7 @@ ul.sermons_meta {
 | Upcoming Event Section 
 |---------------------------------------------
 */
-/* line 3887, ../scss/sacremedia-tbc/_style.scss */
+/* line 3870, ../scss/sacremedia-tbc/_style.scss */
 .sa-events-area {
   border: 1px solid #f2f2f2;
   margin-bottom: 30px;
@@ -5289,7 +5272,7 @@ ul.sermons_meta {
   border-radius: 4px;
 }
 
-/* line 3893, ../scss/sacremedia-tbc/_style.scss */
+/* line 3876, ../scss/sacremedia-tbc/_style.scss */
 .sa-events-area .media h5 {
   font-size: 24px;
   font-family: 'Poppins', sans-serif;
@@ -5299,7 +5282,7 @@ ul.sermons_meta {
   margin-bottom: 15px;
 }
 
-/* line 3901, ../scss/sacremedia-tbc/_style.scss */
+/* line 3884, ../scss/sacremedia-tbc/_style.scss */
 .sa-events-area .media p {
   font-size: 15px;
   line-height: 28px;
@@ -5309,25 +5292,25 @@ ul.sermons_meta {
   font-family: 'Nunito', sans-serif;
 }
 
-/* line 3909, ../scss/sacremedia-tbc/_style.scss */
+/* line 3892, ../scss/sacremedia-tbc/_style.scss */
 .sa-events-area .sa-event {
   padding: 30px 10px;
   margin-left: 13px;
 }
 
-/* line 3913, ../scss/sacremedia-tbc/_style.scss */
+/* line 3896, ../scss/sacremedia-tbc/_style.scss */
 .sa-events-area .sa-events {
   padding: 20px 0px 0 0;
 }
 
-/* line 3916, ../scss/sacremedia-tbc/_style.scss */
+/* line 3899, ../scss/sacremedia-tbc/_style.scss */
 .sa-events-area .sa-events p i {
   margin-right: 15px;
   color: #deb668;
   font-size: 15px;
 }
 
-/* line 3921, ../scss/sacremedia-tbc/_style.scss */
+/* line 3904, ../scss/sacremedia-tbc/_style.scss */
 .sa-events-area .sa-events p {
   color: #555b62;
   font-size: 15px;
@@ -5336,13 +5319,13 @@ ul.sermons_meta {
   margin-bottom: 5px;
 }
 
-/* line 3928, ../scss/sacremedia-tbc/_style.scss */
+/* line 3911, ../scss/sacremedia-tbc/_style.scss */
 .sa-events-area .media a {
   border: none;
   font-family: 'Nunito', sans-serif;
 }
 
-/* line 3932, ../scss/sacremedia-tbc/_style.scss */
+/* line 3915, ../scss/sacremedia-tbc/_style.scss */
 .sa-events-area .sa-event-date {
   padding: 40px;
   background: #022147;
@@ -5350,7 +5333,7 @@ ul.sermons_meta {
   margin-right: 30px;
 }
 
-/* line 3938, ../scss/sacremedia-tbc/_style.scss */
+/* line 3921, ../scss/sacremedia-tbc/_style.scss */
 .sa-event-date span {
   font-size: 40px;
   line-height: 32px;
@@ -5359,7 +5342,7 @@ ul.sermons_meta {
   font-weight: bolder;
 }
 
-/* line 3945, ../scss/sacremedia-tbc/_style.scss */
+/* line 3928, ../scss/sacremedia-tbc/_style.scss */
 .sa-month {
   margin-top: 8px !important;
   font-size: 14px !important;
@@ -5368,30 +5351,30 @@ ul.sermons_meta {
 }
 
 @media all and (max-width: 1024px) {
-  /* line 3952, ../scss/sacremedia-tbc/_style.scss */
+  /* line 3935, ../scss/sacremedia-tbc/_style.scss */
   .sa-events-area .sa-event {
     padding: 18px 10px;
   }
 }
 @media all and (max-width: 991px) {
-  /* line 3957, ../scss/sacremedia-tbc/_style.scss */
+  /* line 3940, ../scss/sacremedia-tbc/_style.scss */
   .sa-events-area .sa-event {
     padding: 30px 10px;
   }
 }
 @media all and (max-width: 767px) {
-  /* line 3962, ../scss/sacremedia-tbc/_style.scss */
+  /* line 3945, ../scss/sacremedia-tbc/_style.scss */
   .sa-events-area .media {
     display: inherit;
   }
 
-  /* line 3965, ../scss/sacremedia-tbc/_style.scss */
+  /* line 3948, ../scss/sacremedia-tbc/_style.scss */
   .sa-events-area .sa-event {
     padding: 30px 15px;
     margin-left: 0;
   }
 
-  /* line 3969, ../scss/sacremedia-tbc/_style.scss */
+  /* line 3952, ../scss/sacremedia-tbc/_style.scss */
   .sa-events-area .media img {
     width: 100%;
   }
@@ -5401,7 +5384,7 @@ ul.sermons_meta {
 | 2.sa-upcoming-sermons video
 |---------------------------------------------
 */
-/* line 3979, ../scss/sacremedia-tbc/_style.scss */
+/* line 3962, ../scss/sacremedia-tbc/_style.scss */
 .sa-video-block .video-blog {
   border: 1px solid #f2f2f2;
   border-radius: 5px;
@@ -5409,7 +5392,7 @@ ul.sermons_meta {
   box-shadow: 4px 6.928px 16px 0px rgba(0, 0, 0, 0.02);
 }
 
-/* line 3985, ../scss/sacremedia-tbc/_style.scss */
+/* line 3968, ../scss/sacremedia-tbc/_style.scss */
 .sa-video-title {
   font-family: 'Poppins', sans-serif;
   font-size: 30px;
@@ -5419,12 +5402,12 @@ ul.sermons_meta {
   margin-bottom: 62px;
 }
 
-/* line 3993, ../scss/sacremedia-tbc/_style.scss */
+/* line 3976, ../scss/sacremedia-tbc/_style.scss */
 .sa-video-block .video-content {
   padding: 25px 15px 25px 15px;
 }
 
-/* line 3996, ../scss/sacremedia-tbc/_style.scss */
+/* line 3979, ../scss/sacremedia-tbc/_style.scss */
 .sa-video-block .video-content h5 {
   font-family: 'Poppins', sans-serif;
   font-size: 24px;
@@ -5434,7 +5417,7 @@ ul.sermons_meta {
   margin-bottom: 8px;
 }
 
-/* line 4004, ../scss/sacremedia-tbc/_style.scss */
+/* line 3987, ../scss/sacremedia-tbc/_style.scss */
 .sa-video-block .video-content p {
   font-family: 'Nunito', sans-serif;
   font-size: 15px;
@@ -5444,18 +5427,18 @@ ul.sermons_meta {
   margin-bottom: 22px;
 }
 
-/* line 4012, ../scss/sacremedia-tbc/_style.scss */
+/* line 3995, ../scss/sacremedia-tbc/_style.scss */
 .sa-video-block .thumb img {
   width: 100%;
   border-radius: 4px;
 }
 
-/* line 4016, ../scss/sacremedia-tbc/_style.scss */
+/* line 3999, ../scss/sacremedia-tbc/_style.scss */
 .sa-video-block .video-blog-popup {
   position: relative;
 }
 
-/* line 4019, ../scss/sacremedia-tbc/_style.scss */
+/* line 4002, ../scss/sacremedia-tbc/_style.scss */
 .sa-video-block .popup-youtube {
   top: 50%;
   bottom: 0;
@@ -5474,14 +5457,14 @@ ul.sermons_meta {
   z-index: 9;
 }
 
-/* line 4036, ../scss/sacremedia-tbc/_style.scss */
+/* line 4019, ../scss/sacremedia-tbc/_style.scss */
 .sa-video-block .popup-youtube i {
   margin-left: 6px;
 }
 
 /***** sa-upcoming-sermons-responsive *****/
 @media all and (max-width: 374px) {
-  /* line 4041, ../scss/sacremedia-tbc/_style.scss */
+  /* line 4024, ../scss/sacremedia-tbc/_style.scss */
   .sa-video-block .popup-youtube {
     height: 50px;
     width: 50px;
@@ -5496,20 +5479,20 @@ ul.sermons_meta {
 | Schedule section
 |---------------------------------------------
 */
-/* line 4059, ../scss/sacremedia-tbc/_style.scss */
+/* line 4042, ../scss/sacremedia-tbc/_style.scss */
 .sa-schedules-wrap {
   background: url(/modules/custom/tbc_styleguide/templates/assets/images/bg/1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* line 4064, ../scss/sacremedia-tbc/_style.scss */
+/* line 4047, ../scss/sacremedia-tbc/_style.scss */
 .sa-schedules-section {
   background: #fbfbfb;
   padding: 48px 42px 50px 55px;
 }
 
-/* line 4068, ../scss/sacremedia-tbc/_style.scss */
+/* line 4051, ../scss/sacremedia-tbc/_style.scss */
 .sa-schedules-heading h2 {
   font-size: 30px;
   color: #022147;
@@ -5521,7 +5504,7 @@ ul.sermons_meta {
   position: relative;
 }
 
-/* line 4078, ../scss/sacremedia-tbc/_style.scss */
+/* line 4061, ../scss/sacremedia-tbc/_style.scss */
 .sa-schedules-heading h2:after {
   content: " ";
   background: #deb668;
@@ -5532,7 +5515,7 @@ ul.sermons_meta {
   left: 0;
 }
 
-/* line 4087, ../scss/sacremedia-tbc/_style.scss */
+/* line 4070, ../scss/sacremedia-tbc/_style.scss */
 .sa-schedules-heading p {
   font-size: 15px;
   color: #555b62;
@@ -5544,19 +5527,19 @@ ul.sermons_meta {
   font-weight: 400;
 }
 
-/* line 4097, ../scss/sacremedia-tbc/_style.scss */
+/* line 4080, ../scss/sacremedia-tbc/_style.scss */
 .sa-schedules-content {
   margin-bottom: 45px;
 }
 
-/* line 4100, ../scss/sacremedia-tbc/_style.scss */
+/* line 4083, ../scss/sacremedia-tbc/_style.scss */
 .sa-schedules-content p i {
   margin-right: 15px;
   color: #deb668;
   font-size: 15px;
 }
 
-/* line 4105, ../scss/sacremedia-tbc/_style.scss */
+/* line 4088, ../scss/sacremedia-tbc/_style.scss */
 .sa-schedules-content p {
   font-size: 15px;
   color: #555b62;
@@ -5567,7 +5550,7 @@ ul.sermons_meta {
   padding: 0;
 }
 
-/* line 4114, ../scss/sacremedia-tbc/_style.scss */
+/* line 4097, ../scss/sacremedia-tbc/_style.scss */
 .sa-schedule a {
   background-color: #deb668;
 }
@@ -5575,17 +5558,17 @@ ul.sermons_meta {
 /*---------------------------------------------
 	sa-schedules-table style
 --------------------------------------------- */
-/* line 4120, ../scss/sacremedia-tbc/_style.scss */
+/* line 4103, ../scss/sacremedia-tbc/_style.scss */
 .sa-schedules-table {
   border: 1px solid #e5e8ec;
 }
 
-/* line 4123, ../scss/sacremedia-tbc/_style.scss */
+/* line 4106, ../scss/sacremedia-tbc/_style.scss */
 .sa-schedules-table .thead-dark {
   background: #022147;
 }
 
-/* line 4126, ../scss/sacremedia-tbc/_style.scss */
+/* line 4109, ../scss/sacremedia-tbc/_style.scss */
 .sa-schedules-table .thead-dark th {
   background: none;
   border: 0;
@@ -5595,13 +5578,13 @@ ul.sermons_meta {
   font-size: 18px;
 }
 
-/* line 4134, ../scss/sacremedia-tbc/_style.scss */
+/* line 4117, ../scss/sacremedia-tbc/_style.scss */
 .sa-schedules-table .table-body tr {
   border-bottom: 1px solid #e5e8ec;
   background: #fff;
 }
 
-/* line 4138, ../scss/sacremedia-tbc/_style.scss */
+/* line 4121, ../scss/sacremedia-tbc/_style.scss */
 .sa-schedules-table .table-body tr th {
   font-size: 15px;
   font-weight: 400;
@@ -5610,13 +5593,13 @@ ul.sermons_meta {
   color: #022147;
 }
 
-/* line 4145, ../scss/sacremedia-tbc/_style.scss */
+/* line 4128, ../scss/sacremedia-tbc/_style.scss */
 .sa-schedules-table .table-body td,
 .sa-schedules-table .table-body th {
   border: 0;
 }
 
-/* line 4149, ../scss/sacremedia-tbc/_style.scss */
+/* line 4132, ../scss/sacremedia-tbc/_style.scss */
 .sa-schedules-table .table-body td {
   font-size: 15px;
   font-weight: 400;
@@ -5625,38 +5608,38 @@ ul.sermons_meta {
   color: #022147;
 }
 
-/* line 4156, ../scss/sacremedia-tbc/_style.scss */
+/* line 4139, ../scss/sacremedia-tbc/_style.scss */
 .sa-schedules-table .table-body td:last-child,
 .sa-schedules-table .thead-dark th:last-child {
   text-align: right;
 }
 
 @media all and (max-width: 1024px) {
-  /* line 4161, ../scss/sacremedia-tbc/_style.scss */
+  /* line 4144, ../scss/sacremedia-tbc/_style.scss */
   .sa-schedules-table .thead-dark th {
     padding: 13px 30px;
     font-size: 12px;
   }
 
-  /* line 4165, ../scss/sacremedia-tbc/_style.scss */
+  /* line 4148, ../scss/sacremedia-tbc/_style.scss */
   .sa-schedules-table .table-body td,
   .sa-schedules-table .table-body tr th {
     font-size: 12px;
   }
 }
 @media all and (max-width: 991px) {
-  /* line 4171, ../scss/sacremedia-tbc/_style.scss */
+  /* line 4154, ../scss/sacremedia-tbc/_style.scss */
   .sa-schedules-table {
     margin-top: 50px;
   }
 }
 @media all and (max-width: 767px) {
-  /* line 4176, ../scss/sacremedia-tbc/_style.scss */
+  /* line 4159, ../scss/sacremedia-tbc/_style.scss */
   .sa-schedules-section {
     padding: 28px 20px 20px 20px;
   }
 
-  /* line 4179, ../scss/sacremedia-tbc/_style.scss */
+  /* line 4162, ../scss/sacremedia-tbc/_style.scss */
   .sa-schedules-table .table-body tr th,
   .sa-schedules-table .table-body td,
   .sa-schedules-table .thead-dark th {
@@ -5665,12 +5648,12 @@ ul.sermons_meta {
   }
 }
 @media all and (max-width: 767px) {
-  /* line 4187, ../scss/sacremedia-tbc/_style.scss */
+  /* line 4170, ../scss/sacremedia-tbc/_style.scss */
   .sa-schedules-section {
     padding: 28px 15px 20px 15px;
   }
 
-  /* line 4190, ../scss/sacremedia-tbc/_style.scss */
+  /* line 4173, ../scss/sacremedia-tbc/_style.scss */
   .sa-schedules-table .table-body tr th,
   .sa-schedules-table .table-body td,
   .sa-schedules-table .thead-dark th {
@@ -5683,34 +5666,34 @@ ul.sermons_meta {
 | 	Home five
 |---------------------------------------------
 */
-/* line 4214, ../scss/sacremedia-tbc/_style.scss */
+/* line 4197, ../scss/sacremedia-tbc/_style.scss */
 .sa-about-us-details {
   background: url(/modules/custom/tbc_styleguide/templates/assets/images/icon_lg.png) no-repeat left bottom;
 }
 
-/* line 4217, ../scss/sacremedia-tbc/_style.scss */
+/* line 4200, ../scss/sacremedia-tbc/_style.scss */
 .sa-about-us-details h2 {
   font-family: 'Poppins', sans-serif;
 }
 
-/* line 4220, ../scss/sacremedia-tbc/_style.scss */
+/* line 4203, ../scss/sacremedia-tbc/_style.scss */
 .sa-about-us-details p {
   font-family: 'Nunito', sans-serif;
 }
 
-/* line 4223, ../scss/sacremedia-tbc/_style.scss */
+/* line 4206, ../scss/sacremedia-tbc/_style.scss */
 .sa-about-us-details .btn {
   margin-top: 20px;
 }
 
-/* line 4226, ../scss/sacremedia-tbc/_style.scss */
+/* line 4209, ../scss/sacremedia-tbc/_style.scss */
 .sa-about-us-bg {
   position: absolute;
   right: 0;
 }
 
 @media all and (max-width: 991px) {
-  /* line 4231, ../scss/sacremedia-tbc/_style.scss */
+  /* line 4214, ../scss/sacremedia-tbc/_style.scss */
   .sa-about-us-bg {
     position: inherit;
     right: auto;
@@ -5722,35 +5705,35 @@ ul.sermons_meta {
 | Intro Section 
 |---------------------------------------------
 */
-/* line 4244, ../scss/sacremedia-tbc/_style.scss */
+/* line 4227, ../scss/sacremedia-tbc/_style.scss */
 .sa-intro-section-2 {
   margin-top: -168px;
 }
 
-/* line 4247, ../scss/sacremedia-tbc/_style.scss */
+/* line 4230, ../scss/sacremedia-tbc/_style.scss */
 .no-padding {
   padding: 0 !important;
 }
 
-/* line 4250, ../scss/sacremedia-tbc/_style.scss */
+/* line 4233, ../scss/sacremedia-tbc/_style.scss */
 .sa-intro-bg {
   background: #ba9b5e;
   margin-bottom: 30px;
 }
 
-/* line 4254, ../scss/sacremedia-tbc/_style.scss */
+/* line 4237, ../scss/sacremedia-tbc/_style.scss */
 .sa-intro-bg1 {
   background: #deb668;
   margin-bottom: 30px;
 }
 
-/* line 4258, ../scss/sacremedia-tbc/_style.scss */
+/* line 4241, ../scss/sacremedia-tbc/_style.scss */
 .sa-intro-area {
   padding: 40px 10px 50px 10px;
   color: #fff;
 }
 
-/* line 4262, ../scss/sacremedia-tbc/_style.scss */
+/* line 4245, ../scss/sacremedia-tbc/_style.scss */
 .sa-intro-area h2 {
   font-family: 'Poppins', sans-serif;
   color: #fff;
@@ -5761,7 +5744,7 @@ ul.sermons_meta {
   margin: 0 0 10px 0;
 }
 
-/* line 4271, ../scss/sacremedia-tbc/_style.scss */
+/* line 4254, ../scss/sacremedia-tbc/_style.scss */
 .sa-intro-area p {
   font-family: 'Nunito', sans-serif;
   color: #fff;
@@ -5771,36 +5754,36 @@ ul.sermons_meta {
   margin-bottom: 46px;
 }
 
-/* line 4279, ../scss/sacremedia-tbc/_style.scss */
+/* line 4262, ../scss/sacremedia-tbc/_style.scss */
 .sa-intro-area a {
   color: #fff;
   border: 1px solid #fff;
 }
 
-/* line 4283, ../scss/sacremedia-tbc/_style.scss */
+/* line 4266, ../scss/sacremedia-tbc/_style.scss */
 .sa-intro-area a:hover {
   border: 1px solid #eab244;
 }
 
-/* line 4286, ../scss/sacremedia-tbc/_style.scss */
+/* line 4269, ../scss/sacremedia-tbc/_style.scss */
 .sa-intro-area img {
   margin: 0 0 30px 0;
 }
 
 @media all and (max-width: 991px) {
-  /* line 4290, ../scss/sacremedia-tbc/_style.scss */
+  /* line 4273, ../scss/sacremedia-tbc/_style.scss */
   .sa-intro-section-2 {
     margin-top: -72px;
   }
 }
 /***** intro style two *****/
-/* line 4295, ../scss/sacremedia-tbc/_style.scss */
+/* line 4278, ../scss/sacremedia-tbc/_style.scss */
 .text-color h2 {
   color: #000 !important;
   font-weight: bold;
 }
 
-/* line 4299, ../scss/sacremedia-tbc/_style.scss */
+/* line 4282, ../scss/sacremedia-tbc/_style.scss */
 .text-color p {
   color: #555b62 !important;
   font-family: 'Nunito', sans-serif;
@@ -5808,7 +5791,7 @@ ul.sermons_meta {
   line-height: 28px;
 }
 
-/* line 4305, ../scss/sacremedia-tbc/_style.scss */
+/* line 4288, ../scss/sacremedia-tbc/_style.scss */
 .sa-intro-area.text-color {
   padding: 40px 25px 0 25px;
   border-radius: 5px;
@@ -5824,13 +5807,13 @@ ul.sermons_meta {
 |---------------------------------------------
 */
 @media All and (max-width: 1024px) {
-  /* line 4322, ../scss/sacremedia-tbc/_style.scss */
+  /* line 4305, ../scss/sacremedia-tbc/_style.scss */
   .sa-intro-area h2 {
     font-size: 22px;
   }
 }
 @media All and (max-width: 768px) {
-  /* line 4327, ../scss/sacremedia-tbc/_style.scss */
+  /* line 4310, ../scss/sacremedia-tbc/_style.scss */
   .no-padding {
     padding: 0px 15px !important;
   }
@@ -5840,7 +5823,7 @@ ul.sermons_meta {
 | 3.sa-living-section
 |---------------------------------------------
 */
-/* line 4338, ../scss/sacremedia-tbc/_style.scss */
+/* line 4321, ../scss/sacremedia-tbc/_style.scss */
 .sa-living-section {
   background-image: url(/modules/custom/tbc_styleguide/templates/assets/images/banner/9.jpg);
   padding: 110px 0 0 0;
@@ -5849,7 +5832,7 @@ ul.sermons_meta {
   background-position: center;
 }
 
-/* line 4345, ../scss/sacremedia-tbc/_style.scss */
+/* line 4328, ../scss/sacremedia-tbc/_style.scss */
 .sa-living-title h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 36px;
@@ -5859,13 +5842,13 @@ ul.sermons_meta {
   margin-bottom: 123px;
 }
 
-/* line 4353, ../scss/sacremedia-tbc/_style.scss */
+/* line 4336, ../scss/sacremedia-tbc/_style.scss */
 .sa-living-details .entry-thumb img {
   margin-top: -56px;
   margin-bottom: 22px;
 }
 
-/* line 4357, ../scss/sacremedia-tbc/_style.scss */
+/* line 4340, ../scss/sacremedia-tbc/_style.scss */
 .sa-living-details {
   background-color: #fff;
   border-bottom: 6px solid #deb668;
@@ -5873,7 +5856,7 @@ ul.sermons_meta {
   margin-bottom: -70px;
 }
 
-/* line 4363, ../scss/sacremedia-tbc/_style.scss */
+/* line 4346, ../scss/sacremedia-tbc/_style.scss */
 .sa-living-details h4 {
   font-family: 'Poppins', sans-serif;
   font-size: 24px;
@@ -5883,7 +5866,7 @@ ul.sermons_meta {
   margin-bottom: 17px;
 }
 
-/* line 4371, ../scss/sacremedia-tbc/_style.scss */
+/* line 4354, ../scss/sacremedia-tbc/_style.scss */
 .sa-living-details p {
   font-family: 'Nunito', sans-serif;
   font-size: 15px;
@@ -5893,23 +5876,23 @@ ul.sermons_meta {
   margin-bottom: 30px;
 }
 
-/* line 4379, ../scss/sacremedia-tbc/_style.scss */
+/* line 4362, ../scss/sacremedia-tbc/_style.scss */
 .sa-living-details ul {
   list-style: none;
 }
 
-/* line 4382, ../scss/sacremedia-tbc/_style.scss */
+/* line 4365, ../scss/sacremedia-tbc/_style.scss */
 .sa-living-details li {
   display: inline-block;
 }
 
-/* line 4385, ../scss/sacremedia-tbc/_style.scss */
+/* line 4368, ../scss/sacremedia-tbc/_style.scss */
 .sa-living-details li a i:hover {
   border-color: #f5e9d1;
   color: #deb668;
 }
 
-/* line 4389, ../scss/sacremedia-tbc/_style.scss */
+/* line 4372, ../scss/sacremedia-tbc/_style.scss */
 .sa-living-details li a i {
   color: #aaadb0;
   margin: 0 8px;
@@ -5920,25 +5903,25 @@ ul.sermons_meta {
 
 /******* sa-living-section-responsive ******/
 @media all and (max-width: 767px) {
-  /* line 4398, ../scss/sacremedia-tbc/_style.scss */
+  /* line 4381, ../scss/sacremedia-tbc/_style.scss */
   .sa-living-details {
     padding: 0 20px 0px 20px;
   }
 }
 @media all and (max-width: 424px) {
-  /* line 4403, ../scss/sacremedia-tbc/_style.scss */
+  /* line 4386, ../scss/sacremedia-tbc/_style.scss */
   .sa-living-details li a i {
     margin: 0 4px;
     border: 1px solid #ebebeb;
     padding: 12px 12px 12px 12px;
   }
 
-  /* line 4408, ../scss/sacremedia-tbc/_style.scss */
+  /* line 4391, ../scss/sacremedia-tbc/_style.scss */
   .sa-living-title h2 {
     font-size: 32px;
   }
 
-  /* line 4411, ../scss/sacremedia-tbc/_style.scss */
+  /* line 4394, ../scss/sacremedia-tbc/_style.scss */
   .sa-living-details h4 {
     font-size: 23px;
   }
@@ -5948,17 +5931,17 @@ ul.sermons_meta {
 | video gallery Section 
 |---------------------------------------------
 */
-/* line 4422, ../scss/sacremedia-tbc/_style.scss */
+/* line 4405, ../scss/sacremedia-tbc/_style.scss */
 .sa-video-gallery-section {
   padding: 80px 0 120px 0;
 }
 
-/* line 4425, ../scss/sacremedia-tbc/_style.scss */
+/* line 4408, ../scss/sacremedia-tbc/_style.scss */
 .sa-video-blog-popup {
   position: relative;
 }
 
-/* line 4428, ../scss/sacremedia-tbc/_style.scss */
+/* line 4411, ../scss/sacremedia-tbc/_style.scss */
 .sa-video-blog-popup .popup-youtube {
   top: 50%;
   bottom: 0;
@@ -5977,12 +5960,12 @@ ul.sermons_meta {
   box-shadow: 2.5px 4.33px 30px 0px rgba(0, 0, 0, 0.6);
 }
 
-/* line 4445, ../scss/sacremedia-tbc/_style.scss */
+/* line 4428, ../scss/sacremedia-tbc/_style.scss */
 .sa-video-blog-popup .popup-youtube i {
   margin-left: 5px;
 }
 
-/* line 4448, ../scss/sacremedia-tbc/_style.scss */
+/* line 4431, ../scss/sacremedia-tbc/_style.scss */
 .sa-single-video-gallery h3 {
   font-size: 18px;
   margin-bottom: 0;
@@ -5991,12 +5974,12 @@ ul.sermons_meta {
 }
 
 /* leading video */
-/* line 4455, ../scss/sacremedia-tbc/_style.scss */
+/* line 4438, ../scss/sacremedia-tbc/_style.scss */
 .sa-single-video-gallery {
   margin-top: 50px;
 }
 
-/* line 4458, ../scss/sacremedia-tbc/_style.scss */
+/* line 4441, ../scss/sacremedia-tbc/_style.scss */
 .sa-leading-video-gallery .sa-video-blog-popup .popup-youtube {
   height: 80px;
   width: 80px;
@@ -6006,29 +5989,29 @@ ul.sermons_meta {
   box-shadow: 2.5px 4.33px 30px 0px rgba(0, 0, 0, 0.6);
 }
 
-/* line 4466, ../scss/sacremedia-tbc/_style.scss */
+/* line 4449, ../scss/sacremedia-tbc/_style.scss */
 .sa-leading-video-gallery .sa-video-blog-popup .popup-youtube i {
   margin-left: 6px;
 }
 
-/* line 4469, ../scss/sacremedia-tbc/_style.scss */
+/* line 4452, ../scss/sacremedia-tbc/_style.scss */
 .sa-leading-video-gallery .media-left {
   width: 50%;
 }
 
-/* line 4472, ../scss/sacremedia-tbc/_style.scss */
+/* line 4455, ../scss/sacremedia-tbc/_style.scss */
 .sa-leading-video-gallery .media-body {
   margin-top: 37px;
 }
 
-/* line 4475, ../scss/sacremedia-tbc/_style.scss */
+/* line 4458, ../scss/sacremedia-tbc/_style.scss */
 .sa-leading-video-details {
   border: 1px solid #f2f2f2;
   padding: 50px 30px 50px 40px;
   box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.03);
 }
 
-/* line 4480, ../scss/sacremedia-tbc/_style.scss */
+/* line 4463, ../scss/sacremedia-tbc/_style.scss */
 .sa-leading-video-details .video-date {
   font-size: 15px;
   font-weight: 600;
@@ -6037,7 +6020,7 @@ ul.sermons_meta {
   margin-bottom: 2px;
 }
 
-/* line 4487, ../scss/sacremedia-tbc/_style.scss */
+/* line 4470, ../scss/sacremedia-tbc/_style.scss */
 .sa-leading-video-details h3 {
   font-family: 'Poppins', sans-serif;
   margin-bottom: 0;
@@ -6046,56 +6029,56 @@ ul.sermons_meta {
   margin-bottom: 15px;
 }
 
-/* line 4494, ../scss/sacremedia-tbc/_style.scss */
+/* line 4477, ../scss/sacremedia-tbc/_style.scss */
 .sa-leading-video-details p {
   font-size: 15px;
   font-family: 'Nunito', sans-serif;
 }
 
-/* line 4498, ../scss/sacremedia-tbc/_style.scss */
+/* line 4481, ../scss/sacremedia-tbc/_style.scss */
 .sa-leading-video-details .dark-btn {
   margin-top: 10px;
 }
 
 @media all and (max-width: 1024px) {
-  /* line 4504, ../scss/sacremedia-tbc/_style.scss */
+  /* line 4487, ../scss/sacremedia-tbc/_style.scss */
   .sa-leading-video-details {
     padding: 20px 15px 15px 25px;
   }
 
-  /* line 4507, ../scss/sacremedia-tbc/_style.scss */
+  /* line 4490, ../scss/sacremedia-tbc/_style.scss */
   .sa-leading-video-gallery .media-body {
     margin-top: 19px;
   }
 }
 @media all and (max-width: 991px) {
-  /* line 4512, ../scss/sacremedia-tbc/_style.scss */
+  /* line 4495, ../scss/sacremedia-tbc/_style.scss */
   .sa-leading-video-gallery .media {
     display: inherit;
   }
 
-  /* line 4515, ../scss/sacremedia-tbc/_style.scss */
+  /* line 4498, ../scss/sacremedia-tbc/_style.scss */
   .sa-leading-video-gallery .media-left {
     width: 100%;
   }
 
-  /* line 4518, ../scss/sacremedia-tbc/_style.scss */
+  /* line 4501, ../scss/sacremedia-tbc/_style.scss */
   .sa-leading-video-gallery .media-left img {
     width: 100%;
   }
 
-  /* line 4521, ../scss/sacremedia-tbc/_style.scss */
+  /* line 4504, ../scss/sacremedia-tbc/_style.scss */
   .sa-single-video-gallery img {
     width: 100%;
   }
 
-  /* line 4524, ../scss/sacremedia-tbc/_style.scss */
+  /* line 4507, ../scss/sacremedia-tbc/_style.scss */
   .sa-leading-video-gallery .media-body {
     margin-top: 0;
   }
 }
 @media all and (max-width: 767px) {
-  /* line 4529, ../scss/sacremedia-tbc/_style.scss */
+  /* line 4512, ../scss/sacremedia-tbc/_style.scss */
   .sa-leading-video-details h3 {
     font-size: 25px;
   }
@@ -6105,7 +6088,7 @@ ul.sermons_meta {
 | sa-poster-section 
 |---------------------------------------------
 */
-/* line 4539, ../scss/sacremedia-tbc/_style.scss */
+/* line 4522, ../scss/sacremedia-tbc/_style.scss */
 .sa-poster-section {
   background: #f7f7f7;
   padding: 110px 0 120px 0;
@@ -6116,7 +6099,7 @@ ul.sermons_meta {
 | Team Section / Mamun
 |---------------------------------------------
 */
-/* line 4550, ../scss/sacremedia-tbc/_style.scss */
+/* line 4533, ../scss/sacremedia-tbc/_style.scss */
 .sa-team-single {
   border-radius: 5px;
   background-color: white;
@@ -6127,20 +6110,20 @@ ul.sermons_meta {
   padding-bottom: 10px;
 }
 
-/* line 4559, ../scss/sacremedia-tbc/_style.scss */
+/* line 4542, ../scss/sacremedia-tbc/_style.scss */
 .sa-team-single img {
   width: 100%;
   height: auto;
   margin: 0 0 25px 0;
 }
 
-/* line 4565, ../scss/sacremedia-tbc/_style.scss */
+/* line 4548, ../scss/sacremedia-tbc/_style.scss */
 .sa-team-info {
   margin-bottom: 20px;
   padding: 0 10px;
 }
 
-/* line 4569, ../scss/sacremedia-tbc/_style.scss */
+/* line 4552, ../scss/sacremedia-tbc/_style.scss */
 .sa-team-info h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
@@ -6150,7 +6133,7 @@ ul.sermons_meta {
   margin-bottom: 5px;
 }
 
-/* line 4577, ../scss/sacremedia-tbc/_style.scss */
+/* line 4560, ../scss/sacremedia-tbc/_style.scss */
 .sa-team-info p {
   font-family: 'Nunito', sans-serif;
   font-size: 15px;
@@ -6160,26 +6143,26 @@ ul.sermons_meta {
   padding: 0px;
 }
 
-/* line 4585, ../scss/sacremedia-tbc/_style.scss */
+/* line 4568, ../scss/sacremedia-tbc/_style.scss */
 .sa-team-social ul {
   margin: 0 auto;
   display: inline-block;
   padding-left: 0;
 }
 
-/* line 4590, ../scss/sacremedia-tbc/_style.scss */
+/* line 4573, ../scss/sacremedia-tbc/_style.scss */
 .sa-team-social li {
   list-style: none;
   float: left;
   margin: 0 15px 10px 0;
 }
 
-/* line 4595, ../scss/sacremedia-tbc/_style.scss */
+/* line 4578, ../scss/sacremedia-tbc/_style.scss */
 .sa-team-social li:last-child {
   margin-right: 0;
 }
 
-/* line 4601, ../scss/sacremedia-tbc/_style.scss */
+/* line 4584, ../scss/sacremedia-tbc/_style.scss */
 .sa-team-social li a i {
   height: 35px;
   width: 35px;
@@ -6190,7 +6173,7 @@ ul.sermons_meta {
   color: #8090a3;
 }
 
-/* line 4610, ../scss/sacremedia-tbc/_style.scss */
+/* line 4593, ../scss/sacremedia-tbc/_style.scss */
 .sa-team-social li i:hover {
   color: #fff;
   background: #deb668;
@@ -6202,18 +6185,18 @@ ul.sermons_meta {
 | Intro Section Style
 |---------------------------------------------
 */
-/* line 4622, ../scss/sacremedia-tbc/_style.scss */
+/* line 4605, ../scss/sacremedia-tbc/_style.scss */
 .sa-intro-style2 .box_wrap {
   padding: 0px;
   border: none;
 }
 
-/* line 4626, ../scss/sacremedia-tbc/_style.scss */
+/* line 4609, ../scss/sacremedia-tbc/_style.scss */
 .sa-intro-style2 .sa-intro-style2-padding {
   padding: 23px 30px 25px 30px;
 }
 
-/* line 4629, ../scss/sacremedia-tbc/_style.scss */
+/* line 4612, ../scss/sacremedia-tbc/_style.scss */
 .sa-intro-style2-padding .event_date {
   border: 2px solid #ddd;
   border-radius: 5px;
@@ -6222,45 +6205,45 @@ ul.sermons_meta {
 }
 
 @media All and (max-width: 1024px) {
-  /* line 4636, ../scss/sacremedia-tbc/_style.scss */
+  /* line 4619, ../scss/sacremedia-tbc/_style.scss */
   .player-controls.scrubber {
     width: 64%;
   }
 
-  /* line 4639, ../scss/sacremedia-tbc/_style.scss */
+  /* line 4622, ../scss/sacremedia-tbc/_style.scss */
   .audio-player .player-controls progress {
     width: 76%;
   }
 }
 @media All and (max-width: 768px) {
-  /* line 4644, ../scss/sacremedia-tbc/_style.scss */
+  /* line 4627, ../scss/sacremedia-tbc/_style.scss */
   .sa-intro-style2 .sa-intro-style2-padding {
     padding: 23px 20px 25px 20px;
   }
 
-  /* line 4647, ../scss/sacremedia-tbc/_style.scss */
+  /* line 4630, ../scss/sacremedia-tbc/_style.scss */
   .player-controls.scrubber {
     width: 58%;
   }
 
-  /* line 4650, ../scss/sacremedia-tbc/_style.scss */
+  /* line 4633, ../scss/sacremedia-tbc/_style.scss */
   .audio-player .player-controls progress {
     width: 62%;
   }
 
-  /* line 4653, ../scss/sacremedia-tbc/_style.scss */
+  /* line 4636, ../scss/sacremedia-tbc/_style.scss */
   .next_sermons .sermons_inside {
     padding: 15px 0;
   }
 }
 @media All and (max-width: 425px) {
-  /* line 4658, ../scss/sacremedia-tbc/_style.scss */
+  /* line 4641, ../scss/sacremedia-tbc/_style.scss */
   .sa-intro-style2-padding .event_date {
     padding: 11px 15px 10px 15px;
   }
 }
 @media All and (max-width: 320px) {
-  /* line 4663, ../scss/sacremedia-tbc/_style.scss */
+  /* line 4646, ../scss/sacremedia-tbc/_style.scss */
   .audio-player .player-controls progress {
     width: 59%;
   }
@@ -6270,65 +6253,65 @@ ul.sermons_meta {
 | 3.sa-living-section
 |---------------------------------------------
 */
-/* line 4673, ../scss/sacremedia-tbc/_style.scss */
+/* line 4656, ../scss/sacremedia-tbc/_style.scss */
 .event_info.sa-event-info-2 {
   padding: 0 !important;
   margin-bottom: 35px;
 }
 
-/* line 4677, ../scss/sacremedia-tbc/_style.scss */
+/* line 4660, ../scss/sacremedia-tbc/_style.scss */
 .event_info.sa-event-info-2 .thumb img {
   border-radius: 4px 4px 0 0;
 }
 
-/* line 4680, ../scss/sacremedia-tbc/_style.scss */
+/* line 4663, ../scss/sacremedia-tbc/_style.scss */
 .event_info.sa-event-info-2 .event_date {
   position: inherit;
   margin-right: 25px;
   color: #deb668;
 }
 
-/* line 4685, ../scss/sacremedia-tbc/_style.scss */
+/* line 4668, ../scss/sacremedia-tbc/_style.scss */
 .event_info.sa-event-info-2 .event-location {
   padding: 26px 15px 20px 0;
 }
 
-/* line 4688, ../scss/sacremedia-tbc/_style.scss */
+/* line 4671, ../scss/sacremedia-tbc/_style.scss */
 .event_info.sa-event-info-2 .event-location h6 {
   margin: 0 auto 15px;
 }
 
-/* line 4691, ../scss/sacremedia-tbc/_style.scss */
+/* line 4674, ../scss/sacremedia-tbc/_style.scss */
 .event_info.sa-event-info-2 .event-location ul li {
   margin: 4px auto;
 }
 
 /****** Latest Sermons *****/
-/* line 4695, ../scss/sacremedia-tbc/_style.scss */
+/* line 4678, ../scss/sacremedia-tbc/_style.scss */
 .sa-collapse .panel-body .thumb {
   margin-bottom: 23px;
 }
 
 @media All and (max-width: 1024px) {
-  /* line 4700, ../scss/sacremedia-tbc/_style.scss */
+  /* line 4683, ../scss/sacremedia-tbc/_style.scss */
   .event_info.sa-event-info-2 .event_date {
     position: inherit;
     margin-right: 15px;
     color: #deb668;
   }
 
-  /* line 4705, ../scss/sacremedia-tbc/_style.scss */
+  /* line 4688, ../scss/sacremedia-tbc/_style.scss */
   .event_info.sa-event-info-2 .event_date {
     width: 95px !important;
   }
 }
 @media All and (max-width: 767px) {
-  /* line 4710, ../scss/sacremedia-tbc/_style.scss */
+  /* line 4693, ../scss/sacremedia-tbc/_style.scss */
   .event_info.sa-event-info-2 .event-location {
     padding: 26px 15px 20px 20px;
   }
 
-  /* line 4713, ../scss/sacremedia-tbc/_style.scss */
+  /* line 4696, ../scss/sacremedia-tbc/_style.scss */
   .event_info.sa-event-info-2 .event_date {
     width: auto !important;
   }
@@ -6338,7 +6321,7 @@ ul.sermons_meta {
 | 3.gallery-isotop
 |---------------------------------------------
 */
-/* line 4723, ../scss/sacremedia-tbc/_style.scss */
+/* line 4706, ../scss/sacremedia-tbc/_style.scss */
 .gallery-mesonary .gallery-item {
   float: left;
   width: 23.999%;
@@ -6348,12 +6331,12 @@ ul.sermons_meta {
   box-sizing: border-box;
 }
 
-/* line 4731, ../scss/sacremedia-tbc/_style.scss */
+/* line 4714, ../scss/sacremedia-tbc/_style.scss */
 .gallery-mesonary .gallery-item-width-2 {
   width: 25%;
 }
 
-/* line 4734, ../scss/sacremedia-tbc/_style.scss */
+/* line 4717, ../scss/sacremedia-tbc/_style.scss */
 .gallery-mesonary-nonprofit .gallery-item {
   float: left;
   width: 32.5%;
@@ -6374,24 +6357,24 @@ ul.sermons_meta {
 | 7. Causes
 |---------------------------------------------
 */
-/* line 4755, ../scss/sacremedia-tbc/_style.scss */
+/* line 4738, ../scss/sacremedia-tbc/_style.scss */
 .sa-causes-single {
   box-shadow: 0px 1px 6px 2px rgba(0, 0, 0, 0.05);
   margin-bottom: 30px;
   border-radius: 4px;
 }
 
-/* line 4760, ../scss/sacremedia-tbc/_style.scss */
+/* line 4743, ../scss/sacremedia-tbc/_style.scss */
 .sa-causes-single .entry-thumb {
   position: relative;
 }
 
-/* line 4763, ../scss/sacremedia-tbc/_style.scss */
+/* line 4746, ../scss/sacremedia-tbc/_style.scss */
 .sa-causes-single .entry-thumb img {
   border-radius: 4px 4px 0 0;
 }
 
-/* line 4766, ../scss/sacremedia-tbc/_style.scss */
+/* line 4749, ../scss/sacremedia-tbc/_style.scss */
 .sa-causes-single .entry-thumb:after {
   content: '';
   background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.10196) 50%, rgba(0, 0, 0, 0.05) 58%, transparent 100%);
@@ -6404,26 +6387,26 @@ ul.sermons_meta {
   height: 100%;
 }
 
-/* line 4777, ../scss/sacremedia-tbc/_style.scss */
+/* line 4760, ../scss/sacremedia-tbc/_style.scss */
 .sa-causes-single .causes-details-wrap {
   padding: 19px 20px 27px 20px;
   background: #fff;
   border-radius: 0 0 4px 4px;
 }
 
-/* line 4782, ../scss/sacremedia-tbc/_style.scss */
+/* line 4765, ../scss/sacremedia-tbc/_style.scss */
 .sa-causes-single .cause-progress {
   background: #d2d2d2;
 }
 
-/* line 4785, ../scss/sacremedia-tbc/_style.scss */
+/* line 4768, ../scss/sacremedia-tbc/_style.scss */
 .sa-causes-single .cause-progress .progress-bar {
   background: #cca760;
   height: 7px;
   position: relative;
 }
 
-/* line 4790, ../scss/sacremedia-tbc/_style.scss */
+/* line 4773, ../scss/sacremedia-tbc/_style.scss */
 .sa-causes-single .cause-progress .progress-bar span {
   position: absolute;
   top: -43px;
@@ -6436,7 +6419,7 @@ ul.sermons_meta {
   border-radius: 2px;
 }
 
-/* line 4801, ../scss/sacremedia-tbc/_style.scss */
+/* line 4784, ../scss/sacremedia-tbc/_style.scss */
 .sa-causes-single .cause-progress .progress-bar span:after {
   content: '';
   position: absolute;
@@ -6448,7 +6431,7 @@ ul.sermons_meta {
   margin-left: -6px;
 }
 
-/* line 4811, ../scss/sacremedia-tbc/_style.scss */
+/* line 4794, ../scss/sacremedia-tbc/_style.scss */
 .sa-causes-single .causes-amount {
   text-align: center;
   overflow: hidden;
@@ -6456,7 +6439,7 @@ ul.sermons_meta {
   border-bottom: 1px solid #d9d9d9;
 }
 
-/* line 4817, ../scss/sacremedia-tbc/_style.scss */
+/* line 4800, ../scss/sacremedia-tbc/_style.scss */
 .sa-causes-single .causes-amount .right,
 .sa-causes-single .causes-amount .left {
   width: 50%;
@@ -6464,19 +6447,19 @@ ul.sermons_meta {
   float: left;
 }
 
-/* line 4824, ../scss/sacremedia-tbc/_style.scss */
+/* line 4807, ../scss/sacremedia-tbc/_style.scss */
 .sa-causes-single .causes-amount .left {
   border-right: 1px solid #cca760;
 }
 
-/* line 4827, ../scss/sacremedia-tbc/_style.scss */
+/* line 4810, ../scss/sacremedia-tbc/_style.scss */
 .sa-causes-single .causes-amount p {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   margin-bottom: 0;
 }
 
-/* line 4832, ../scss/sacremedia-tbc/_style.scss */
+/* line 4815, ../scss/sacremedia-tbc/_style.scss */
 .sa-causes-single .causes-amount span {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
@@ -6484,12 +6467,12 @@ ul.sermons_meta {
   color: #cca760;
 }
 
-/* line 4838, ../scss/sacremedia-tbc/_style.scss */
+/* line 4821, ../scss/sacremedia-tbc/_style.scss */
 .sa-causes-single .causes-details {
   text-align: center;
 }
 
-/* line 4841, ../scss/sacremedia-tbc/_style.scss */
+/* line 4824, ../scss/sacremedia-tbc/_style.scss */
 .sa-causes-single .causes-details h3 {
   font-family: 'Poppins', sans-serif;
   font-size: 22px;
@@ -6498,72 +6481,72 @@ ul.sermons_meta {
   color: #022147;
 }
 
-/* line 4848, ../scss/sacremedia-tbc/_style.scss */
+/* line 4831, ../scss/sacremedia-tbc/_style.scss */
 .sa-causes-single .causes-details p {
   font-family: 'Nunito', sans-serif;
   font-size: 16px;
 }
 
 /***** sa-causes-single-2 ******/
-/* line 4854, ../scss/sacremedia-tbc/_style.scss */
+/* line 4837, ../scss/sacremedia-tbc/_style.scss */
 .sa-causes-single-2 {
   text-align: left;
 }
 
-/* line 4857, ../scss/sacremedia-tbc/_style.scss */
+/* line 4840, ../scss/sacremedia-tbc/_style.scss */
 .sa-causes-single-2 .causes-details h3 {
   margin-top: 0;
 }
 
-/* line 4860, ../scss/sacremedia-tbc/_style.scss */
+/* line 4843, ../scss/sacremedia-tbc/_style.scss */
 .sa-causes-single .causes-details {
   text-align: left;
 }
 
-/* line 4863, ../scss/sacremedia-tbc/_style.scss */
+/* line 4846, ../scss/sacremedia-tbc/_style.scss */
 .sa-causes-single .causes-details .cause-progress {
   margin: 50px 0 20px 0;
   border-radius: 6px;
 }
 
-/* line 4867, ../scss/sacremedia-tbc/_style.scss */
+/* line 4850, ../scss/sacremedia-tbc/_style.scss */
 .sa-causes-single-2 .cause-progress .progress-bar {
   border-radius: 6px;
 }
 
-/* line 4870, ../scss/sacremedia-tbc/_style.scss */
+/* line 4853, ../scss/sacremedia-tbc/_style.scss */
 .sa-causes-single-2 .causes-amount .left,
 .sa-causes-single-2 .causes-amount {
   border: 0;
 }
 
-/* line 4874, ../scss/sacremedia-tbc/_style.scss */
+/* line 4857, ../scss/sacremedia-tbc/_style.scss */
 .sa-causes-single .causes-amount {
   margin-bottom: 20px;
 }
 
-/* line 4877, ../scss/sacremedia-tbc/_style.scss */
+/* line 4860, ../scss/sacremedia-tbc/_style.scss */
 .sa-causes-single-2 .causes-amount .left {
   text-align: left;
 }
 
-/* line 4880, ../scss/sacremedia-tbc/_style.scss */
+/* line 4863, ../scss/sacremedia-tbc/_style.scss */
 .sa-causes-single-2 .causes-amount .right {
   text-align: right;
 }
 
-/* line 4883, ../scss/sacremedia-tbc/_style.scss */
+/* line 4866, ../scss/sacremedia-tbc/_style.scss */
 .sa-causes-single-2 .causes-amount span {
   color: #022147;
 }
 
-/* line 4886, ../scss/sacremedia-tbc/_style.scss */
+/* line 4869, ../scss/sacremedia-tbc/_style.scss */
 .sa-causes-single-2 .causes-amount p {
   color: #555b62;
   font-weight: 600;
 }
 
-/* line 4890, ../scss/sacremedia-tbc/_style.scss */
+/* line 4873, ../scss/sacremedia-tbc/_style.scss */
 .sa-causes-single-2 .btn-area .btn {
   margin: 10px 2px 0 2px;
   padding: 10px 24px;
@@ -6571,12 +6554,12 @@ ul.sermons_meta {
 }
 
 @media all and (max-width: 1024px) and (min-width: 992px) {
-  /* line 4897, ../scss/sacremedia-tbc/_style.scss */
+  /* line 4880, ../scss/sacremedia-tbc/_style.scss */
   .sa-causes-single .causes-details h3 {
     font-size: 19px;
   }
 
-  /* line 4900, ../scss/sacremedia-tbc/_style.scss */
+  /* line 4883, ../scss/sacremedia-tbc/_style.scss */
   .sa-causes-single-2 .btn-area .btn {
     padding: 10px 12px;
   }
@@ -6586,12 +6569,12 @@ ul.sermons_meta {
 | Stroies Section Style / Mamun
 |---------------------------------------------
 */
-/* line 4911, ../scss/sacremedia-tbc/_style.scss */
+/* line 4894, ../scss/sacremedia-tbc/_style.scss */
 .sa-stroies-section .sa-video-block {
   height: 100%;
 }
 
-/* line 4914, ../scss/sacremedia-tbc/_style.scss */
+/* line 4897, ../scss/sacremedia-tbc/_style.scss */
 .sa-stroies-section .sa-video-block .video-blog {
   height: 100%;
   background: none;
@@ -6599,17 +6582,17 @@ ul.sermons_meta {
   border: 0 !important;
 }
 
-/* line 4920, ../scss/sacremedia-tbc/_style.scss */
+/* line 4903, ../scss/sacremedia-tbc/_style.scss */
 .sa-stroies-section .sa-video-block .video-blog .video-blog-popup {
   height: 100%;
 }
 
-/* line 4923, ../scss/sacremedia-tbc/_style.scss */
+/* line 4906, ../scss/sacremedia-tbc/_style.scss */
 .sa-stroies-section {
   position: relative;
 }
 
-/* line 4926, ../scss/sacremedia-tbc/_style.scss */
+/* line 4909, ../scss/sacremedia-tbc/_style.scss */
 .sa-stroies-section:after {
   position: absolute;
   content: '';
@@ -6625,12 +6608,12 @@ ul.sermons_meta {
   top: 0;
 }
 
-/* line 4940, ../scss/sacremedia-tbc/_style.scss */
+/* line 4923, ../scss/sacremedia-tbc/_style.scss */
 .sa-stroies-section {
   background-color: #f8f8f8;
 }
 
-/* line 4943, ../scss/sacremedia-tbc/_style.scss */
+/* line 4926, ../scss/sacremedia-tbc/_style.scss */
 .sa-stroies .sa-schedules-heading h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 36px;
@@ -6641,13 +6624,13 @@ ul.sermons_meta {
   margin-bottom: 18px;
 }
 
-/* line 4952, ../scss/sacremedia-tbc/_style.scss */
+/* line 4935, ../scss/sacremedia-tbc/_style.scss */
 .sa-stroies .sa-schedules-heading h2:after {
   height: 3px;
   width: 22px;
 }
 
-/* line 4956, ../scss/sacremedia-tbc/_style.scss */
+/* line 4939, ../scss/sacremedia-tbc/_style.scss */
 .sa-stroies .sa-schedules-heading p {
   font-family: 'Lato', sans-serif;
   font-size: 17px;
@@ -6655,19 +6638,19 @@ ul.sermons_meta {
   margin-bottom: 50px;
 }
 
-/* line 4962, ../scss/sacremedia-tbc/_style.scss */
+/* line 4945, ../scss/sacremedia-tbc/_style.scss */
 .sa-stroies-service {
   margin-bottom: 30px;
 }
 
-/* line 4965, ../scss/sacremedia-tbc/_style.scss */
+/* line 4948, ../scss/sacremedia-tbc/_style.scss */
 .sa-stroies-service-single {
   background-color: #fff;
   padding: 25px;
   border-radius: 5px;
 }
 
-/* line 4970, ../scss/sacremedia-tbc/_style.scss */
+/* line 4953, ../scss/sacremedia-tbc/_style.scss */
 .sa-stroies-service-single-img {
   border: 1px solid #eedab3;
   height: 55px;
@@ -6678,7 +6661,7 @@ ul.sermons_meta {
   line-height: 50px;
 }
 
-/* line 4979, ../scss/sacremedia-tbc/_style.scss */
+/* line 4962, ../scss/sacremedia-tbc/_style.scss */
 .sa-stroies-service-single h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
@@ -6686,12 +6669,12 @@ ul.sermons_meta {
   margin-bottom: 10px;
 }
 
-/* line 4985, ../scss/sacremedia-tbc/_style.scss */
+/* line 4968, ../scss/sacremedia-tbc/_style.scss */
 .sa-stroies-service-single h2 a {
   color: #022147;
 }
 
-/* line 4988, ../scss/sacremedia-tbc/_style.scss */
+/* line 4971, ../scss/sacremedia-tbc/_style.scss */
 .sa-stroies-service-single p {
   font-family: 'Nunito', sans-serif;
   font-size: 15px;
@@ -6701,7 +6684,7 @@ ul.sermons_meta {
   padding: 0;
 }
 
-/* line 4996, ../scss/sacremedia-tbc/_style.scss */
+/* line 4979, ../scss/sacremedia-tbc/_style.scss */
 .sa-stroies-section-bg {
   background-image: url(/modules/custom/tbc_styleguide/templates/assets/images/bg/5.jpg);
   background-size: cover;
@@ -6710,12 +6693,12 @@ ul.sermons_meta {
   color: #fff;
 }
 
-/* line 5003, ../scss/sacremedia-tbc/_style.scss */
+/* line 4986, ../scss/sacremedia-tbc/_style.scss */
 .sa-stroies-section-bg:after {
   background-image: none !important;
 }
 
-/* line 5006, ../scss/sacremedia-tbc/_style.scss */
+/* line 4989, ../scss/sacremedia-tbc/_style.scss */
 .sa-stroies-section-bg .sa-schedules-content p,
 .sa-stroies-section-bg .sa-schedules-heading h2,
 .sa-stroies-section-bg .sa-schedules-heading p {
@@ -6723,24 +6706,24 @@ ul.sermons_meta {
 }
 
 @media All and (min-width: 1600px) {
-  /* line 5012, ../scss/sacremedia-tbc/_style.scss */
+  /* line 4995, ../scss/sacremedia-tbc/_style.scss */
   .sa-stroies-section:after {
     width: 39%;
   }
 }
 @media All and (max-width: 1024px) {
-  /* line 5017, ../scss/sacremedia-tbc/_style.scss */
+  /* line 5000, ../scss/sacremedia-tbc/_style.scss */
   .sa-stroies-section:after {
     width: 33%;
   }
 }
 @media All and (max-width: 991px) {
-  /* line 5022, ../scss/sacremedia-tbc/_style.scss */
+  /* line 5005, ../scss/sacremedia-tbc/_style.scss */
   .sa-stroies-section:after {
     display: none;
   }
 
-  /* line 5025, ../scss/sacremedia-tbc/_style.scss */
+  /* line 5008, ../scss/sacremedia-tbc/_style.scss */
   .sa-stroies-section .sa-video-block {
     display: none;
   }
@@ -6750,12 +6733,12 @@ ul.sermons_meta {
 | sa-column-thumb
 |---------------------------------------------
 */
-/* line 5036, ../scss/sacremedia-tbc/_style.scss */
+/* line 5019, ../scss/sacremedia-tbc/_style.scss */
 .sa-column-thumb ul {
   padding-left: 0;
 }
 
-/* line 5039, ../scss/sacremedia-tbc/_style.scss */
+/* line 5022, ../scss/sacremedia-tbc/_style.scss */
 .sa-column-thumb ul li {
   list-style: none;
   margin: 1%;
@@ -6764,7 +6747,7 @@ ul.sermons_meta {
 }
 
 @media all and (max-width: 991px) {
-  /* line 5047, ../scss/sacremedia-tbc/_style.scss */
+  /* line 5030, ../scss/sacremedia-tbc/_style.scss */
   .sa-column-thumb ul li img {
     width: 100%;
   }
@@ -6774,12 +6757,12 @@ ul.sermons_meta {
 | 3.sa counter
 |---------------------------------------------
 */
-/* line 5058, ../scss/sacremedia-tbc/_style.scss */
+/* line 5041, ../scss/sacremedia-tbc/_style.scss */
 .sa-coundown-section {
   margin-top: -102px;
 }
 
-/* line 5061, ../scss/sacremedia-tbc/_style.scss */
+/* line 5044, ../scss/sacremedia-tbc/_style.scss */
 .sa-coundown {
   background-color: #fff;
   padding: 35px 35px 20px 35px;
@@ -6789,12 +6772,12 @@ ul.sermons_meta {
   box-shadow: 0px 8px 20px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* line 5069, ../scss/sacremedia-tbc/_style.scss */
+/* line 5052, ../scss/sacremedia-tbc/_style.scss */
 .sa-coundown-content {
   margin-top: 20px;
 }
 
-/* line 5072, ../scss/sacremedia-tbc/_style.scss */
+/* line 5055, ../scss/sacremedia-tbc/_style.scss */
 .sa-coundown-content h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 30px;
@@ -6804,7 +6787,7 @@ ul.sermons_meta {
   margin-bottom: 13px;
 }
 
-/* line 5080, ../scss/sacremedia-tbc/_style.scss */
+/* line 5063, ../scss/sacremedia-tbc/_style.scss */
 .sa-coundown-content p {
   font-family: 'Nunito', sans-serif;
   font-size: 15px;
@@ -6813,7 +6796,7 @@ ul.sermons_meta {
   color: #555b62;
 }
 
-/* line 5087, ../scss/sacremedia-tbc/_style.scss */
+/* line 5070, ../scss/sacremedia-tbc/_style.scss */
 .sa-time-count h3 {
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
@@ -6823,20 +6806,20 @@ ul.sermons_meta {
   margin-bottom: 17px;
 }
 
-/* line 5095, ../scss/sacremedia-tbc/_style.scss */
+/* line 5078, ../scss/sacremedia-tbc/_style.scss */
 .sa-time-count {
   display: inline-block;
   float: right;
 }
 
-/* line 5099, ../scss/sacremedia-tbc/_style.scss */
+/* line 5082, ../scss/sacremedia-tbc/_style.scss */
 .sa-time-count .timer {
   text-align: center;
   width: 100% !important;
   /*float: left;!important;*/
 }
 
-/* line 5104, ../scss/sacremedia-tbc/_style.scss */
+/* line 5087, ../scss/sacremedia-tbc/_style.scss */
 .sa-time-count .countdown-period {
   display: inline-block !important;
   width: auto !important;
@@ -6845,7 +6828,7 @@ ul.sermons_meta {
   margin-right: 12px !important;
 }
 
-/* line 5111, ../scss/sacremedia-tbc/_style.scss */
+/* line 5094, ../scss/sacremedia-tbc/_style.scss */
 .sa-time-count .countdown-period .c-title {
   font-family: 'Poppins', sans-serif;
   font-size: 30px;
@@ -6859,7 +6842,7 @@ ul.sermons_meta {
   margin-bottom: 5px;
 }
 
-/* line 5123, ../scss/sacremedia-tbc/_style.scss */
+/* line 5106, ../scss/sacremedia-tbc/_style.scss */
 .sa-time-count .countdown-period span {
   font-family: 'Poppins', sans-serif;
   font-size: 12px;
@@ -6873,7 +6856,7 @@ ul.sermons_meta {
 
 /***** sa-coundown-section-responsive ****/
 @media all and (max-width: 1024px) {
-  /* line 5135, ../scss/sacremedia-tbc/_style.scss */
+  /* line 5118, ../scss/sacremedia-tbc/_style.scss */
   .sa-time-count .countdown-period .c-title {
     height: 70px !important;
     line-height: 70px;
@@ -6881,18 +6864,18 @@ ul.sermons_meta {
   }
 }
 @media all and (max-width: 991px) {
-  /* line 5142, ../scss/sacremedia-tbc/_style.scss */
+  /* line 5125, ../scss/sacremedia-tbc/_style.scss */
   .sa-coundown-content {
     margin-top: 0;
   }
 
-  /* line 5145, ../scss/sacremedia-tbc/_style.scss */
+  /* line 5128, ../scss/sacremedia-tbc/_style.scss */
   .sa-time-count {
     display: inline-block;
     float: left;
   }
 
-  /* line 5149, ../scss/sacremedia-tbc/_style.scss */
+  /* line 5132, ../scss/sacremedia-tbc/_style.scss */
   .sa-coundown-section {
     margin-top: -70px;
   }
@@ -6902,7 +6885,7 @@ ul.sermons_meta {
 | Counter Section Style
 |---------------------------------------------
 */
-/* line 5161, ../scss/sacremedia-tbc/_style.scss */
+/* line 5144, ../scss/sacremedia-tbc/_style.scss */
 .sa-counter-section.counter-bg {
   background-color: #4c4c4c;
   background-image: url(/modules/custom/tbc_styleguide/templates/assets/images/counter/bg.jpg);
@@ -6910,17 +6893,17 @@ ul.sermons_meta {
   background-size: cover;
 }
 
-/* line 5167, ../scss/sacremedia-tbc/_style.scss */
+/* line 5150, ../scss/sacremedia-tbc/_style.scss */
 .sa-counter-single {
   margin-bottom: 30px;
 }
 
-/* line 5170, ../scss/sacremedia-tbc/_style.scss */
+/* line 5153, ../scss/sacremedia-tbc/_style.scss */
 .sa-counter-single img {
   margin-bottom: 25px;
 }
 
-/* line 5173, ../scss/sacremedia-tbc/_style.scss */
+/* line 5156, ../scss/sacremedia-tbc/_style.scss */
 .sa-counter-single h5 {
   font-family: 'Poppins', sans-serif;
   color: #fff;
@@ -6932,7 +6915,7 @@ ul.sermons_meta {
   margin-bottom: 22px;
 }
 
-/* line 5183, ../scss/sacremedia-tbc/_style.scss */
+/* line 5166, ../scss/sacremedia-tbc/_style.scss */
 .sa-counter-single h5:after {
   position: absolute;
   background: #cca760;
@@ -6944,7 +6927,7 @@ ul.sermons_meta {
   margin-left: -11px;
 }
 
-/* line 5193, ../scss/sacremedia-tbc/_style.scss */
+/* line 5176, ../scss/sacremedia-tbc/_style.scss */
 .sa-counter-single span {
   color: #fff;
   font-size: 36px;
@@ -6959,22 +6942,22 @@ ul.sermons_meta {
 | doantion section Style
 |---------------------------------------------
 */
-/* line 5208, ../scss/sacremedia-tbc/_style.scss */
+/* line 5191, ../scss/sacremedia-tbc/_style.scss */
 .doantion-bg {
   background-color: #022147;
 }
 
-/* line 5211, ../scss/sacremedia-tbc/_style.scss */
+/* line 5194, ../scss/sacremedia-tbc/_style.scss */
 .sa-donation-section {
   color: #fff;
 }
 
-/* line 5214, ../scss/sacremedia-tbc/_style.scss */
+/* line 5197, ../scss/sacremedia-tbc/_style.scss */
 .sa-donation-single {
   margin-bottom: 60px;
 }
 
-/* line 5217, ../scss/sacremedia-tbc/_style.scss */
+/* line 5200, ../scss/sacremedia-tbc/_style.scss */
 .sa-donation-single h1 {
   color: #fff;
   font-size: 15px;
@@ -6984,7 +6967,7 @@ ul.sermons_meta {
   margin-bottom: 55px;
 }
 
-/* line 5225, ../scss/sacremedia-tbc/_style.scss */
+/* line 5208, ../scss/sacremedia-tbc/_style.scss */
 .sa-donation-single a {
   color: #fff;
   color: #fff;
@@ -6995,17 +6978,17 @@ ul.sermons_meta {
   letter-spacing: 0 !important;
 }
 
-/* line 5234, ../scss/sacremedia-tbc/_style.scss */
+/* line 5217, ../scss/sacremedia-tbc/_style.scss */
 .sa-donation-single a:hover {
   background-color: #deb668;
 }
 
-/* line 5237, ../scss/sacremedia-tbc/_style.scss */
+/* line 5220, ../scss/sacremedia-tbc/_style.scss */
 .sa-donation-single .donation-details {
   margin: 38px 0 62px 0;
 }
 
-/* line 5240, ../scss/sacremedia-tbc/_style.scss */
+/* line 5223, ../scss/sacremedia-tbc/_style.scss */
 .sa-donation-single .donation-details h3,
 .sa-donation-single .donation-details h2 {
   color: #fff;
@@ -7017,13 +7000,13 @@ ul.sermons_meta {
   padding: 0;
 }
 
-/* line 5250, ../scss/sacremedia-tbc/_style.scss */
+/* line 5233, ../scss/sacremedia-tbc/_style.scss */
 .sa-donation-count .piechart {
   display: inline-block;
   position: relative;
 }
 
-/* line 5254, ../scss/sacremedia-tbc/_style.scss */
+/* line 5237, ../scss/sacremedia-tbc/_style.scss */
 .sa-donation-single .count {
   color: #fff;
   font-size: 24px;
@@ -7036,14 +7019,14 @@ ul.sermons_meta {
   display: inline-block;
 }
 
-/* line 5265, ../scss/sacremedia-tbc/_style.scss */
+/* line 5248, ../scss/sacremedia-tbc/_style.scss */
 .count:after {
   content: "%";
   font-weight: 600;
   font-family: 'Poppins', sans-serif;
 }
 
-/* line 5270, ../scss/sacremedia-tbc/_style.scss */
+/* line 5253, ../scss/sacremedia-tbc/_style.scss */
 .piechart canvas {
   transform: rotate(90deg);
 }
@@ -7053,14 +7036,14 @@ ul.sermons_meta {
 | 10.0 - lc-cta-submit-listing
 |---------------------------------------------
 */
-/* line 5279, ../scss/sacremedia-tbc/_style.scss */
+/* line 5262, ../scss/sacremedia-tbc/_style.scss */
 .sa-cta-submit-listing {
   background-color: #022147;
   padding: 40px 0 30px 0;
   position: relative;
 }
 
-/* line 5284, ../scss/sacremedia-tbc/_style.scss */
+/* line 5267, ../scss/sacremedia-tbc/_style.scss */
 .sa-cta-submit-listing .section-title .title {
   color: #ffffff;
   font-size: 30px;
@@ -7070,7 +7053,7 @@ ul.sermons_meta {
   margin-bottom: 10px;
 }
 
-/* line 5292, ../scss/sacremedia-tbc/_style.scss */
+/* line 5275, ../scss/sacremedia-tbc/_style.scss */
 .sa-cta-submit-listing .section-title p {
   color: #ffffff;
   font-family: "Nunito", sans-serif;
@@ -7078,7 +7061,7 @@ ul.sermons_meta {
   font-size: 15px;
 }
 
-/* line 5298, ../scss/sacremedia-tbc/_style.scss */
+/* line 5281, ../scss/sacremedia-tbc/_style.scss */
 .sa-cta-submit-listing .dark-btn {
   position: absolute;
   right: 0;
@@ -7086,19 +7069,19 @@ ul.sermons_meta {
 }
 
 @media all and (max-width: 991px) {
-  /* line 5304, ../scss/sacremedia-tbc/_style.scss */
+  /* line 5287, ../scss/sacremedia-tbc/_style.scss */
   .sa-cta-submit-listing {
     text-align: center;
     padding: 50px 0 80px 0;
   }
 
-  /* line 5308, ../scss/sacremedia-tbc/_style.scss */
+  /* line 5291, ../scss/sacremedia-tbc/_style.scss */
   .sa-cta-submit-listing .dark-btn {
     position: inherit;
   }
 }
 @media all and (max-width: 767px) {
-  /* line 5313, ../scss/sacremedia-tbc/_style.scss */
+  /* line 5296, ../scss/sacremedia-tbc/_style.scss */
   .sa-cta-submit-listing .section-title .title {
     color: #ffffff;
     font-size: 32px;
@@ -7113,7 +7096,7 @@ ul.sermons_meta {
 | 3.sa-banner-section
 |---------------------------------------------
 */
-/* line 5330, ../scss/sacremedia-tbc/_style.scss */
+/* line 5313, ../scss/sacremedia-tbc/_style.scss */
 .sa-banner-section {
   background-image: url(/modules/custom/tbc_styleguide/templates/assets/images/bg/banner2.png);
   background-position: center;
@@ -7122,7 +7105,7 @@ ul.sermons_meta {
   padding: 240px 0 155px 0;
 }
 
-/* line 5337, ../scss/sacremedia-tbc/_style.scss */
+/* line 5320, ../scss/sacremedia-tbc/_style.scss */
 .banner-style .banner-details h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 60px;
@@ -7132,22 +7115,22 @@ ul.sermons_meta {
   margin-bottom: 20px;
 }
 
-/* line 5345, ../scss/sacremedia-tbc/_style.scss */
+/* line 5328, ../scss/sacremedia-tbc/_style.scss */
 .style-two-slider .owl-nav .owl-prev:after {
   line-height: 55px;
 }
 
-/* line 5348, ../scss/sacremedia-tbc/_style.scss */
+/* line 5331, ../scss/sacremedia-tbc/_style.scss */
 .style-two-slider .owl-nav .owl-next:after {
   line-height: 55px;
 }
 
-/* line 5351, ../scss/sacremedia-tbc/_style.scss */
+/* line 5334, ../scss/sacremedia-tbc/_style.scss */
 .style-two-slider .owl-nav {
   top: 31%;
 }
 
-/* line 5354, ../scss/sacremedia-tbc/_style.scss */
+/* line 5337, ../scss/sacremedia-tbc/_style.scss */
 .style-two-slider .owl-nav .owl-prev {
   background-color: #223246;
   height: 60px;
@@ -7158,7 +7141,7 @@ ul.sermons_meta {
   left: 60px;
 }
 
-/* line 5363, ../scss/sacremedia-tbc/_style.scss */
+/* line 5346, ../scss/sacremedia-tbc/_style.scss */
 .style-two-slider .owl-nav .owl-next {
   background-color: #223246;
   height: 60px;
@@ -7169,7 +7152,7 @@ ul.sermons_meta {
   right: 60px;
 }
 
-/* line 5372, ../scss/sacremedia-tbc/_style.scss */
+/* line 5355, ../scss/sacremedia-tbc/_style.scss */
 .banner-style .banner-details p {
   font-family: 'Nunito', sans-serif;
   font-size: 18px;
@@ -7179,7 +7162,7 @@ ul.sermons_meta {
   margin-bottom: 58px;
 }
 
-/* line 5380, ../scss/sacremedia-tbc/_style.scss */
+/* line 5363, ../scss/sacremedia-tbc/_style.scss */
 .sa-banner-coundown .timer {
   text-align: center;
   width: 100% !important;
@@ -7187,7 +7170,7 @@ ul.sermons_meta {
   margin-bottom: 25px;
 }
 
-/* line 5386, ../scss/sacremedia-tbc/_style.scss */
+/* line 5369, ../scss/sacremedia-tbc/_style.scss */
 .bannercoundown .countdown-period {
   display: inline-block !important;
   width: auto !important;
@@ -7196,7 +7179,7 @@ ul.sermons_meta {
   margin-right: 15px !important;
 }
 
-/* line 5393, ../scss/sacremedia-tbc/_style.scss */
+/* line 5376, ../scss/sacremedia-tbc/_style.scss */
 .bannercoundown .countdown-period .c-title {
   font-family: 'Poppins', sans-serif;
   font-size: 30px;
@@ -7209,7 +7192,7 @@ ul.sermons_meta {
   margin-bottom: 5px;
 }
 
-/* line 5404, ../scss/sacremedia-tbc/_style.scss */
+/* line 5387, ../scss/sacremedia-tbc/_style.scss */
 .bannercoundown .countdown-period span {
   font-family: 'Poppins', sans-serif;
   font-size: 12px;
@@ -7221,19 +7204,19 @@ ul.sermons_meta {
   text-align: center;
 }
 
-/* line 5414, ../scss/sacremedia-tbc/_style.scss */
+/* line 5397, ../scss/sacremedia-tbc/_style.scss */
 .sa-banner-coundown {
   background-color: #fff;
   padding: 27px 30px 19px 29px;
   border-radius: 5px;
 }
 
-/* line 5419, ../scss/sacremedia-tbc/_style.scss */
+/* line 5402, ../scss/sacremedia-tbc/_style.scss */
 .sa-banner-coundown .causes-amount .left {
   display: inline-block;
 }
 
-/* line 5422, ../scss/sacremedia-tbc/_style.scss */
+/* line 5405, ../scss/sacremedia-tbc/_style.scss */
 .sa-banner-coundown h4 {
   font-family: 'Poppins', sans-serif;
   font-size: 24px;
@@ -7243,12 +7226,12 @@ ul.sermons_meta {
   margin-bottom: 18px;
 }
 
-/* line 5430, ../scss/sacremedia-tbc/_style.scss */
+/* line 5413, ../scss/sacremedia-tbc/_style.scss */
 .sa-banner-coundown .causes-amount {
   margin-bottom: 44px;
 }
 
-/* line 5433, ../scss/sacremedia-tbc/_style.scss */
+/* line 5416, ../scss/sacremedia-tbc/_style.scss */
 .sa-banner-coundown .causes-amount p {
   font-family: 'Poppins', sans-serif;
   font-size: 13px;
@@ -7259,12 +7242,12 @@ ul.sermons_meta {
   margin-bottom: 0;
 }
 
-/* line 5442, ../scss/sacremedia-tbc/_style.scss */
+/* line 5425, ../scss/sacremedia-tbc/_style.scss */
 .sa-banner-coundown .causes-amount .right p {
   text-align: right;
 }
 
-/* line 5445, ../scss/sacremedia-tbc/_style.scss */
+/* line 5428, ../scss/sacremedia-tbc/_style.scss */
 .sa-banner-coundown .causes-amount span {
   font-family: 'Poppins', sans-serif;
   font-size: 24px;
@@ -7273,7 +7256,7 @@ ul.sermons_meta {
   color: #022147;
 }
 
-/* line 5452, ../scss/sacremedia-tbc/_style.scss */
+/* line 5435, ../scss/sacremedia-tbc/_style.scss */
 .sa-banner-coundown a {
   display: block;
   margin-bottom: 12px;
@@ -7281,18 +7264,18 @@ ul.sermons_meta {
 }
 
 /*sa banner progress */
-/* line 5459, ../scss/sacremedia-tbc/_style.scss */
+/* line 5442, ../scss/sacremedia-tbc/_style.scss */
 .banner-progress-area {
   margin-bottom: 22px;
 }
 
-/* line 5462, ../scss/sacremedia-tbc/_style.scss */
+/* line 5445, ../scss/sacremedia-tbc/_style.scss */
 .banner-progress-area .cause-progress {
   background: #dedede;
   border-radius: 10px;
 }
 
-/* line 5466, ../scss/sacremedia-tbc/_style.scss */
+/* line 5449, ../scss/sacremedia-tbc/_style.scss */
 .banner-progress-area .progress-bar {
   background: #cca760;
   height: 10px;
@@ -7300,7 +7283,7 @@ ul.sermons_meta {
   border-radius: 10px;
 }
 
-/* line 5472, ../scss/sacremedia-tbc/_style.scss */
+/* line 5455, ../scss/sacremedia-tbc/_style.scss */
 .banner-progress-area .progress-bar span {
   position: absolute;
   top: -43px;
@@ -7313,7 +7296,7 @@ ul.sermons_meta {
   border-radius: 2px;
 }
 
-/* line 5483, ../scss/sacremedia-tbc/_style.scss */
+/* line 5466, ../scss/sacremedia-tbc/_style.scss */
 .banner-progress-area .progress-bar span:after {
   content: '';
   position: absolute;
@@ -7325,49 +7308,49 @@ ul.sermons_meta {
   margin-left: -6px;
 }
 
-/* line 5493, ../scss/sacremedia-tbc/_style.scss */
+/* line 5476, ../scss/sacremedia-tbc/_style.scss */
 .sa-banner-timer-area {
   display: block;
   overflow: hidden;
   margin-bottom: 55px;
 }
 
-/* line 5498, ../scss/sacremedia-tbc/_style.scss */
+/* line 5481, ../scss/sacremedia-tbc/_style.scss */
 .sa-banner-coundown-wrap {
   border: 1px dashed #000000;
   border-radius: 4px;
 }
 
-/* line 5502, ../scss/sacremedia-tbc/_style.scss */
+/* line 5485, ../scss/sacremedia-tbc/_style.scss */
 .donation-banner-details {
   margin-top: 90px;
 }
 
 /******* sa-banner-coundown-responsive ********/
 @media all and (min-width: 1200px) {
-  /* line 5508, ../scss/sacremedia-tbc/_style.scss */
+  /* line 5491, ../scss/sacremedia-tbc/_style.scss */
   .sa-banner-coundown-wrap {
     margin: 0 0 0 38px;
   }
 }
 @media all and (max-width: 1440px) {
-  /* line 5513, ../scss/sacremedia-tbc/_style.scss */
+  /* line 5496, ../scss/sacremedia-tbc/_style.scss */
   .style-two-slider .owl-nav .owl-prev {
     left: 35px;
   }
 
-  /* line 5516, ../scss/sacremedia-tbc/_style.scss */
+  /* line 5499, ../scss/sacremedia-tbc/_style.scss */
   .style-two-slider .owl-nav .owl-next {
     right: 35px;
   }
 }
 @media all and (max-width: 1024px) {
-  /* line 5521, ../scss/sacremedia-tbc/_style.scss */
+  /* line 5504, ../scss/sacremedia-tbc/_style.scss */
   .banner-style .banner-details h2 {
     font-size: 55px;
   }
 
-  /* line 5524, ../scss/sacremedia-tbc/_style.scss */
+  /* line 5507, ../scss/sacremedia-tbc/_style.scss */
   .bannercoundown .countdown-period .c-title {
     font-size: 28px;
     font-weight: 600;
@@ -7375,24 +7358,24 @@ ul.sermons_meta {
     width: 60px;
   }
 
-  /* line 5530, ../scss/sacremedia-tbc/_style.scss */
+  /* line 5513, ../scss/sacremedia-tbc/_style.scss */
   .style-two-slider .owl-nav .owl-prev {
     left: 72%;
   }
 
-  /* line 5533, ../scss/sacremedia-tbc/_style.scss */
+  /* line 5516, ../scss/sacremedia-tbc/_style.scss */
   .style-two-slider .owl-nav {
     top: 100%;
     margin-bottom: 50px;
   }
 
-  /* line 5537, ../scss/sacremedia-tbc/_style.scss */
+  /* line 5520, ../scss/sacremedia-tbc/_style.scss */
   .style-two-slider .owl-nav {
     width: 60%;
     margin-top: 50px;
   }
 
-  /* line 5541, ../scss/sacremedia-tbc/_style.scss */
+  /* line 5524, ../scss/sacremedia-tbc/_style.scss */
   .style-two-slider .owl-nav .owl-next {
     height: 30px;
     width: 30px;
@@ -7400,7 +7383,7 @@ ul.sermons_meta {
     line-height: 30px;
   }
 
-  /* line 5547, ../scss/sacremedia-tbc/_style.scss */
+  /* line 5530, ../scss/sacremedia-tbc/_style.scss */
   .style-two-slider .owl-nav .owl-prev {
     height: 30px;
     width: 30px;
@@ -7408,99 +7391,99 @@ ul.sermons_meta {
     line-height: 30px;
   }
 
-  /* line 5553, ../scss/sacremedia-tbc/_style.scss */
+  /* line 5536, ../scss/sacremedia-tbc/_style.scss */
   .style-two-slider .owl-nav .owl-next:after {
     line-height: 28px;
   }
 
-  /* line 5556, ../scss/sacremedia-tbc/_style.scss */
+  /* line 5539, ../scss/sacremedia-tbc/_style.scss */
   .style-two-slider .owl-nav .owl-prev:after {
     line-height: 28px;
   }
 }
 @media all and (max-width: 992px) {
-  /* line 5561, ../scss/sacremedia-tbc/_style.scss */
+  /* line 5544, ../scss/sacremedia-tbc/_style.scss */
   .banner-style .banner-details {
     margin-bottom: 60px;
     text-align: center;
   }
 
-  /* line 5565, ../scss/sacremedia-tbc/_style.scss */
+  /* line 5548, ../scss/sacremedia-tbc/_style.scss */
   .banner-style .banner-details h2 {
     font-size: 44px;
   }
 
-  /* line 5568, ../scss/sacremedia-tbc/_style.scss */
+  /* line 5551, ../scss/sacremedia-tbc/_style.scss */
   .donation-banner-details {
     margin-top: 0;
   }
 }
 @media all and (max-width: 767px) {
-  /* line 5573, ../scss/sacremedia-tbc/_style.scss */
+  /* line 5556, ../scss/sacremedia-tbc/_style.scss */
   .banner-style .banner-details p br {
     display: none;
   }
 
-  /* line 5576, ../scss/sacremedia-tbc/_style.scss */
+  /* line 5559, ../scss/sacremedia-tbc/_style.scss */
   .style-two-slider .owl-nav .owl-prev {
     left: 63%;
   }
 
-  /* line 5579, ../scss/sacremedia-tbc/_style.scss */
+  /* line 5562, ../scss/sacremedia-tbc/_style.scss */
   .style-two-slider .owl-nav {
     width: 69%;
   }
 
-  /* line 5582, ../scss/sacremedia-tbc/_style.scss */
+  /* line 5565, ../scss/sacremedia-tbc/_style.scss */
   .bannercoundown .countdown-period .c-title {
     font-size: 20px;
     width: 55px;
   }
 
-  /* line 5586, ../scss/sacremedia-tbc/_style.scss */
+  /* line 5569, ../scss/sacremedia-tbc/_style.scss */
   .bannercoundown .countdown-period {
     margin-right: 8px !important;
   }
 
-  /* line 5589, ../scss/sacremedia-tbc/_style.scss */
+  /* line 5572, ../scss/sacremedia-tbc/_style.scss */
   .sa-banner-coundown {
     padding: 27px 15px 19px 15px;
   }
 }
 @media all and (max-width: 424px) {
-  /* line 5595, ../scss/sacremedia-tbc/_style.scss */
+  /* line 5578, ../scss/sacremedia-tbc/_style.scss */
   .banner-style .banner-details h2 {
     font-size: 30px;
     font-weight: 600;
     line-height: 45px;
   }
 
-  /* line 5600, ../scss/sacremedia-tbc/_style.scss */
+  /* line 5583, ../scss/sacremedia-tbc/_style.scss */
   .sa-banner-coundown h4 {
     font-size: 19px;
   }
 
-  /* line 5603, ../scss/sacremedia-tbc/_style.scss */
+  /* line 5586, ../scss/sacremedia-tbc/_style.scss */
   .sa-banner-coundown .causes-amount span {
     font-size: 19px;
   }
 
-  /* line 5606, ../scss/sacremedia-tbc/_style.scss */
+  /* line 5589, ../scss/sacremedia-tbc/_style.scss */
   .bannercoundown .countdown-period {
     margin-bottom: 20px;
   }
 
-  /* line 5610, ../scss/sacremedia-tbc/_style.scss */
+  /* line 5593, ../scss/sacremedia-tbc/_style.scss */
   .style-two-slider .owl-nav .owl-prev {
     left: 57%;
   }
 
-  /* line 5613, ../scss/sacremedia-tbc/_style.scss */
+  /* line 5596, ../scss/sacremedia-tbc/_style.scss */
   .style-two-slider .owl-nav {
     width: 73%;
   }
 
-  /* line 5616, ../scss/sacremedia-tbc/_style.scss */
+  /* line 5599, ../scss/sacremedia-tbc/_style.scss */
   .sa-banner-timer-area {
     display: block;
     overflow: hidden;
@@ -7512,7 +7495,7 @@ ul.sermons_meta {
 | speakers section Style / Mamun
 |---------------------------------------------
 */
-/* line 5628, ../scss/sacremedia-tbc/_style.scss */
+/* line 5611, ../scss/sacremedia-tbc/_style.scss */
 .sa-speakers-single {
   border: none;
   border-radius: 0px;
@@ -7521,13 +7504,13 @@ ul.sermons_meta {
   padding: 0;
 }
 
-/* line 5635, ../scss/sacremedia-tbc/_style.scss */
+/* line 5618, ../scss/sacremedia-tbc/_style.scss */
 .sa-speakers-single .sa-speakers-thum img {
   margin: 0;
   padding: 0;
 }
 
-/* line 5639, ../scss/sacremedia-tbc/_style.scss */
+/* line 5622, ../scss/sacremedia-tbc/_style.scss */
 .sa-speakers-single .sa-speakers-info {
   position: absolute;
   bottom: 25%;
@@ -7538,19 +7521,19 @@ ul.sermons_meta {
   padding: 10px;
 }
 
-/* line 5648, ../scss/sacremedia-tbc/_style.scss */
+/* line 5631, ../scss/sacremedia-tbc/_style.scss */
 .sa-speakers-single:hover .sa-speakers-info {
   visibility: visible;
   opacity: 1;
 }
 
-/* line 5652, ../scss/sacremedia-tbc/_style.scss */
+/* line 5635, ../scss/sacremedia-tbc/_style.scss */
 .sa-speakers-single .sa-speakers-info .sa-team-info {
   padding: 0;
   margin: 0 0 15px 0;
 }
 
-/* line 5656, ../scss/sacremedia-tbc/_style.scss */
+/* line 5639, ../scss/sacremedia-tbc/_style.scss */
 .sa-speakers-single .sa-speakers-info .sa-team-info h2 {
   color: #fff;
   font-size: 22px;
@@ -7560,7 +7543,7 @@ ul.sermons_meta {
   margin-bottom: 10px;
 }
 
-/* line 5664, ../scss/sacremedia-tbc/_style.scss */
+/* line 5647, ../scss/sacremedia-tbc/_style.scss */
 .sa-speakers-single .sa-speakers-info .sa-team-info p {
   color: #fff;
   font-family: 'Nunito', sans-serif;
@@ -7568,28 +7551,28 @@ ul.sermons_meta {
   line-height: 24px;
 }
 
-/* line 5670, ../scss/sacremedia-tbc/_style.scss */
+/* line 5653, ../scss/sacremedia-tbc/_style.scss */
 .sa-speakers-single .sa-speakers-info .sa-team-social {
   margin-bottom: 0;
   padding: 0;
 }
 
-/* line 5674, ../scss/sacremedia-tbc/_style.scss */
+/* line 5657, ../scss/sacremedia-tbc/_style.scss */
 .sa-speakers-single .sa-speakers-info .sa-team-social li {
   margin-bottom: 0;
 }
 
-/* line 5677, ../scss/sacremedia-tbc/_style.scss */
+/* line 5660, ../scss/sacremedia-tbc/_style.scss */
 .sa-speakers-single .sa-speakers-info .sa-team-social li a {
   transition-duration: 0s;
 }
 
-/* line 5680, ../scss/sacremedia-tbc/_style.scss */
+/* line 5663, ../scss/sacremedia-tbc/_style.scss */
 .sa-speakers-single .sa-speakers-info .sa-team-social li a i {
   color: #fff;
 }
 
-/* line 5683, ../scss/sacremedia-tbc/_style.scss */
+/* line 5666, ../scss/sacremedia-tbc/_style.scss */
 .sa-speakers-single .sa-speakers-thum:before {
   content: " ";
   position: absolute;
@@ -7603,14 +7586,14 @@ ul.sermons_meta {
   transition: 0.4s;
 }
 
-/* line 5695, ../scss/sacremedia-tbc/_style.scss */
+/* line 5678, ../scss/sacremedia-tbc/_style.scss */
 .sa-speakers-single:hover .sa-speakers-thum:before {
   visibility: visible;
   opacity: 1;
 }
 
 @media All and (max-width: 768px) {
-  /* line 5701, ../scss/sacremedia-tbc/_style.scss */
+  /* line 5684, ../scss/sacremedia-tbc/_style.scss */
   .sa-speakers-single {
     margin-bottom: 30px;
   }
@@ -7620,7 +7603,7 @@ ul.sermons_meta {
 | sa-schedule-tab
 |---------------------------------------------
 */
-/* line 5712, ../scss/sacremedia-tbc/_style.scss */
+/* line 5695, ../scss/sacremedia-tbc/_style.scss */
 .sa-schedule-tab {
   background-image: -moz-linear-gradient(90deg, #e3e3e3 0%, #fafafa 100%);
   background-image: -webkit-linear-gradient(90deg, #e3e3e3 0%, #fafafa 100%);
@@ -7629,7 +7612,7 @@ ul.sermons_meta {
   margin-bottom: 2rem !important;
 }
 
-/* line 5719, ../scss/sacremedia-tbc/_style.scss */
+/* line 5702, ../scss/sacremedia-tbc/_style.scss */
 .sa-schedule-tab .nav-item {
   display: inline-block;
   margin: 0;
@@ -7638,7 +7621,7 @@ ul.sermons_meta {
   float: left;
 }
 
-/* line 5726, ../scss/sacremedia-tbc/_style.scss */
+/* line 5709, ../scss/sacremedia-tbc/_style.scss */
 .sa-schedule-tab .nav-link {
   display: inline-block;
   text-align: center;
@@ -7647,7 +7630,7 @@ ul.sermons_meta {
   width: 100%;
 }
 
-/* line 5733, ../scss/sacremedia-tbc/_style.scss */
+/* line 5716, ../scss/sacremedia-tbc/_style.scss */
 .sa-schedule-tab .nav-item:after {
   content: '';
   position: absolute;
@@ -7658,19 +7641,19 @@ ul.sermons_meta {
   top: 15px;
 }
 
-/* line 5742, ../scss/sacremedia-tbc/_style.scss */
+/* line 5725, ../scss/sacremedia-tbc/_style.scss */
 .sa-schedule-tab .nav-item:last-child:after {
   display: none;
 }
 
-/* line 5745, ../scss/sacremedia-tbc/_style.scss */
+/* line 5728, ../scss/sacremedia-tbc/_style.scss */
 .sa-schedule-tab .nav-link.active {
   background: #d5ac5c;
   color: #fff;
   position: relative;
 }
 
-/* line 5750, ../scss/sacremedia-tbc/_style.scss */
+/* line 5733, ../scss/sacremedia-tbc/_style.scss */
 .sa-schedule-tab .nav-link .day {
   font-size: 18px;
   display: block;
@@ -7678,7 +7661,7 @@ ul.sermons_meta {
   font-weight: 600;
 }
 
-/* line 5756, ../scss/sacremedia-tbc/_style.scss */
+/* line 5739, ../scss/sacremedia-tbc/_style.scss */
 .sa-schedule-tab .nav-link .dates {
   display: block;
   font-size: 14px;
@@ -7689,7 +7672,7 @@ ul.sermons_meta {
   font-weight: 400;
 }
 
-/* line 5765, ../scss/sacremedia-tbc/_style.scss */
+/* line 5748, ../scss/sacremedia-tbc/_style.scss */
 .sa-schedule-tab .nav-link.active:before {
   content: '';
   position: absolute;
@@ -7702,25 +7685,25 @@ ul.sermons_meta {
 }
 
 /*** sa-schedules-table-2 ***/
-/* line 5777, ../scss/sacremedia-tbc/_style.scss */
+/* line 5760, ../scss/sacremedia-tbc/_style.scss */
 .sa-schedules-table-2 .entry-thumb {
   display: inline-block;
   margin-right: 22px;
 }
 
-/* line 5781, ../scss/sacremedia-tbc/_style.scss */
+/* line 5764, ../scss/sacremedia-tbc/_style.scss */
 .sa-schedules-table-2 .entry-thumb img {
   width: 50px;
   height: 50px;
   border-radius: 50%;
 }
 
-/* line 5786, ../scss/sacremedia-tbc/_style.scss */
+/* line 5769, ../scss/sacremedia-tbc/_style.scss */
 .sa-schedules-table-2 .thead-dark {
   background: #d5ac5c;
 }
 
-/* line 5789, ../scss/sacremedia-tbc/_style.scss */
+/* line 5772, ../scss/sacremedia-tbc/_style.scss */
 .sa-schedules-table-2 .thead-dark th {
   background: none;
   border-color: #bf9a53;
@@ -7729,12 +7712,12 @@ ul.sermons_meta {
   padding: 13px 30px;
 }
 
-/* line 5796, ../scss/sacremedia-tbc/_style.scss */
+/* line 5779, ../scss/sacremedia-tbc/_style.scss */
 .sa-schedules-table-2 .table-body tr {
   background: #fff;
 }
 
-/* line 5799, ../scss/sacremedia-tbc/_style.scss */
+/* line 5782, ../scss/sacremedia-tbc/_style.scss */
 .sa-schedules-table-2 .table-body tr th {
   font-size: 15px;
   font-weight: 400;
@@ -7742,7 +7725,7 @@ ul.sermons_meta {
   font-family: 'Nunito', sans-serif;
 }
 
-/* line 5805, ../scss/sacremedia-tbc/_style.scss */
+/* line 5788, ../scss/sacremedia-tbc/_style.scss */
 .sa-schedules-table-2 .table-body td {
   font-size: 15px;
   font-weight: 400;
@@ -7751,7 +7734,7 @@ ul.sermons_meta {
 }
 
 @media All and (max-width: 991px) {
-  /* line 5812, ../scss/sacremedia-tbc/_style.scss */
+  /* line 5795, ../scss/sacremedia-tbc/_style.scss */
   .sa-schedules-table-2 .table-body tr th,
   .sa-schedules-table-2 .table-body tr td {
     font-size: 13px;
@@ -7759,19 +7742,19 @@ ul.sermons_meta {
   }
 }
 @media All and (max-width: 767px) {
-  /* line 5819, ../scss/sacremedia-tbc/_style.scss */
+  /* line 5802, ../scss/sacremedia-tbc/_style.scss */
   .sa-schedule-tab .nav-item {
     width: 48%;
     margin: 1%;
   }
 
-  /* line 5823, ../scss/sacremedia-tbc/_style.scss */
+  /* line 5806, ../scss/sacremedia-tbc/_style.scss */
   .sa-schedule-tab {
     background: none;
     border: 0;
   }
 
-  /* line 5827, ../scss/sacremedia-tbc/_style.scss */
+  /* line 5810, ../scss/sacremedia-tbc/_style.scss */
   .sa-schedule-tab .nav-item {
     background-image: -moz-linear-gradient(90deg, #e3e3e3 0%, #fafafa 100%);
     background-image: -webkit-linear-gradient(90deg, #e3e3e3 0%, #fafafa 100%);
@@ -7779,7 +7762,7 @@ ul.sermons_meta {
     border: 1px solid #dfdfdf;
   }
 
-  /* line 5833, ../scss/sacremedia-tbc/_style.scss */
+  /* line 5816, ../scss/sacremedia-tbc/_style.scss */
   .sa-schedule-tab .nav-link.active:before,
   .sa-schedule-tab .nav-item:after {
     display: none;
@@ -7790,14 +7773,14 @@ ul.sermons_meta {
 | 3.sa-price-section
 |---------------------------------------------
 */
-/* line 5847, ../scss/sacremedia-tbc/_style.scss */
+/* line 5830, ../scss/sacremedia-tbc/_style.scss */
 .sa-price-section {
   padding-bottom: 100px;
   background-color: #f8f8f8;
   padding: 120px 0 123px 0;
 }
 
-/* line 5852, ../scss/sacremedia-tbc/_style.scss */
+/* line 5835, ../scss/sacremedia-tbc/_style.scss */
 .sa-price-table {
   background-image: url(/modules/custom/tbc_styleguide/templates/assets/images/bg/6.png);
   background-position: center;
@@ -7806,12 +7789,12 @@ ul.sermons_meta {
   padding: 26px 20px 44px 20px;
 }
 
-/* line 5859, ../scss/sacremedia-tbc/_style.scss */
+/* line 5842, ../scss/sacremedia-tbc/_style.scss */
 .sa-price-table .table-price .icon {
   margin-bottom: 18px;
 }
 
-/* line 5862, ../scss/sacremedia-tbc/_style.scss */
+/* line 5845, ../scss/sacremedia-tbc/_style.scss */
 .sa-price-table .table-price .price-title {
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
@@ -7821,13 +7804,13 @@ ul.sermons_meta {
   margin-bottom: 25px;
 }
 
-/* line 5870, ../scss/sacremedia-tbc/_style.scss */
+/* line 5853, ../scss/sacremedia-tbc/_style.scss */
 .sa-price-table .table-price .price {
   position: relative;
   display: inline-block;
 }
 
-/* line 5874, ../scss/sacremedia-tbc/_style.scss */
+/* line 5857, ../scss/sacremedia-tbc/_style.scss */
 .sa-price-table .table-price .dolar {
   position: absolute;
   top: -9px;
@@ -7838,7 +7821,7 @@ ul.sermons_meta {
   font-weight: 400;
 }
 
-/* line 5883, ../scss/sacremedia-tbc/_style.scss */
+/* line 5866, ../scss/sacremedia-tbc/_style.scss */
 .sa-price-table .table-price span {
   font-family: 'Poppins', sans-serif;
   font-size: 48px;
@@ -7846,20 +7829,20 @@ ul.sermons_meta {
   color: #deb668;
 }
 
-/* line 5889, ../scss/sacremedia-tbc/_style.scss */
+/* line 5872, ../scss/sacremedia-tbc/_style.scss */
 .sa-price-table .list-style-none {
   list-style: none;
   margin-top: 21px;
   padding-left: 0;
 }
 
-/* line 5894, ../scss/sacremedia-tbc/_style.scss */
+/* line 5877, ../scss/sacremedia-tbc/_style.scss */
 .sa-price-table .list-style-none li i {
   margin-right: 11px;
   color: #8695a6;
 }
 
-/* line 5898, ../scss/sacremedia-tbc/_style.scss */
+/* line 5881, ../scss/sacremedia-tbc/_style.scss */
 .sa-price-table .list-style-none li i a {
   font-family: 'Nunito', sans-serif;
   font-size: 16px;
@@ -7868,19 +7851,19 @@ ul.sermons_meta {
   color: #555b62;
 }
 
-/* line 5905, ../scss/sacremedia-tbc/_style.scss */
+/* line 5888, ../scss/sacremedia-tbc/_style.scss */
 .sa-price-table .list-style-none li .dark-btn {
   margin-top: 35px;
 }
 
 /***** sa-price-table-responsive ******/
 @media all and (max-width: 992px) {
-  /* line 5910, ../scss/sacremedia-tbc/_style.scss */
+  /* line 5893, ../scss/sacremedia-tbc/_style.scss */
   .sa-price-table {
     margin-bottom: 50px;
   }
 
-  /* line 5913, ../scss/sacremedia-tbc/_style.scss */
+  /* line 5896, ../scss/sacremedia-tbc/_style.scss */
   .sa-price-section {
     background-color: #f8f8f8;
     padding-bottom: 55px;
@@ -7891,19 +7874,19 @@ ul.sermons_meta {
 | sa-paster-about
 |---------------------------------------------
 */
-/* line 5927, ../scss/sacremedia-tbc/_style.scss */
+/* line 5910, ../scss/sacremedia-tbc/_style.scss */
 .sa-paster-about-area {
   margin-top: 15px;
 }
 
-/* line 5930, ../scss/sacremedia-tbc/_style.scss */
+/* line 5913, ../scss/sacremedia-tbc/_style.scss */
 .sa-paster-about-area h2 {
   font-size: 36px;
   font-family: 'Poppins', sans-serif;
   margin-bottom: 5px;
 }
 
-/* line 5935, ../scss/sacremedia-tbc/_style.scss */
+/* line 5918, ../scss/sacremedia-tbc/_style.scss */
 .sa-paster-about-area .designation {
   font-size: 18px;
   font-family: 'Nunito', sans-serif;
@@ -7911,7 +7894,7 @@ ul.sermons_meta {
   color: #c59c4c;
 }
 
-/* line 5941, ../scss/sacremedia-tbc/_style.scss */
+/* line 5924, ../scss/sacremedia-tbc/_style.scss */
 .sa-paster-about-area .designation:after {
   content: '';
   position: absolute;
@@ -7923,7 +7906,7 @@ ul.sermons_meta {
 }
 
 @media all and (max-width: 991px) {
-  /* line 5951, ../scss/sacremedia-tbc/_style.scss */
+  /* line 5934, ../scss/sacremedia-tbc/_style.scss */
   .sa-paster-about-area {
     margin-bottom: 30px;
   }
@@ -7933,17 +7916,17 @@ ul.sermons_meta {
 | sa-contact-form
 |---------------------------------------------
 */
-/* line 5961, ../scss/sacremedia-tbc/_style.scss */
+/* line 5944, ../scss/sacremedia-tbc/_style.scss */
 .sa-contact-area h2 {
   font-weight: 800;
 }
 
-/* line 5964, ../scss/sacremedia-tbc/_style.scss */
+/* line 5947, ../scss/sacremedia-tbc/_style.scss */
 .sa-contact-form .form-group {
   margin-bottom: 22px;
 }
 
-/* line 5967, ../scss/sacremedia-tbc/_style.scss */
+/* line 5950, ../scss/sacremedia-tbc/_style.scss */
 .sa-contact-form .input-control {
   border: 1px solid #d2d2d2;
   height: 55px;
@@ -7952,45 +7935,45 @@ ul.sermons_meta {
   background: transparent;
 }
 
-/* line 5974, ../scss/sacremedia-tbc/_style.scss */
+/* line 5957, ../scss/sacremedia-tbc/_style.scss */
 .sa-contact-form textarea.input-control {
   height: auto;
   padding: 10px 20px;
 }
 
-/* line 5978, ../scss/sacremedia-tbc/_style.scss */
+/* line 5961, ../scss/sacremedia-tbc/_style.scss */
 .sa-contact-form .input-control:hover,
 .sa-contact-form .input-control:active,
 .sa-contact-form .input-control:focus {
   outline: 0;
 }
 
-/* line 5983, ../scss/sacremedia-tbc/_style.scss */
+/* line 5966, ../scss/sacremedia-tbc/_style.scss */
 .sa-poster-con-info p {
   font-family: 'Nunito', sans-serif;
 }
 
-/* line 5986, ../scss/sacremedia-tbc/_style.scss */
+/* line 5969, ../scss/sacremedia-tbc/_style.scss */
 .sa-poster-con-info .info-wrap p {
   font-family: 'Nunito', sans-serif;
   font-size: 16px;
   margin-bottom: 12px;
 }
 
-/* line 5991, ../scss/sacremedia-tbc/_style.scss */
+/* line 5974, ../scss/sacremedia-tbc/_style.scss */
 .sa-poster-con-info .info-wrap p i {
   margin-right: 15px;
   color: #deb668;
 }
 
 @media all and (max-width: 991px) {
-  /* line 5996, ../scss/sacremedia-tbc/_style.scss */
+  /* line 5979, ../scss/sacremedia-tbc/_style.scss */
   .sa-poster-con-info {
     margin-bottom: 40px;
   }
 }
 @media all and (max-width: 767px) {
-  /* line 6001, ../scss/sacremedia-tbc/_style.scss */
+  /* line 5984, ../scss/sacremedia-tbc/_style.scss */
   .sa-contact-form .float-right {
     float: left !important;
   }
@@ -8000,19 +7983,19 @@ ul.sermons_meta {
 | shop search Section
 |---------------------------------------------
 */
-/* line 6013, ../scss/sacremedia-tbc/_style.scss */
+/* line 5996, ../scss/sacremedia-tbc/_style.scss */
 .sa-shop-search-section {
   padding-top: 60px;
 }
 
-/* line 6016, ../scss/sacremedia-tbc/_style.scss */
+/* line 5999, ../scss/sacremedia-tbc/_style.scss */
 .sa-shop-search-area {
   border-radius: 5px;
   box-shadow: 0px 3px 15px 6px rgba(0, 0, 0, 0.03);
   padding: 20px 0;
 }
 
-/* line 6021, ../scss/sacremedia-tbc/_style.scss */
+/* line 6004, ../scss/sacremedia-tbc/_style.scss */
 .sa-shop-search-area form select {
   padding: 0 55px 0 20px;
   height: 50px;
@@ -8027,7 +8010,7 @@ ul.sermons_meta {
   cursor: pointer !important;
 }
 
-/* line 6034, ../scss/sacremedia-tbc/_style.scss */
+/* line 6017, ../scss/sacremedia-tbc/_style.scss */
 .sa-shop-search-area form .input-group {
   height: 50px;
   line-height: 50px;
@@ -8035,14 +8018,14 @@ ul.sermons_meta {
   border-radius: 4px;
 }
 
-/* line 6040, ../scss/sacremedia-tbc/_style.scss */
+/* line 6023, ../scss/sacremedia-tbc/_style.scss */
 .sa-shop-search-area form .input-group input {
   padding: 0 15px 0 15px;
   border: 0;
   font-family: 'Poppins', sans-serif;
 }
 
-/* line 6045, ../scss/sacremedia-tbc/_style.scss */
+/* line 6028, ../scss/sacremedia-tbc/_style.scss */
 .sa-shop-search-area form .input-group button {
   background: #deb668;
   color: #fff;
@@ -8053,20 +8036,20 @@ ul.sermons_meta {
   border-radius: 0 4px 4px 0;
 }
 
-/* line 6054, ../scss/sacremedia-tbc/_style.scss */
+/* line 6037, ../scss/sacremedia-tbc/_style.scss */
 .sa-shop-search-area form .input-group input:focus,
 .sa-shop-search-area form .input-group button:focus {
   outline: 0;
 }
 
-/* line 6058, ../scss/sacremedia-tbc/_style.scss */
+/* line 6041, ../scss/sacremedia-tbc/_style.scss */
 .sac-select_input {
   display: inline-block;
   position: relative;
   margin: 0 15px;
 }
 
-/* line 6063, ../scss/sacremedia-tbc/_style.scss */
+/* line 6046, ../scss/sacremedia-tbc/_style.scss */
 .sac-select_input:after {
   content: '\f0d7';
   font-family: "FontAwesome";
@@ -8078,7 +8061,7 @@ ul.sermons_meta {
   height: 2px;
 }
 
-/* line 6073, ../scss/sacremedia-tbc/_style.scss */
+/* line 6056, ../scss/sacremedia-tbc/_style.scss */
 .sac-select_input select {
   background: none;
   color: #a5afbb;
@@ -8089,7 +8072,7 @@ ul.sermons_meta {
   -moz-appearance: none;
 }
 
-/* line 6082, ../scss/sacremedia-tbc/_style.scss */
+/* line 6065, ../scss/sacremedia-tbc/_style.scss */
 .sac-select_input select:hover,
 .sac-select_input select:active,
 .sac-select_input select:focus {
@@ -8097,66 +8080,66 @@ ul.sermons_meta {
   box-shadow: none;
 }
 
-/* line 6088, ../scss/sacremedia-tbc/_style.scss */
+/* line 6071, ../scss/sacremedia-tbc/_style.scss */
 .sac-select_input-search:after {
   display: none;
 }
 
 @media all and (max-width: 1024px) {
-  /* line 6092, ../scss/sacremedia-tbc/_style.scss */
+  /* line 6075, ../scss/sacremedia-tbc/_style.scss */
   .sac-select_input {
     margin: 0 6px;
   }
 }
 @media all and (max-width: 991px) {
-  /* line 6097, ../scss/sacremedia-tbc/_style.scss */
+  /* line 6080, ../scss/sacremedia-tbc/_style.scss */
   .sac-select_input {
     margin: 10px;
   }
 }
 @media all and (max-width: 767px) {
-  /* line 6102, ../scss/sacremedia-tbc/_style.scss */
+  /* line 6085, ../scss/sacremedia-tbc/_style.scss */
   .sac-select_input {
     margin: 5px;
     width: 90%;
   }
 
-  /* line 6106, ../scss/sacremedia-tbc/_style.scss */
+  /* line 6089, ../scss/sacremedia-tbc/_style.scss */
   .sac-select_input select {
     width: 100%;
   }
 
-  /* line 6109, ../scss/sacremedia-tbc/_style.scss */
+  /* line 6092, ../scss/sacremedia-tbc/_style.scss */
   .sac-select_input-search input {
     width: 85%;
   }
 
-  /* line 6112, ../scss/sacremedia-tbc/_style.scss */
+  /* line 6095, ../scss/sacremedia-tbc/_style.scss */
   .sac-select_input-search .input-group-append {
     display: inline-block;
     width: 0;
     height: 100%;
   }
 
-  /* line 6117, ../scss/sacremedia-tbc/_style.scss */
+  /* line 6100, ../scss/sacremedia-tbc/_style.scss */
   .sac-select_input-search .input-group-append button {
     height: 100%;
   }
 }
 @media all and (max-width: 414px) {
-  /* line 6124, ../scss/sacremedia-tbc/_style.scss */
+  /* line 6107, ../scss/sacremedia-tbc/_style.scss */
   .sac-select_input-search .input-group-append {
     margin-left: -6px;
   }
 }
 @media all and (max-width: 375px) {
-  /* line 6129, ../scss/sacremedia-tbc/_style.scss */
+  /* line 6112, ../scss/sacremedia-tbc/_style.scss */
   .sac-select_input-search .input-group-append {
     margin-left: -11px;
   }
 }
 @media all and (max-width: 320px) {
-  /* line 6134, ../scss/sacremedia-tbc/_style.scss */
+  /* line 6117, ../scss/sacremedia-tbc/_style.scss */
   .sa-shop-search-area form .input-group button {
     padding: 0 19px 0 19px;
   }
@@ -8167,12 +8150,12 @@ ul.sermons_meta {
 |---------------------------------------------
 */
 /* shop heading */
-/* line 6145, ../scss/sacremedia-tbc/_style.scss */
+/* line 6128, ../scss/sacremedia-tbc/_style.scss */
 .sa-shop-title-area {
   margin: 60px 0 36px 0;
 }
 
-/* line 6148, ../scss/sacremedia-tbc/_style.scss */
+/* line 6131, ../scss/sacremedia-tbc/_style.scss */
 .sa-shop-title-area .sa-shop-title h2 {
   color: #28282d;
   font-size: 30px;
@@ -8182,19 +8165,19 @@ ul.sermons_meta {
   margin: 0;
 }
 
-/* line 6156, ../scss/sacremedia-tbc/_style.scss */
+/* line 6139, ../scss/sacremedia-tbc/_style.scss */
 .sa-shop-single {
   border: 1px solid #eaeaea;
   background-color: white;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.05);
 }
 
-/* line 6161, ../scss/sacremedia-tbc/_style.scss */
+/* line 6144, ../scss/sacremedia-tbc/_style.scss */
 .sa-shop-single .sa-btn-transparent {
   letter-spacing: .5px;
 }
 
-/* line 6164, ../scss/sacremedia-tbc/_style.scss */
+/* line 6147, ../scss/sacremedia-tbc/_style.scss */
 .sa-shop-single .sa-team-info p {
   color: #d32f2f;
   font-weight: 500;
@@ -8202,7 +8185,7 @@ ul.sermons_meta {
   font-family: 'Poppins', sans-serif;
 }
 
-/* line 6170, ../scss/sacremedia-tbc/_style.scss */
+/* line 6153, ../scss/sacremedia-tbc/_style.scss */
 .sa-shop-title-area .sa-shop-view {
   background: #f2f2f2;
   margin: 0;
@@ -8211,13 +8194,13 @@ ul.sermons_meta {
   border-radius: 5px;
 }
 
-/* line 6177, ../scss/sacremedia-tbc/_style.scss */
+/* line 6160, ../scss/sacremedia-tbc/_style.scss */
 .sa-shop-title-area .sa-shop-view ul {
   margin: 0;
   padding: 0;
 }
 
-/* line 6181, ../scss/sacremedia-tbc/_style.scss */
+/* line 6164, ../scss/sacremedia-tbc/_style.scss */
 .sa-shop-title-area .sa-shop-view ul li {
   list-style: none;
   float: left;
@@ -8225,7 +8208,7 @@ ul.sermons_meta {
   border-right: 1px solid #ddd;
 }
 
-/* line 6187, ../scss/sacremedia-tbc/_style.scss */
+/* line 6170, ../scss/sacremedia-tbc/_style.scss */
 .sa-shop-title-area .sa-shop-view ul li a {
   text-decoration: none;
   padding: 8px 20px;
@@ -8237,24 +8220,24 @@ ul.sermons_meta {
   color: #4c4646;
 }
 
-/* line 6197, ../scss/sacremedia-tbc/_style.scss */
+/* line 6180, ../scss/sacremedia-tbc/_style.scss */
 .sa-shop-title-area .sa-shop-view ul li:last-child {
   border: none;
 }
 
-/* line 6200, ../scss/sacremedia-tbc/_style.scss */
+/* line 6183, ../scss/sacremedia-tbc/_style.scss */
 .sa-shop-title-area .sa-shop-view ul li a:hover {
   background: #deb668;
   color: #fff;
 }
 
 /* shop products */
-/* line 6206, ../scss/sacremedia-tbc/_style.scss */
+/* line 6189, ../scss/sacremedia-tbc/_style.scss */
 .sa-pdrl8 {
   padding: 0 8px;
 }
 
-/* line 6209, ../scss/sacremedia-tbc/_style.scss */
+/* line 6192, ../scss/sacremedia-tbc/_style.scss */
 .sa-shop-single {
   border: 1px solid #eae8e8;
   border-radius: 0;
@@ -8263,14 +8246,14 @@ ul.sermons_meta {
   position: relative;
 }
 
-/* line 6216, ../scss/sacremedia-tbc/_style.scss */
+/* line 6199, ../scss/sacremedia-tbc/_style.scss */
 .sa-shop-single .sa-shop-thum {
   background: #f2f2f2;
   display: block;
   margin-bottom: 20px;
 }
 
-/* line 6221, ../scss/sacremedia-tbc/_style.scss */
+/* line 6204, ../scss/sacremedia-tbc/_style.scss */
 .sa-shop-single .sa-shop-thum img {
   max-width: 100%;
   height: auto;
@@ -8279,7 +8262,7 @@ ul.sermons_meta {
   margin: 0;
 }
 
-/* line 6229, ../scss/sacremedia-tbc/_style.scss */
+/* line 6212, ../scss/sacremedia-tbc/_style.scss */
 .sa-shop-single .sa-offer-tag.sa-bg-1 {
   background-image: url(/modules/custom/tbc_styleguide/templates/assets/images/shop/tag_red.png);
   position: absolute;
@@ -8291,7 +8274,7 @@ ul.sermons_meta {
   height: 33px;
 }
 
-/* line 6239, ../scss/sacremedia-tbc/_style.scss */
+/* line 6222, ../scss/sacremedia-tbc/_style.scss */
 .sa-shop-single .sa-offer-tag.sa-bg-2 {
   background-image: url(/modules/custom/tbc_styleguide/templates/assets/images/shop/tag_blue.png);
   position: absolute;
@@ -8303,7 +8286,7 @@ ul.sermons_meta {
   height: 33px;
 }
 
-/* line 6249, ../scss/sacremedia-tbc/_style.scss */
+/* line 6232, ../scss/sacremedia-tbc/_style.scss */
 .sa-shop-single .sa-offer-tag h6 {
   margin: 0;
   padding: 5px 16px 4px 0px;
@@ -8313,7 +8296,7 @@ ul.sermons_meta {
   font-family: 'Poppins', sans-serif;
 }
 
-/* line 6257, ../scss/sacremedia-tbc/_style.scss */
+/* line 6240, ../scss/sacremedia-tbc/_style.scss */
 .sa-shop-single .sa-team-info h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
@@ -8323,40 +8306,40 @@ ul.sermons_meta {
   margin-bottom: 12px;
 }
 
-/* line 6265, ../scss/sacremedia-tbc/_style.scss */
+/* line 6248, ../scss/sacremedia-tbc/_style.scss */
 .sa-shop-single .sa-team-info {
   margin-bottom: 33px;
 }
 
-/* line 6268, ../scss/sacremedia-tbc/_style.scss */
+/* line 6251, ../scss/sacremedia-tbc/_style.scss */
 .sa-team-single.sa-shop-single a {
   text-transform: none;
 }
 
 @media all and (max-width: 1024px) {
-  /* line 6272, ../scss/sacremedia-tbc/_style.scss */
+  /* line 6255, ../scss/sacremedia-tbc/_style.scss */
   .sa-shop-single .sa-team-info h2 {
     font-size: 18px;
   }
 }
 @media all and (max-width: 767px) {
-  /* line 6280, ../scss/sacremedia-tbc/_style.scss */
+  /* line 6263, ../scss/sacremedia-tbc/_style.scss */
   .sa-pdrl8 {
     padding: 0 15px;
   }
 
-  /* line 6283, ../scss/sacremedia-tbc/_style.scss */
+  /* line 6266, ../scss/sacremedia-tbc/_style.scss */
   .sa-shop-title-area {
     justify-content: inherit !important;
     display: inherit !important;
   }
 
-  /* line 6287, ../scss/sacremedia-tbc/_style.scss */
+  /* line 6270, ../scss/sacremedia-tbc/_style.scss */
   .sa-shop-title-area .sa-shop-title h2 {
     margin-bottom: 20px;
   }
 
-  /* line 6290, ../scss/sacremedia-tbc/_style.scss */
+  /* line 6273, ../scss/sacremedia-tbc/_style.scss */
   .sa-shop-title-area .sa-shop-view {
     background: #f2f2f2;
     margin: 0;
@@ -8369,7 +8352,7 @@ ul.sermons_meta {
     margin-bottom: 30px;
   }
 
-  /* line 6301, ../scss/sacremedia-tbc/_style.scss */
+  /* line 6284, ../scss/sacremedia-tbc/_style.scss */
   .sa-shop-title-area .sa-shop-title {
     text-align: left;
   }
@@ -8379,7 +8362,7 @@ ul.sermons_meta {
 | shop Section two / Mamun
 |---------------------------------------------
 */
-/* line 6311, ../scss/sacremedia-tbc/_style.scss */
+/* line 6294, ../scss/sacremedia-tbc/_style.scss */
 .sa-shop-section-two {
   background-color: #f7f7f7;
   padding: 0 0 50px 0;
@@ -8390,24 +8373,24 @@ ul.sermons_meta {
 | Pagination Section / Mamun
 |---------------------------------------------
 */
-/* line 6322, ../scss/sacremedia-tbc/_style.scss */
+/* line 6305, ../scss/sacremedia-tbc/_style.scss */
 .sa-pagination-area {
   margin: 40px 0 100px 0;
 }
 
-/* line 6325, ../scss/sacremedia-tbc/_style.scss */
+/* line 6308, ../scss/sacremedia-tbc/_style.scss */
 .sa-pagination-area .sa-pagination ul {
   margin: 0px;
 }
 
-/* line 6328, ../scss/sacremedia-tbc/_style.scss */
+/* line 6311, ../scss/sacremedia-tbc/_style.scss */
 .sa-pagination-area .sa-pagination li {
   border: 1px solid #ddd;
   margin-right: 15px;
   border-radius: 4px;
 }
 
-/* line 6333, ../scss/sacremedia-tbc/_style.scss */
+/* line 6316, ../scss/sacremedia-tbc/_style.scss */
 .sa-pagination-area .sa-pagination .active {
   border: 1px solid #ddd;
   margin-right: 15px;
@@ -8415,12 +8398,12 @@ ul.sermons_meta {
   background: #092346;
 }
 
-/* line 6339, ../scss/sacremedia-tbc/_style.scss */
+/* line 6322, ../scss/sacremedia-tbc/_style.scss */
 .sa-pagination-area .sa-pagination .active a {
   color: #fff;
 }
 
-/* line 6342, ../scss/sacremedia-tbc/_style.scss */
+/* line 6325, ../scss/sacremedia-tbc/_style.scss */
 .sa-pagination-area .sa-pagination li a {
   padding: 6px 17px;
   color: #092346;
@@ -8431,7 +8414,7 @@ ul.sermons_meta {
   display: block;
 }
 
-/* line 6351, ../scss/sacremedia-tbc/_style.scss */
+/* line 6334, ../scss/sacremedia-tbc/_style.scss */
 .sa-pagination-area .sa-pagination li a:hover {
   border-radius: 4px;
   border: none;
@@ -8441,7 +8424,7 @@ ul.sermons_meta {
   color: #fff;
 }
 
-/* line 6359, ../scss/sacremedia-tbc/_style.scss */
+/* line 6342, ../scss/sacremedia-tbc/_style.scss */
 .sa-pagination-area .sa-pagination li:last-child {
   margin-right: 0;
 }
@@ -8451,12 +8434,12 @@ ul.sermons_meta {
 |	sa-prayer-section
 |---------------------------------------------
 */
-/* line 6370, ../scss/sacremedia-tbc/_style.scss */
+/* line 6353, ../scss/sacremedia-tbc/_style.scss */
 .sa-prayer-section {
   background-color: #f8f8f8;
 }
 
-/* line 6373, ../scss/sacremedia-tbc/_style.scss */
+/* line 6356, ../scss/sacremedia-tbc/_style.scss */
 .sa-blog-post {
   border: 1px solid #ebebeb;
   background-color: white;
@@ -8464,12 +8447,12 @@ ul.sermons_meta {
   margin-bottom: 25px;
 }
 
-/* line 6379, ../scss/sacremedia-tbc/_style.scss */
+/* line 6362, ../scss/sacremedia-tbc/_style.scss */
 .sa-blog-post .media img {
   margin-right: 14px;
 }
 
-/* line 6382, ../scss/sacremedia-tbc/_style.scss */
+/* line 6365, ../scss/sacremedia-tbc/_style.scss */
 .sa-blog-post .media .author-name {
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
@@ -8479,7 +8462,7 @@ ul.sermons_meta {
   margin: 4px 0 4px 0;
 }
 
-/* line 6390, ../scss/sacremedia-tbc/_style.scss */
+/* line 6373, ../scss/sacremedia-tbc/_style.scss */
 .sa-blog-post .media .post-date {
   font-family: 'Nunito', sans-serif;
   font-size: 16px;
@@ -8489,14 +8472,14 @@ ul.sermons_meta {
   margin-bottom: 17px;
 }
 
-/* line 6398, ../scss/sacremedia-tbc/_style.scss */
+/* line 6381, ../scss/sacremedia-tbc/_style.scss */
 .sa-blog-post .media .post-date span {
   font-family: 'Nunito', sans-serif;
   font-weight: 600;
   color: #0e2b4e;
 }
 
-/* line 6403, ../scss/sacremedia-tbc/_style.scss */
+/* line 6386, ../scss/sacremedia-tbc/_style.scss */
 .sa-blog-post p {
   font-family: 'Nunito', sans-serif;
   font-size: 15px;
@@ -8506,12 +8489,12 @@ ul.sermons_meta {
   margin-bottom: 28px;
 }
 
-/* line 6411, ../scss/sacremedia-tbc/_style.scss */
+/* line 6394, ../scss/sacremedia-tbc/_style.scss */
 .sa-blog-post .dark-btn i {
   margin-right: 10px;
 }
 
-/* line 6414, ../scss/sacremedia-tbc/_style.scss */
+/* line 6397, ../scss/sacremedia-tbc/_style.scss */
 .sa-blog-post .meta-share span {
   border: 1px solid #dddddd;
   padding: 9px 15px 8px 16px;
@@ -8519,24 +8502,24 @@ ul.sermons_meta {
   line-height: 52px;
 }
 
-/* line 6420, ../scss/sacremedia-tbc/_style.scss */
+/* line 6403, ../scss/sacremedia-tbc/_style.scss */
 .sa-blog-post .meta-share span:hover {
   color: #d1a858;
 }
 
-/* line 6423, ../scss/sacremedia-tbc/_style.scss */
+/* line 6406, ../scss/sacremedia-tbc/_style.scss */
 .sa-blog-post .meta-share span i {
   margin-right: 10px;
 }
 
-/* line 6426, ../scss/sacremedia-tbc/_style.scss */
+/* line 6409, ../scss/sacremedia-tbc/_style.scss */
 .sa-blog-post .meta-share .share {
   margin-left: -5px;
   border-radius: 0 6px 6px 0;
 }
 
 /**** sa-sidebar *****/
-/* line 6431, ../scss/sacremedia-tbc/_style.scss */
+/* line 6414, ../scss/sacremedia-tbc/_style.scss */
 .widget {
   background-color: #fff;
   padding: 27px 20px 31px 21px;
@@ -8544,7 +8527,7 @@ ul.sermons_meta {
   margin-bottom: 25px;
 }
 
-/* line 6437, ../scss/sacremedia-tbc/_style.scss */
+/* line 6420, ../scss/sacremedia-tbc/_style.scss */
 .widget .widget-title {
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
@@ -8556,12 +8539,12 @@ ul.sermons_meta {
   padding-bottom: 19px;
 }
 
-/* line 6447, ../scss/sacremedia-tbc/_style.scss */
+/* line 6430, ../scss/sacremedia-tbc/_style.scss */
 .sa-widget-search .widget-title {
   border-bottom: 0;
 }
 
-/* line 6450, ../scss/sacremedia-tbc/_style.scss */
+/* line 6433, ../scss/sacremedia-tbc/_style.scss */
 .sa-widget-search .search .form-control {
   font-family: 'Nunito', sans-serif;
   border: 1px solid #ebebeb;
@@ -8571,7 +8554,7 @@ ul.sermons_meta {
   padding: 0 45px 0 15px;
 }
 
-/* line 6458, ../scss/sacremedia-tbc/_style.scss */
+/* line 6441, ../scss/sacremedia-tbc/_style.scss */
 .sa-widget-search .search:after {
   right: 15px;
   font-family: fontawesome;
@@ -8579,7 +8562,7 @@ ul.sermons_meta {
   color: #8695a6;
 }
 
-/* line 6464, ../scss/sacremedia-tbc/_style.scss */
+/* line 6447, ../scss/sacremedia-tbc/_style.scss */
 .sa-widget-search .search .dark-btn {
   width: 100%;
   background-color: #0e2b4e;
@@ -8589,18 +8572,18 @@ ul.sermons_meta {
   font-weight: 500;
 }
 
-/* line 6472, ../scss/sacremedia-tbc/_style.scss */
+/* line 6455, ../scss/sacremedia-tbc/_style.scss */
 .sa-widget-recent .widget-title {
   border: 0;
 }
 
-/* line 6475, ../scss/sacremedia-tbc/_style.scss */
+/* line 6458, ../scss/sacremedia-tbc/_style.scss */
 .sa-widget-recent .recent-post-title {
   border-top: 1px solid #ebebeb;
   padding: 19px 0 0 0;
 }
 
-/* line 6479, ../scss/sacremedia-tbc/_style.scss */
+/* line 6462, ../scss/sacremedia-tbc/_style.scss */
 .sa-widget-recent .recent-post-title a {
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
@@ -8611,7 +8594,7 @@ ul.sermons_meta {
   display: block;
 }
 
-/* line 6488, ../scss/sacremedia-tbc/_style.scss */
+/* line 6471, ../scss/sacremedia-tbc/_style.scss */
 .sa-widget-recent .recent-post-title p {
   font-family: 'Nunito', sans-serif;
   font-size: 16px;
@@ -8621,23 +8604,23 @@ ul.sermons_meta {
   margin-bottom: 19px;
 }
 
-/* line 6496, ../scss/sacremedia-tbc/_style.scss */
+/* line 6479, ../scss/sacremedia-tbc/_style.scss */
 .sa-widget-recent .recent-post-title .calendar {
   margin: 0;
 }
 
-/* line 6499, ../scss/sacremedia-tbc/_style.scss */
+/* line 6482, ../scss/sacremedia-tbc/_style.scss */
 .sa-widget-recent .recent-post-title p i {
   margin-right: 8px;
 }
 
-/* line 6502, ../scss/sacremedia-tbc/_style.scss */
+/* line 6485, ../scss/sacremedia-tbc/_style.scss */
 .sa-widget-event .event-details {
   border-bottom: 1px solid #ebebeb;
   padding-top: 25px;
 }
 
-/* line 6506, ../scss/sacremedia-tbc/_style.scss */
+/* line 6489, ../scss/sacremedia-tbc/_style.scss */
 .sa-widget-event .event-details .media .event-date {
   font-family: 'Nunito', sans-serif;
   font-size: 14px;
@@ -8649,7 +8632,7 @@ ul.sermons_meta {
   padding-right: 20px;
 }
 
-/* line 6516, ../scss/sacremedia-tbc/_style.scss */
+/* line 6499, ../scss/sacremedia-tbc/_style.scss */
 .sa-widget-event .event-details .media .event-date span {
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
@@ -8658,7 +8641,7 @@ ul.sermons_meta {
   color: #deb668;
 }
 
-/* line 6523, ../scss/sacremedia-tbc/_style.scss */
+/* line 6506, ../scss/sacremedia-tbc/_style.scss */
 .sa-widget-event .media .media-body h5 {
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
@@ -8668,7 +8651,7 @@ ul.sermons_meta {
   margin-bottom: 5px;
 }
 
-/* line 6531, ../scss/sacremedia-tbc/_style.scss */
+/* line 6514, ../scss/sacremedia-tbc/_style.scss */
 .sa-widget-event .media .media-body p {
   font-family: 'Nunito', sans-serif;
   font-size: 16px;
@@ -8678,7 +8661,7 @@ ul.sermons_meta {
   margin-bottom: 22px;
 }
 
-/* line 6539, ../scss/sacremedia-tbc/_style.scss */
+/* line 6522, ../scss/sacremedia-tbc/_style.scss */
 .sa-widget-event .dark-btn {
   margin-top: 28px;
   background-color: #f7edd9;
@@ -8688,49 +8671,49 @@ ul.sermons_meta {
 
 /***** sa-prayer-section-responsive ****/
 @media all and (max-width: 1024px) {
-  /* line 6547, ../scss/sacremedia-tbc/_style.scss */
+  /* line 6530, ../scss/sacremedia-tbc/_style.scss */
   .widget .widget-title {
     font-size: 19px;
   }
 }
 @media all and (max-width: 767px) {
-  /* line 6552, ../scss/sacremedia-tbc/_style.scss */
+  /* line 6535, ../scss/sacremedia-tbc/_style.scss */
   .sa-blog-post .media {
     display: inherit;
   }
 
-  /* line 6555, ../scss/sacremedia-tbc/_style.scss */
+  /* line 6538, ../scss/sacremedia-tbc/_style.scss */
   .sa-blog-post .media img {
     margin-bottom: 15px;
   }
 
-  /* line 6558, ../scss/sacremedia-tbc/_style.scss */
+  /* line 6541, ../scss/sacremedia-tbc/_style.scss */
   .sa-blog-post .meta-share span {
     margin-bottom: 15px;
   }
 
-  /* line 6561, ../scss/sacremedia-tbc/_style.scss */
+  /* line 6544, ../scss/sacremedia-tbc/_style.scss */
   .sa-blog-post p {
     margin-top: 15px;
   }
 }
 @media all and (max-width: 424px) {
-  /* line 6566, ../scss/sacremedia-tbc/_style.scss */
+  /* line 6549, ../scss/sacremedia-tbc/_style.scss */
   .sa-widget-event .media .media-body h5 {
     font-size: 13px;
   }
 
-  /* line 6569, ../scss/sacremedia-tbc/_style.scss */
+  /* line 6552, ../scss/sacremedia-tbc/_style.scss */
   .sa-widget-event .media .media-body p {
     font-size: 13px;
   }
 }
-/* line 6575, ../scss/sacremedia-tbc/_style.scss */
+/* line 6558, ../scss/sacremedia-tbc/_style.scss */
 .sa-social-area {
   display: inline-flex;
 }
 
-/* line 6578, ../scss/sacremedia-tbc/_style.scss */
+/* line 6561, ../scss/sacremedia-tbc/_style.scss */
 .sa-social-area span {
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
@@ -8741,19 +8724,19 @@ ul.sermons_meta {
   margin-top: 10px;
 }
 
-/* line 6587, ../scss/sacremedia-tbc/_style.scss */
+/* line 6570, ../scss/sacremedia-tbc/_style.scss */
 .sa-social-area .list-style-none {
   list-style: none;
   padding-left: 0;
 }
 
-/* line 6591, ../scss/sacremedia-tbc/_style.scss */
+/* line 6574, ../scss/sacremedia-tbc/_style.scss */
 .sa-social-area .list-style-none li {
   display: inline-block;
   margin-right: 6px;
 }
 
-/* line 6595, ../scss/sacremedia-tbc/_style.scss */
+/* line 6578, ../scss/sacremedia-tbc/_style.scss */
 .sa-social-area .list-style-none li a i {
   height: 45px;
   width: 45px;
@@ -8763,28 +8746,28 @@ ul.sermons_meta {
   color: #fff;
 }
 
-/* line 6603, ../scss/sacremedia-tbc/_style.scss */
+/* line 6586, ../scss/sacremedia-tbc/_style.scss */
 .sa-social-area .list-style-none li a .facebook {
   background-color: #5d82d1;
 }
 
-/* line 6606, ../scss/sacremedia-tbc/_style.scss */
+/* line 6589, ../scss/sacremedia-tbc/_style.scss */
 .sa-social-area .list-style-none li a .twitter {
   background-color: #40bff5;
 }
 
-/* line 6609, ../scss/sacremedia-tbc/_style.scss */
+/* line 6592, ../scss/sacremedia-tbc/_style.scss */
 .sa-social-area .list-style-none li a .pinterest {
   background-color: #e13138;
 }
 
-/* line 6612, ../scss/sacremedia-tbc/_style.scss */
+/* line 6595, ../scss/sacremedia-tbc/_style.scss */
 .sa-social-area .list-style-none li a .google-plus {
   background-color: #eb5e4c;
 }
 
 @media all and (max-width: 480px) {
-  /* line 6617, ../scss/sacremedia-tbc/_style.scss */
+  /* line 6600, ../scss/sacremedia-tbc/_style.scss */
   .sa-social-area .list-style-none li a i {
     height: 35px;
     width: 35px;
@@ -8799,30 +8782,30 @@ ul.sermons_meta {
 | 3.sa-fund-section
 |---------------------------------------------
 */
-/* line 6631, ../scss/sacremedia-tbc/_style.scss */
+/* line 6614, ../scss/sacremedia-tbc/_style.scss */
 .sa-fund-intro {
   margin-top: -40px;
 }
 
-/* line 6634, ../scss/sacremedia-tbc/_style.scss */
+/* line 6617, ../scss/sacremedia-tbc/_style.scss */
 .sa-fund-intro-content {
   box-shadow: rgba(0, 0, 0, 0.04) 0px 8px 10px;
 }
 
-/* line 6637, ../scss/sacremedia-tbc/_style.scss */
+/* line 6620, ../scss/sacremedia-tbc/_style.scss */
 .sa-fund-intro-content .media img {
   width: auto;
   margin-right: 20px;
 }
 
-/* line 6641, ../scss/sacremedia-tbc/_style.scss */
+/* line 6624, ../scss/sacremedia-tbc/_style.scss */
 .sa-fund-intro-content .media {
   background-color: #fff;
   padding: 7px 10px 17px 17px;
   border-radius: 5px;
 }
 
-/* line 6646, ../scss/sacremedia-tbc/_style.scss */
+/* line 6629, ../scss/sacremedia-tbc/_style.scss */
 .sa-fund-intro-content .media .media-body h5 {
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
@@ -8832,7 +8815,7 @@ ul.sermons_meta {
   margin-bottom: 3px;
 }
 
-/* line 6654, ../scss/sacremedia-tbc/_style.scss */
+/* line 6637, ../scss/sacremedia-tbc/_style.scss */
 .sa-fund-intro-content .media .media-body p {
   font-family: 'Nunito', sans-serif;
   font-size: 16px;
@@ -8842,30 +8825,30 @@ ul.sermons_meta {
   margin-bottom: 0;
 }
 
-/* line 6662, ../scss/sacremedia-tbc/_style.scss */
+/* line 6645, ../scss/sacremedia-tbc/_style.scss */
 .sa-fund-intro-content .media .media-body {
   margin-top: 10px;
 }
 
 /****** sa-fund-intro-responsive ******/
 @media all and (max-width: 1024px) {
-  /* line 6667, ../scss/sacremedia-tbc/_style.scss */
+  /* line 6650, ../scss/sacremedia-tbc/_style.scss */
   .sa-fund-intro-content .media .media-body h5 {
     font-size: 16px;
   }
 
-  /* line 6670, ../scss/sacremedia-tbc/_style.scss */
+  /* line 6653, ../scss/sacremedia-tbc/_style.scss */
   .sa-fund-intro-content .media .media-body p {
     font-size: 11px;
   }
 }
 @media all and (max-width: 767px) {
-  /* line 6675, ../scss/sacremedia-tbc/_style.scss */
+  /* line 6658, ../scss/sacremedia-tbc/_style.scss */
   .sa-fund-intro-content .media {
     border-radius: 0;
   }
 
-  /* line 6678, ../scss/sacremedia-tbc/_style.scss */
+  /* line 6661, ../scss/sacremedia-tbc/_style.scss */
   .sa-fund-intro {
     margin-top: 0;
   }
@@ -8875,29 +8858,29 @@ ul.sermons_meta {
 | 3.sa-fund-section
 |---------------------------------------------
 */
-/* line 6689, ../scss/sacremedia-tbc/_style.scss */
+/* line 6672, ../scss/sacremedia-tbc/_style.scss */
 .sa-fund-carousel {
   z-index: 0;
 }
 
-/* line 6692, ../scss/sacremedia-tbc/_style.scss */
+/* line 6675, ../scss/sacremedia-tbc/_style.scss */
 .sa-fund-carousel .owl-nav {
   top: 40%;
 }
 
-/* line 6695, ../scss/sacremedia-tbc/_style.scss */
+/* line 6678, ../scss/sacremedia-tbc/_style.scss */
 .sa-fund-carousel .owl-nav .owl-prev i {
   font-size: 25px;
   color: #fff;
 }
 
-/* line 6699, ../scss/sacremedia-tbc/_style.scss */
+/* line 6682, ../scss/sacremedia-tbc/_style.scss */
 .sa-fund-carousel .owl-nav .owl-next i {
   font-size: 25px;
   color: #fff;
 }
 
-/* line 6703, ../scss/sacremedia-tbc/_style.scss */
+/* line 6686, ../scss/sacremedia-tbc/_style.scss */
 .sa-fund-carousel .owl-nav .owl-prev {
   background-color: #243c55;
   height: 150px;
@@ -8908,7 +8891,7 @@ ul.sermons_meta {
   opacity: 0.6;
 }
 
-/* line 6712, ../scss/sacremedia-tbc/_style.scss */
+/* line 6695, ../scss/sacremedia-tbc/_style.scss */
 .sa-fund-carousel .owl-nav .owl-next {
   background-color: #243c55;
   height: 150px;
@@ -8919,25 +8902,25 @@ ul.sermons_meta {
   opacity: 0.6;
 }
 
-/* line 6721, ../scss/sacremedia-tbc/_style.scss */
+/* line 6704, ../scss/sacremedia-tbc/_style.scss */
 .sa-fund-carousel .owl-nav .owl-prev:after {
   content: none;
 }
 
-/* line 6724, ../scss/sacremedia-tbc/_style.scss */
+/* line 6707, ../scss/sacremedia-tbc/_style.scss */
 .sa-fund-carousel .owl-nav .owl-next:after {
   content: none;
 }
 
 /***** sa-fund-section-responsive ****/
 @media all and (max-width: 992px) {
-  /* line 6729, ../scss/sacremedia-tbc/_style.scss */
+  /* line 6712, ../scss/sacremedia-tbc/_style.scss */
   .sa-fund-carousel .owl-nav .owl-prev {
     height: 50px;
     width: 30px;
   }
 
-  /* line 6733, ../scss/sacremedia-tbc/_style.scss */
+  /* line 6716, ../scss/sacremedia-tbc/_style.scss */
   .sa-fund-carousel .owl-nav .owl-next {
     height: 50px;
     width: 30px;
@@ -8948,7 +8931,7 @@ ul.sermons_meta {
 | 3.sa-gallery-isotop
 |---------------------------------------------
 */
-/* line 6745, ../scss/sacremedia-tbc/_style.scss */
+/* line 6728, ../scss/sacremedia-tbc/_style.scss */
 .sa-gallery-item {
   float: left;
   width: 20%;
@@ -8967,40 +8950,40 @@ ul.sermons_meta {
 |	sa-timeline-element
 |---------------------------------------------
 */
-/* line 6769, ../scss/sacremedia-tbc/_style.scss */
+/* line 6752, ../scss/sacremedia-tbc/_style.scss */
 .sa-timeline-element {
   padding: 50px 0;
   position: relative;
 }
 
-/* line 6773, ../scss/sacremedia-tbc/_style.scss */
+/* line 6756, ../scss/sacremedia-tbc/_style.scss */
 .sa-timeline-nodes {
   margin-bottom: 50px;
   position: relative;
 }
 
-/* line 6777, ../scss/sacremedia-tbc/_style.scss */
+/* line 6760, ../scss/sacremedia-tbc/_style.scss */
 .timeline-nodes {
   padding-bottom: 25px;
   position: relative;
 }
 
-/* line 6781, ../scss/sacremedia-tbc/_style.scss */
+/* line 6764, ../scss/sacremedia-tbc/_style.scss */
 .sa-timeline-nodes:nth-child(even) {
   flex-direction: row-reverse;
 }
 
-/* line 6784, ../scss/sacremedia-tbc/_style.scss */
+/* line 6767, ../scss/sacremedia-tbc/_style.scss */
 .sa-timeline-element h3 {
   padding: 35px 25px 3px 25px;
 }
 
-/* line 6787, ../scss/sacremedia-tbc/_style.scss */
+/* line 6770, ../scss/sacremedia-tbc/_style.scss */
 .sa-timeline-element p {
   padding: 0 25px 35px 25px;
 }
 
-/* line 6790, ../scss/sacremedia-tbc/_style.scss */
+/* line 6773, ../scss/sacremedia-tbc/_style.scss */
 .sa-timeline-element h3 {
   font-family: 'Poppins', sans-serif;
   font-size: 24px;
@@ -9009,7 +8992,7 @@ ul.sermons_meta {
   font-weight: 600;
 }
 
-/* line 6797, ../scss/sacremedia-tbc/_style.scss */
+/* line 6780, ../scss/sacremedia-tbc/_style.scss */
 .sa-timeline-element p, .sa-timeline-element time {
   color: #555b62;
   font-family: 'Nunito', sans-serif;
@@ -9019,13 +9002,13 @@ ul.sermons_meta {
   margin: 0;
 }
 
-/* line 6805, ../scss/sacremedia-tbc/_style.scss */
+/* line 6788, ../scss/sacremedia-tbc/_style.scss */
 .sa-timeline-date {
   margin-top: 30px;
   padding: 0;
 }
 
-/* line 6809, ../scss/sacremedia-tbc/_style.scss */
+/* line 6792, ../scss/sacremedia-tbc/_style.scss */
 .sa-timeline-date span.sa-month {
   font-size: 15px;
   text-align: center;
@@ -9035,7 +9018,7 @@ ul.sermons_meta {
   text-transform: uppercase;
 }
 
-/* line 6817, ../scss/sacremedia-tbc/_style.scss */
+/* line 6800, ../scss/sacremedia-tbc/_style.scss */
 .sa-timeline-date span {
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
@@ -9044,7 +9027,7 @@ ul.sermons_meta {
   color: #022147;
 }
 
-/* line 6824, ../scss/sacremedia-tbc/_style.scss */
+/* line 6807, ../scss/sacremedia-tbc/_style.scss */
 .sa-timeline-element::before {
   content: "";
   display: block;
@@ -9058,12 +9041,12 @@ ul.sermons_meta {
   transform: translateX(-50%);
 }
 
-/* line 6837, ../scss/sacremedia-tbc/_style.scss */
+/* line 6820, ../scss/sacremedia-tbc/_style.scss */
 .sa-timeline-content {
   transition: .3s;
 }
 
-/* line 6840, ../scss/sacremedia-tbc/_style.scss */
+/* line 6823, ../scss/sacremedia-tbc/_style.scss */
 .sa-timeline-content:hover {
   border: none;
   position: relative;
@@ -9073,23 +9056,23 @@ ul.sermons_meta {
   cursor: pointer;
 }
 
-/* line 6848, ../scss/sacremedia-tbc/_style.scss */
+/* line 6831, ../scss/sacremedia-tbc/_style.scss */
 .sa-timeline-nodes:nth-child(odd) h3,
 .sa-timeline-nodes:nth-child(odd) p {
   text-align: right;
 }
 
-/* line 6852, ../scss/sacremedia-tbc/_style.scss */
+/* line 6835, ../scss/sacremedia-tbc/_style.scss */
 .sa-timeline-nodes:nth-child(odd) .sa-timeline-date {
   text-align: left;
 }
 
-/* line 6856, ../scss/sacremedia-tbc/_style.scss */
+/* line 6839, ../scss/sacremedia-tbc/_style.scss */
 .sa-timeline-nodes:nth-child(even) .sa-timeline-date {
   text-align: right;
 }
 
-/* line 6859, ../scss/sacremedia-tbc/_style.scss */
+/* line 6842, ../scss/sacremedia-tbc/_style.scss */
 .sa-timeline-nodes:nth-child(odd) .sa-timeline-content:hover::after {
   content: "";
   position: absolute;
@@ -9101,7 +9084,7 @@ ul.sermons_meta {
   border-bottom: 10px solid transparent;
 }
 
-/* line 6869, ../scss/sacremedia-tbc/_style.scss */
+/* line 6852, ../scss/sacremedia-tbc/_style.scss */
 .sa-timeline-nodes:nth-child(even) .sa-timeline-content:hover::after {
   content: "";
   position: absolute;
@@ -9113,13 +9096,13 @@ ul.sermons_meta {
   border-bottom: 10px solid transparent;
 }
 
-/* line 6879, ../scss/sacremedia-tbc/_style.scss */
+/* line 6862, ../scss/sacremedia-tbc/_style.scss */
 .sa-timeline-image {
   position: relative;
   z-index: 21;
 }
 
-/* line 6883, ../scss/sacremedia-tbc/_style.scss */
+/* line 6866, ../scss/sacremedia-tbc/_style.scss */
 .sa-timeline-image i {
   background: #fff;
   padding: 5px;
@@ -9130,24 +9113,24 @@ ul.sermons_meta {
   font-weight: bolder;
 }
 
-/* line 6892, ../scss/sacremedia-tbc/_style.scss */
+/* line 6875, ../scss/sacremedia-tbc/_style.scss */
 .sa-timeline-image img {
   position: relative;
   z-index: 100;
 }
 
 /* Tab Menu */
-/* line 6897, ../scss/sacremedia-tbc/_style.scss */
+/* line 6880, ../scss/sacremedia-tbc/_style.scss */
 .sa-timelines-tab-menu {
   text-align: center;
 }
 
-/* line 6900, ../scss/sacremedia-tbc/_style.scss */
+/* line 6883, ../scss/sacremedia-tbc/_style.scss */
 .sa-timelines-tab-menu ul {
   display: inline-flex;
 }
 
-/* line 6903, ../scss/sacremedia-tbc/_style.scss */
+/* line 6886, ../scss/sacremedia-tbc/_style.scss */
 .sa-timelines-tab-menu ul li a {
   padding: 10px 46px;
   display: block;
@@ -9160,47 +9143,47 @@ ul.sermons_meta {
   font-weight: 600;
 }
 
-/* line 6914, ../scss/sacremedia-tbc/_style.scss */
+/* line 6897, ../scss/sacremedia-tbc/_style.scss */
 .sa-timelines-tab-menu ul li {
   margin: 0;
   border-right: 1px solid #deb668;
 }
 
-/* line 6918, ../scss/sacremedia-tbc/_style.scss */
+/* line 6901, ../scss/sacremedia-tbc/_style.scss */
 .sa-timelines-tab-menu ul li:last-child {
   border-right: none;
 }
 
-/* line 6921, ../scss/sacremedia-tbc/_style.scss */
+/* line 6904, ../scss/sacremedia-tbc/_style.scss */
 .sa-timelines-tab-menu ul li a.active {
   background: #deb668;
   color: #fff;
 }
 
-/* line 6925, ../scss/sacremedia-tbc/_style.scss */
+/* line 6908, ../scss/sacremedia-tbc/_style.scss */
 .sa-timelines-tab-menu ul {
   border: 1px solid #deb668;
 }
 
-/* line 6928, ../scss/sacremedia-tbc/_style.scss */
+/* line 6911, ../scss/sacremedia-tbc/_style.scss */
 .sa-more-button {
   margin-top: 180px;
 }
 
 /*small device style*/
 @media (max-width: 767px) {
-  /* line 6935, ../scss/sacremedia-tbc/_style.scss */
+  /* line 6918, ../scss/sacremedia-tbc/_style.scss */
   .sa-timeline-nodes:nth-child(odd) h3,
   .sa-timeline-nodes:nth-child(odd) p {
     text-align: left;
   }
 
-  /* line 6939, ../scss/sacremedia-tbc/_style.scss */
+  /* line 6922, ../scss/sacremedia-tbc/_style.scss */
   .sa-timeline-nodes:nth-child(even) {
     flex-direction: row;
   }
 
-  /* line 6942, ../scss/sacremedia-tbc/_style.scss */
+  /* line 6925, ../scss/sacremedia-tbc/_style.scss */
   .sa-timeline-element::before {
     content: "";
     display: block;
@@ -9212,26 +9195,26 @@ ul.sermons_meta {
     transform: translateX(-50%);
   }
 
-  /* line 6952, ../scss/sacremedia-tbc/_style.scss */
+  /* line 6935, ../scss/sacremedia-tbc/_style.scss */
   .sa-timeline-element h3 {
     font-size: 23px;
     line-height: 30px;
     margin-bottom: 30px;
   }
 
-  /* line 6957, ../scss/sacremedia-tbc/_style.scss */
+  /* line 6940, ../scss/sacremedia-tbc/_style.scss */
   .sa-timeline-element p {
     font-size: 14px;
   }
 
-  /* line 6960, ../scss/sacremedia-tbc/_style.scss */
+  /* line 6943, ../scss/sacremedia-tbc/_style.scss */
   .sa-timeline-image {
     position: absolute;
     left: 0%;
     top: 0px;
   }
 
-  /* line 6965, ../scss/sacremedia-tbc/_style.scss */
+  /* line 6948, ../scss/sacremedia-tbc/_style.scss */
   .sa-timeline-nodes:nth-child(odd) .sa-timeline-content:hover::after {
     content: "";
     position: absolute;
@@ -9245,7 +9228,7 @@ ul.sermons_meta {
     border-bottom: 10px solid transparent;
   }
 
-  /* line 6977, ../scss/sacremedia-tbc/_style.scss */
+  /* line 6960, ../scss/sacremedia-tbc/_style.scss */
   .sa-timeline-nodes:nth-child(even) .sa-timeline-content:hover::after {
     content: "";
     position: absolute;
@@ -9257,79 +9240,79 @@ ul.sermons_meta {
     border-bottom: 10px solid transparent;
   }
 
-  /* line 6987, ../scss/sacremedia-tbc/_style.scss */
+  /* line 6970, ../scss/sacremedia-tbc/_style.scss */
   .sa-timeline-nodes:nth-child(even) .sa-timeline-date {
     text-align: left;
   }
 
-  /* line 6990, ../scss/sacremedia-tbc/_style.scss */
+  /* line 6973, ../scss/sacremedia-tbc/_style.scss */
   .sa-timeline-image::before {
     width: 65px;
     height: 65px;
   }
 
-  /* line 6994, ../scss/sacremedia-tbc/_style.scss */
+  /* line 6977, ../scss/sacremedia-tbc/_style.scss */
   .sa-timeline-element h3 {
     padding: 25px 15px 0px 15px;
   }
 
-  /* line 6997, ../scss/sacremedia-tbc/_style.scss */
+  /* line 6980, ../scss/sacremedia-tbc/_style.scss */
   .sa-timelines-tab-menu ul li,
   .sa-timelines-tab-menu ul {
     border: 0;
   }
 
-  /* line 7001, ../scss/sacremedia-tbc/_style.scss */
+  /* line 6984, ../scss/sacremedia-tbc/_style.scss */
   .sa-timelines-tab-menu ul li {
     margin: 5px 0;
   }
 
-  /* line 7004, ../scss/sacremedia-tbc/_style.scss */
+  /* line 6987, ../scss/sacremedia-tbc/_style.scss */
   .sa-timelines-tab-menu ul li a {
     border: 1px solid #deb668;
   }
 
-  /* line 7007, ../scss/sacremedia-tbc/_style.scss */
+  /* line 6990, ../scss/sacremedia-tbc/_style.scss */
   .sa-timelines-tab-menu ul {
     display: inline-block;
   }
 
-  /* line 7010, ../scss/sacremedia-tbc/_style.scss */
+  /* line 6993, ../scss/sacremedia-tbc/_style.scss */
   .sa-timeline-nodes {
     margin-bottom: 0;
   }
 }
 @media (max-width: 320px) {
-  /* line 7016, ../scss/sacremedia-tbc/_style.scss */
+  /* line 6999, ../scss/sacremedia-tbc/_style.scss */
   .sa-timeline-element::before {
     left: 5%;
   }
 }
 /* Event Shedule */
-/* line 7027, ../scss/sacremedia-tbc/_style.scss */
+/* line 7010, ../scss/sacremedia-tbc/_style.scss */
 ul.sa-speaker-event-schedule {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-/* line 7032, ../scss/sacremedia-tbc/_style.scss */
+/* line 7015, ../scss/sacremedia-tbc/_style.scss */
 ul.sa-speaker-event-schedule li {
   margin: 0;
   display: flex;
 }
 
-/* line 7036, ../scss/sacremedia-tbc/_style.scss */
+/* line 7019, ../scss/sacremedia-tbc/_style.scss */
 ul.sa-speaker-event-schedule li.day {
   position: relative;
 }
 
-/* line 7039, ../scss/sacremedia-tbc/_style.scss */
+/* line 7022, ../scss/sacremedia-tbc/_style.scss */
 ul.sa-speaker-event-schedule li.sa-day-area {
   margin-bottom: 40px;
 }
 
-/* line 7042, ../scss/sacremedia-tbc/_style.scss */
+/* line 7025, ../scss/sacremedia-tbc/_style.scss */
 ul.sa-speaker-event-schedule li.sa-day-area .entry-day {
   font-size: 20px;
   font-family: 'Poppins', sans-serif;
@@ -9337,12 +9320,12 @@ ul.sa-speaker-event-schedule li.sa-day-area .entry-day {
   color: #022147;
 }
 
-/* line 7048, ../scss/sacremedia-tbc/_style.scss */
+/* line 7031, ../scss/sacremedia-tbc/_style.scss */
 ul.sa-speaker-event-schedule li:first-child.day:after {
   content: none;
 }
 
-/* line 7051, ../scss/sacremedia-tbc/_style.scss */
+/* line 7034, ../scss/sacremedia-tbc/_style.scss */
 ul.sa-speaker-event-schedule li.day:after {
   content: '';
   display: block;
@@ -9356,13 +9339,13 @@ ul.sa-speaker-event-schedule li.day:after {
   z-index: -1;
 }
 
-/* line 7063, ../scss/sacremedia-tbc/_style.scss */
+/* line 7046, ../scss/sacremedia-tbc/_style.scss */
 ul.sa-speaker-event-schedule li.day .entry-day {
   display: inline-block;
   margin: 0 70px;
 }
 
-/* line 7067, ../scss/sacremedia-tbc/_style.scss */
+/* line 7050, ../scss/sacremedia-tbc/_style.scss */
 ul.sa-speaker-event-schedule li.day .entry-day .entry-dot {
   position: relative;
   width: 70px;
@@ -9370,7 +9353,7 @@ ul.sa-speaker-event-schedule li.day .entry-day .entry-dot {
   border-radius: 50%;
 }
 
-/* line 7073, ../scss/sacremedia-tbc/_style.scss */
+/* line 7056, ../scss/sacremedia-tbc/_style.scss */
 ul.sa-speaker-event-schedule li.day .entry-day .entry-date {
   margin-top: 19px;
   font-size: 16px;
@@ -9378,7 +9361,7 @@ ul.sa-speaker-event-schedule li.day .entry-day .entry-date {
   color: #022147;
 }
 
-/* line 7079, ../scss/sacremedia-tbc/_style.scss */
+/* line 7062, ../scss/sacremedia-tbc/_style.scss */
 ul.sa-speaker-event-schedule li.day .entry-day .entry-dot:before {
   content: '';
   position: absolute;
@@ -9393,7 +9376,7 @@ ul.sa-speaker-event-schedule li.day .entry-day .entry-dot:before {
   border: 2px solid #e1bd76;
 }
 
-/* line 7092, ../scss/sacremedia-tbc/_style.scss */
+/* line 7075, ../scss/sacremedia-tbc/_style.scss */
 ul.sa-speaker-event-schedule li.day .entry-day .entry-thumb {
   position: relative;
   width: 70px;
@@ -9405,13 +9388,13 @@ ul.sa-speaker-event-schedule li.day .entry-day .entry-thumb {
   border: 2px solid #e1bd76;
 }
 
-/* line 7102, ../scss/sacremedia-tbc/_style.scss */
+/* line 7085, ../scss/sacremedia-tbc/_style.scss */
 ul.sa-speaker-event-schedule li.day .entry-day .entry-thumb img {
   height: 58px;
   width: 58px;
 }
 
-/* line 7106, ../scss/sacremedia-tbc/_style.scss */
+/* line 7089, ../scss/sacremedia-tbc/_style.scss */
 ul.sa-speaker-event-schedule li.day .entry-day .entry-thumb:after {
   content: '';
   position: absolute;
@@ -9425,7 +9408,7 @@ ul.sa-speaker-event-schedule li.day .entry-day .entry-thumb:after {
   z-index: -1;
 }
 
-/* line 7118, ../scss/sacremedia-tbc/_style.scss */
+/* line 7101, ../scss/sacremedia-tbc/_style.scss */
 ul.sa-speaker-event-schedule li.day .entry-day .entry-dot:after {
   content: '';
   position: absolute;
@@ -9439,45 +9422,45 @@ ul.sa-speaker-event-schedule li.day .entry-day .entry-dot:after {
   margin-top: -25px;
 }
 
-/* line 7130, ../scss/sacremedia-tbc/_style.scss */
+/* line 7113, ../scss/sacremedia-tbc/_style.scss */
 .after-none:after {
   display: none !important;
 }
 
-/* line 7133, ../scss/sacremedia-tbc/_style.scss */
+/* line 7116, ../scss/sacremedia-tbc/_style.scss */
 .before-none:before {
   display: none !important;
 }
 
-/* line 7136, ../scss/sacremedia-tbc/_style.scss */
+/* line 7119, ../scss/sacremedia-tbc/_style.scss */
 ul.sa-speaker-event-schedule li.day:last-child .entry-dot:after {
   display: none !important;
 }
 
 @media all and (max-width: 991px) {
-  /* line 7142, ../scss/sacremedia-tbc/_style.scss */
+  /* line 7125, ../scss/sacremedia-tbc/_style.scss */
   ul.sa-speaker-event-schedule li.day:after {
     width: 82%;
   }
 
-  /* line 7145, ../scss/sacremedia-tbc/_style.scss */
+  /* line 7128, ../scss/sacremedia-tbc/_style.scss */
   ul.sa-speaker-event-schedule li.day .entry-day {
     display: inline-block;
     margin: 0 36px;
   }
 
-  /* line 7149, ../scss/sacremedia-tbc/_style.scss */
+  /* line 7132, ../scss/sacremedia-tbc/_style.scss */
   ul.sa-speaker-event-schedule li.sa-day-area .entry-day {
     margin: 0 45px 0 44px !important;
   }
 }
 @media all and (max-width: 767px) {
-  /* line 7155, ../scss/sacremedia-tbc/_style.scss */
+  /* line 7138, ../scss/sacremedia-tbc/_style.scss */
   ul.sa-speaker-event-schedule li.sa-day-area {
     margin-bottom: 20px;
   }
 
-  /* line 7158, ../scss/sacremedia-tbc/_style.scss */
+  /* line 7141, ../scss/sacremedia-tbc/_style.scss */
   ul.sa-speaker-event-schedule li.day .entry-day .entry-thumb {
     width: 35px;
     height: 35px;
@@ -9485,37 +9468,37 @@ ul.sa-speaker-event-schedule li.day:last-child .entry-dot:after {
     border: 1px solid #e1bd76;
   }
 
-  /* line 7164, ../scss/sacremedia-tbc/_style.scss */
+  /* line 7147, ../scss/sacremedia-tbc/_style.scss */
   ul.sa-speaker-event-schedule li.day .entry-day .entry-thumb img {
     height: 25px;
     width: 25px;
   }
 
-  /* line 7168, ../scss/sacremedia-tbc/_style.scss */
+  /* line 7151, ../scss/sacremedia-tbc/_style.scss */
   ul.sa-speaker-event-schedule li.day .entry-day {
     margin: 0 15px;
   }
 
-  /* line 7171, ../scss/sacremedia-tbc/_style.scss */
+  /* line 7154, ../scss/sacremedia-tbc/_style.scss */
   ul.sa-speaker-event-schedule li.sa-day-area .entry-day {
     font-size: 12px;
     margin: 0 15px !important;
   }
 
-  /* line 7175, ../scss/sacremedia-tbc/_style.scss */
+  /* line 7158, ../scss/sacremedia-tbc/_style.scss */
   ul.sa-speaker-event-schedule li.day .entry-day .entry-date {
     margin-top: 5px;
     font-size: 10px;
     font-family: 'Nunito', sans-serif;
   }
 
-  /* line 7180, ../scss/sacremedia-tbc/_style.scss */
+  /* line 7163, ../scss/sacremedia-tbc/_style.scss */
   ul.sa-speaker-event-schedule li.day .entry-day .entry-dot {
     width: 35px;
     height: 35px;
   }
 
-  /* line 7184, ../scss/sacremedia-tbc/_style.scss */
+  /* line 7167, ../scss/sacremedia-tbc/_style.scss */
   ul.sa-speaker-event-schedule li.day .entry-day .entry-dot:before {
     width: 14px;
     height: 14px;
@@ -9525,29 +9508,29 @@ ul.sa-speaker-event-schedule li.day:last-child .entry-dot:after {
     border: 1px solid #e1bd76;
   }
 
-  /* line 7192, ../scss/sacremedia-tbc/_style.scss */
+  /* line 7175, ../scss/sacremedia-tbc/_style.scss */
   ul.sa-speaker-event-schedule li.day .entry-day .entry-thumb:after {
     width: 1px;
   }
 
-  /* line 7195, ../scss/sacremedia-tbc/_style.scss */
+  /* line 7178, ../scss/sacremedia-tbc/_style.scss */
   ul.sa-speaker-event-schedule li.day .entry-day .entry-dot:after {
     width: 1px;
   }
 
-  /* line 7198, ../scss/sacremedia-tbc/_style.scss */
+  /* line 7181, ../scss/sacremedia-tbc/_style.scss */
   ul.sa-speaker-event-schedule li.day:after {
     width: 67%;
   }
 }
 @media all and (max-width: 375px) {
-  /* line 7203, ../scss/sacremedia-tbc/_style.scss */
+  /* line 7186, ../scss/sacremedia-tbc/_style.scss */
   ul.sa-speaker-event-schedule li.day:after {
     width: 77%;
   }
 }
 @media all and (max-width: 320px) {
-  /* line 7208, ../scss/sacremedia-tbc/_style.scss */
+  /* line 7191, ../scss/sacremedia-tbc/_style.scss */
   ul.sa-speaker-event-schedule li.day:after {
     width: 90%;
   }
@@ -9557,54 +9540,54 @@ ul.sa-speaker-event-schedule li.day:last-child .entry-dot:after {
 | Product details page / Mamun
 |---------------------------------------------
 */
-/* line 7221, ../scss/sacremedia-tbc/_style.scss */
+/* line 7204, ../scss/sacremedia-tbc/_style.scss */
 .sa-product-details-section {
   background: #f3f3f3;
   padding: 120px 0px;
 }
 
-/* line 7225, ../scss/sacremedia-tbc/_style.scss */
+/* line 7208, ../scss/sacremedia-tbc/_style.scss */
 .sa-bg-color {
   background: #fff;
 }
 
-/* line 7228, ../scss/sacremedia-tbc/_style.scss */
+/* line 7211, ../scss/sacremedia-tbc/_style.scss */
 .sa-product-images {
   background: #f3f3f3;
   margin: 20px 5px;
 }
 
-/* line 7232, ../scss/sacremedia-tbc/_style.scss */
+/* line 7215, ../scss/sacremedia-tbc/_style.scss */
 .sa-product-images img {
   max-width: 100%;
   height: auto;
   padding: 35px 20px;
 }
 
-/* line 7237, ../scss/sacremedia-tbc/_style.scss */
+/* line 7220, ../scss/sacremedia-tbc/_style.scss */
 .sa-product-thum {
   padding: 0 5px;
 }
 
-/* line 7240, ../scss/sacremedia-tbc/_style.scss */
+/* line 7223, ../scss/sacremedia-tbc/_style.scss */
 .sa-product-thum ul {
   margin: 0;
   padding: 0;
 }
 
-/* line 7244, ../scss/sacremedia-tbc/_style.scss */
+/* line 7227, ../scss/sacremedia-tbc/_style.scss */
 .sa-product-thum ul li {
   float: left;
   list-style: none;
   margin: 0 15px 20px 0;
 }
 
-/* line 7249, ../scss/sacremedia-tbc/_style.scss */
+/* line 7232, ../scss/sacremedia-tbc/_style.scss */
 .sa-single-product-details .sa-btn-blue {
   padding: 13px 35px;
 }
 
-/* line 7252, ../scss/sacremedia-tbc/_style.scss */
+/* line 7235, ../scss/sacremedia-tbc/_style.scss */
 .sa-single-product-details .sa-btn-transparent,
 .sa-single-product-details .sa-btn-blue {
   letter-spacing: 0.5px;
@@ -9612,12 +9595,12 @@ ul.sa-speaker-event-schedule li.day:last-child .entry-dot:after {
   font-weight: 600;
 }
 
-/* line 7258, ../scss/sacremedia-tbc/_style.scss */
+/* line 7241, ../scss/sacremedia-tbc/_style.scss */
 .sa-product-thum ul li:last-child {
   margin-right: 0;
 }
 
-/* line 7261, ../scss/sacremedia-tbc/_style.scss */
+/* line 7244, ../scss/sacremedia-tbc/_style.scss */
 .sa-product-thum ul li a {
   text-decoration: none;
   border: 1px solid #f3f3f3;
@@ -9625,19 +9608,19 @@ ul.sa-speaker-event-schedule li.day:last-child .entry-dot:after {
   display: block;
 }
 
-/* line 7267, ../scss/sacremedia-tbc/_style.scss */
+/* line 7250, ../scss/sacremedia-tbc/_style.scss */
 .sa-single-product-details-area {
   position: relative;
 }
 
-/* line 7270, ../scss/sacremedia-tbc/_style.scss */
+/* line 7253, ../scss/sacremedia-tbc/_style.scss */
 .sa-single-product-details-social {
   position: absolute;
   top: 0%;
   right: 1%;
 }
 
-/* line 7275, ../scss/sacremedia-tbc/_style.scss */
+/* line 7258, ../scss/sacremedia-tbc/_style.scss */
 .sa-single-product-details-social ul {
   padding: 0;
   margin: 0;
@@ -9647,19 +9630,19 @@ ul.sa-speaker-event-schedule li.day:last-child .entry-dot:after {
   overflow: hidden;
 }
 
-/* line 7283, ../scss/sacremedia-tbc/_style.scss */
+/* line 7266, ../scss/sacremedia-tbc/_style.scss */
 .sa-single-product-details-social ul li {
   list-style: none;
   margin: 0;
   border-bottom: 1px solid #ddd;
 }
 
-/* line 7288, ../scss/sacremedia-tbc/_style.scss */
+/* line 7271, ../scss/sacremedia-tbc/_style.scss */
 .sa-single-product-details-social ul li:last-child {
   border: 0;
 }
 
-/* line 7291, ../scss/sacremedia-tbc/_style.scss */
+/* line 7274, ../scss/sacremedia-tbc/_style.scss */
 .sa-single-product-details-social ul li a {
   text-decoration: none;
   padding: 10px 15px;
@@ -9669,18 +9652,18 @@ ul.sa-speaker-event-schedule li.day:last-child .entry-dot:after {
   color: #e6dcdc;
 }
 
-/* line 7299, ../scss/sacremedia-tbc/_style.scss */
+/* line 7282, ../scss/sacremedia-tbc/_style.scss */
 .sa-single-product-details-social ul li a:hover {
   background: #deb668;
   color: #fff;
 }
 
-/* line 7303, ../scss/sacremedia-tbc/_style.scss */
+/* line 7286, ../scss/sacremedia-tbc/_style.scss */
 .sa-single-product-details {
   margin: 20px 20px 20px 0px;
 }
 
-/* line 7306, ../scss/sacremedia-tbc/_style.scss */
+/* line 7289, ../scss/sacremedia-tbc/_style.scss */
 .sa-single-product-details h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 24px;
@@ -9692,7 +9675,7 @@ ul.sa-speaker-event-schedule li.day:last-child .entry-dot:after {
   margin-bottom: 20px;
 }
 
-/* line 7316, ../scss/sacremedia-tbc/_style.scss */
+/* line 7299, ../scss/sacremedia-tbc/_style.scss */
 .sa-single-product-details h5 {
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
@@ -9702,7 +9685,7 @@ ul.sa-speaker-event-schedule li.day:last-child .entry-dot:after {
   margin-bottom: 5px;
 }
 
-/* line 7324, ../scss/sacremedia-tbc/_style.scss */
+/* line 7307, ../scss/sacremedia-tbc/_style.scss */
 .sa-single-product-details .sa-btn-transparent {
   display: inline-block;
   background: #eab244;
@@ -9711,13 +9694,13 @@ ul.sa-speaker-event-schedule li.day:last-child .entry-dot:after {
   margin-right: 10px;
 }
 
-/* line 7331, ../scss/sacremedia-tbc/_style.scss */
+/* line 7314, ../scss/sacremedia-tbc/_style.scss */
 .sa-single-product-details .sa-btn-transparent:hover {
   background: none;
   color: #000;
 }
 
-/* line 7335, ../scss/sacremedia-tbc/_style.scss */
+/* line 7318, ../scss/sacremedia-tbc/_style.scss */
 .sa-btn-blue {
   text-transform: none;
   display: inline-block;
@@ -9732,13 +9715,13 @@ ul.sa-speaker-event-schedule li.day:last-child .entry-dot:after {
   margin-bottom: 30px;
 }
 
-/* line 7348, ../scss/sacremedia-tbc/_style.scss */
+/* line 7331, ../scss/sacremedia-tbc/_style.scss */
 .sa-btn-blue:hover {
   background: none;
   color: #000;
 }
 
-/* line 7352, ../scss/sacremedia-tbc/_style.scss */
+/* line 7335, ../scss/sacremedia-tbc/_style.scss */
 .sa-single-product-details p {
   color: #555b62;
   font-family: 'Nunito', sans-serif;
@@ -9752,23 +9735,23 @@ ul.sa-speaker-event-schedule li.day:last-child .entry-dot:after {
 | Product details page 
 |---------------------------------------------
 */
-/* line 7367, ../scss/sacremedia-tbc/_style.scss */
+/* line 7350, ../scss/sacremedia-tbc/_style.scss */
 .sa-mrt30 {
   margin-top: 35px;
 }
 
-/* line 7370, ../scss/sacremedia-tbc/_style.scss */
+/* line 7353, ../scss/sacremedia-tbc/_style.scss */
 .sa-product-review ul {
   border-bottom: 1px solid #ddd;
   padding: 12px 0px 11px 0;
 }
 
-/* line 7374, ../scss/sacremedia-tbc/_style.scss */
+/* line 7357, ../scss/sacremedia-tbc/_style.scss */
 .sa-product-review ul li {
   margin: 0;
 }
 
-/* line 7377, ../scss/sacremedia-tbc/_style.scss */
+/* line 7360, ../scss/sacremedia-tbc/_style.scss */
 .sa-product-review ul li a {
   text-decoration: none;
   position: relative;
@@ -9781,13 +9764,13 @@ ul.sa-speaker-event-schedule li.day:last-child .entry-dot:after {
   transition: 0.4s;
 }
 
-/* line 7388, ../scss/sacremedia-tbc/_style.scss */
+/* line 7371, ../scss/sacremedia-tbc/_style.scss */
 .sa-product-review ul li a.active {
   color: #022147;
   font-size: 18px;
 }
 
-/* line 7392, ../scss/sacremedia-tbc/_style.scss */
+/* line 7375, ../scss/sacremedia-tbc/_style.scss */
 .sa-product-review ul li a.active:after {
   content: " ";
   left: 0;
@@ -9798,7 +9781,7 @@ ul.sa-speaker-event-schedule li.day:last-child .entry-dot:after {
   height: 3px;
 }
 
-/* line 7401, ../scss/sacremedia-tbc/_style.scss */
+/* line 7384, ../scss/sacremedia-tbc/_style.scss */
 .sa-product-review ul li a:before {
   content: " ";
   width: 1px;
@@ -9809,17 +9792,17 @@ ul.sa-speaker-event-schedule li.day:last-child .entry-dot:after {
   bottom: 25%;
 }
 
-/* line 7410, ../scss/sacremedia-tbc/_style.scss */
+/* line 7393, ../scss/sacremedia-tbc/_style.scss */
 .sa-product-review ul li:last-child a:before {
   content: none;
 }
 
-/* line 7413, ../scss/sacremedia-tbc/_style.scss */
+/* line 7396, ../scss/sacremedia-tbc/_style.scss */
 .sa-product-review .tab-content {
   padding: 30px 35px 35px 35px;
 }
 
-/* line 7416, ../scss/sacremedia-tbc/_style.scss */
+/* line 7399, ../scss/sacremedia-tbc/_style.scss */
 .sa-product-review .tab-content h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 24px;
@@ -9828,7 +9811,7 @@ ul.sa-speaker-event-schedule li.day:last-child .entry-dot:after {
   color: #022147;
 }
 
-/* line 7423, ../scss/sacremedia-tbc/_style.scss */
+/* line 7406, ../scss/sacremedia-tbc/_style.scss */
 .sa-product-review .tab-content p {
   color: #555b62;
   font-family: 'Nunito', sans-serif;
@@ -9837,7 +9820,7 @@ ul.sa-speaker-event-schedule li.day:last-child .entry-dot:after {
   font-weight: normal;
 }
 
-/* line 7431, ../scss/sacremedia-tbc/_style.scss */
+/* line 7414, ../scss/sacremedia-tbc/_style.scss */
 .sa-single-product-rating {
   float: left;
   display: inline-block;
@@ -9845,17 +9828,17 @@ ul.sa-speaker-event-schedule li.day:last-child .entry-dot:after {
   margin-bottom: 20px;
 }
 
-/* line 7437, ../scss/sacremedia-tbc/_style.scss */
+/* line 7420, ../scss/sacremedia-tbc/_style.scss */
 .sa-single-product-rating span {
   color: #ffba00;
 }
 
-/* line 7441, ../scss/sacremedia-tbc/_style.scss */
+/* line 7424, ../scss/sacremedia-tbc/_style.scss */
 .sa-single-product-purches {
   margin: 0 0 30px 0;
 }
 
-/* line 7444, ../scss/sacremedia-tbc/_style.scss */
+/* line 7427, ../scss/sacremedia-tbc/_style.scss */
 .sa-single-product-purches h4 {
   display: inline-block;
   min-width: 188px;
@@ -9868,12 +9851,12 @@ ul.sa-speaker-event-schedule li.day:last-child .entry-dot:after {
   float: left;
 }
 
-/* line 7455, ../scss/sacremedia-tbc/_style.scss */
+/* line 7438, ../scss/sacremedia-tbc/_style.scss */
 .sa-single-product-purches .quantity {
   display: inline-block;
 }
 
-/* line 7458, ../scss/sacremedia-tbc/_style.scss */
+/* line 7441, ../scss/sacremedia-tbc/_style.scss */
 .sa-single-product-purches .quantity input {
   width: 60px;
   text-align: center;
@@ -9886,7 +9869,7 @@ ul.sa-speaker-event-schedule li.day:last-child .entry-dot:after {
   font-family: 'Poppins', sans-serif;
 }
 
-/* line 7469, ../scss/sacremedia-tbc/_style.scss */
+/* line 7452, ../scss/sacremedia-tbc/_style.scss */
 .sa-single-product-purches .quantity button {
   border-radius: 3px;
   background-color: whitesmoke;
@@ -9896,7 +9879,7 @@ ul.sa-speaker-event-schedule li.day:last-child .entry-dot:after {
   cursor: pointer;
 }
 
-/* line 7477, ../scss/sacremedia-tbc/_style.scss */
+/* line 7460, ../scss/sacremedia-tbc/_style.scss */
 .sa-single-product-purches .quantity button i {
   font-size: 14px;
   font-weight: 300;
@@ -9904,97 +9887,97 @@ ul.sa-speaker-event-schedule li.day:last-child .entry-dot:after {
   color: #959598;
 }
 
-/* line 7483, ../scss/sacremedia-tbc/_style.scss */
+/* line 7466, ../scss/sacremedia-tbc/_style.scss */
 .sa-single-product-purches .quantity button:hover i {
   color: #fff;
 }
 
-/* line 7486, ../scss/sacremedia-tbc/_style.scss */
+/* line 7469, ../scss/sacremedia-tbc/_style.scss */
 .sa-single-product-purches .quantity button:hover {
   background: #eab244;
 }
 
-/* line 7489, ../scss/sacremedia-tbc/_style.scss */
+/* line 7472, ../scss/sacremedia-tbc/_style.scss */
 .sa-single-product-purches .quantity button:focus {
   outline: none;
 }
 
 @media All and (max-width: 1024px) {
-  /* line 7494, ../scss/sacremedia-tbc/_style.scss */
+  /* line 7477, ../scss/sacremedia-tbc/_style.scss */
   .sa-product-thum ul li a {
     padding: 10px 9.7px;
   }
 }
 @media All and (max-width: 991px) {
-  /* line 7499, ../scss/sacremedia-tbc/_style.scss */
+  /* line 7482, ../scss/sacremedia-tbc/_style.scss */
   .sa-product-thum ul li a {
     padding: 15px 49.7px;
   }
 }
 @media All and (max-width: 767px) {
-  /* line 7505, ../scss/sacremedia-tbc/_style.scss */
+  /* line 7488, ../scss/sacremedia-tbc/_style.scss */
   .sa-single-product-details .sa-btn-transparent {
     margin-bottom: 15px;
   }
 
-  /* line 7508, ../scss/sacremedia-tbc/_style.scss */
+  /* line 7491, ../scss/sacremedia-tbc/_style.scss */
   .sa-single-product-purches h4 {
     margin: 0 0 20px 0;
   }
 
-  /* line 7511, ../scss/sacremedia-tbc/_style.scss */
+  /* line 7494, ../scss/sacremedia-tbc/_style.scss */
   .sa-single-product-purches .quantity button {
     margin: 0px 9px 0px 0px;
   }
 
-  /* line 7514, ../scss/sacremedia-tbc/_style.scss */
+  /* line 7497, ../scss/sacremedia-tbc/_style.scss */
   .sa-product-review ul li a {
     padding: 23px 13px;
   }
 
-  /* line 7517, ../scss/sacremedia-tbc/_style.scss */
+  /* line 7500, ../scss/sacremedia-tbc/_style.scss */
   .sa-product-thum ul li a {
     padding: 15px 26.7px;
   }
 
-  /* line 7520, ../scss/sacremedia-tbc/_style.scss */
+  /* line 7503, ../scss/sacremedia-tbc/_style.scss */
   .sa-single-product-details h2 {
     font-size: 21px;
   }
 }
 @media All and (max-width: 375px) {
-  /* line 7526, ../scss/sacremedia-tbc/_style.scss */
+  /* line 7509, ../scss/sacremedia-tbc/_style.scss */
   .sa-product-review ul li a {
     padding: 13px 13px;
   }
 
-  /* line 7529, ../scss/sacremedia-tbc/_style.scss */
+  /* line 7512, ../scss/sacremedia-tbc/_style.scss */
   .sa-product-review ul {
     padding: 13px 0px 2px 0;
   }
 
-  /* line 7532, ../scss/sacremedia-tbc/_style.scss */
+  /* line 7515, ../scss/sacremedia-tbc/_style.scss */
   .sa-product-review ul li a {
     font-size: 15px !important;
   }
 
-  /* line 7535, ../scss/sacremedia-tbc/_style.scss */
+  /* line 7518, ../scss/sacremedia-tbc/_style.scss */
   .sa-product-review .tab-content {
     padding: 30px 5px 35px 5px;
   }
 
-  /* line 7538, ../scss/sacremedia-tbc/_style.scss */
+  /* line 7521, ../scss/sacremedia-tbc/_style.scss */
   .sa-product-thum ul li {
     margin: 0 7px 20px 9px;
   }
 
-  /* line 7541, ../scss/sacremedia-tbc/_style.scss */
+  /* line 7524, ../scss/sacremedia-tbc/_style.scss */
   .sa-product-thum ul li a {
     padding: 15px 45.7px;
   }
 }
 @media All and (max-width: 320px) {
-  /* line 7547, ../scss/sacremedia-tbc/_style.scss */
+  /* line 7530, ../scss/sacremedia-tbc/_style.scss */
   .sa-product-thum ul li a {
     padding: 15px 31.7px;
   }
@@ -10004,26 +9987,26 @@ ul.sa-speaker-event-schedule li.day:last-child .entry-dot:after {
 | landing NGO
 |---------------------------------------------
 */
-/* line 7557, ../scss/sacremedia-tbc/_style.scss */
+/* line 7540, ../scss/sacremedia-tbc/_style.scss */
 .sa-landing-ngo-banner {
   background: url(/modules/custom/tbc_styleguide/templates/assets/images/banner/11.jpg);
   background-position: center;
   background-size: cover;
 }
 
-/* line 7562, ../scss/sacremedia-tbc/_style.scss */
+/* line 7545, ../scss/sacremedia-tbc/_style.scss */
 .sa-landing-ngo .sa-schedules-heading h2:after {
   content: none;
 }
 
-/* line 7565, ../scss/sacremedia-tbc/_style.scss */
+/* line 7548, ../scss/sacremedia-tbc/_style.scss */
 .sa-landing-ngo-banner .intro_text h1 {
   font-size: 48px;
   text-transform: uppercase;
   font-family: 'Poppins', sans-serif;
 }
 
-/* line 7570, ../scss/sacremedia-tbc/_style.scss */
+/* line 7553, ../scss/sacremedia-tbc/_style.scss */
 .sa-landing-ngo-banner .intro_text h6 {
   font-size: 24px;
   text-transform: uppercase;
@@ -10031,18 +10014,24 @@ ul.sa-speaker-event-schedule li.day:last-child .entry-dot:after {
   font-family: 'Poppins', sans-serif;
 }
 
-/* line 7576, ../scss/sacremedia-tbc/_style.scss */
+/* line 7559, ../scss/sacremedia-tbc/_style.scss */
 .sa-landing-ngo-banner .intro_text {
   max-width: 920px;
 }
 
 @media all and (min-width: 1200px) {
-  /* line 7580, ../scss/sacremedia-tbc/_style.scss */
+  /* line 7563, ../scss/sacremedia-tbc/_style.scss */
   .sa-landing-ngo-banner .intro_text {
     min-width: 1000px;
   }
 }
-/* line 7585, ../scss/sacremedia-tbc/_style.scss */
+/* line 7568, ../scss/sacremedia-tbc/_style.scss */
 .bannercoundown .countdown-period-last {
   margin-right: 0 !important;
+}
+
+/* line 2, ../scss/component/_tbc_header.scss */
+.navbar-header img {
+  height: 50px;
+  width: auto;
 }

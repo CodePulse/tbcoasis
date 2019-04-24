@@ -6,3 +6,24 @@
  *
  * Place your custom PHP code in this file.
  */
+
+/**
+ *
+ */
+function tbc_preprocess_paragraph(&$variables) {
+  $paragraph = $variables['paragraph'];
+  switch ($paragraph->bundle()) {
+    case 'slide':
+      $media_entity = $paragraph->get('field_slide_image')
+        ->first()
+        ->get('entity')
+        ->getTarget()
+        ->getValue();
+      $image_entity = $media_entity->get('field_media_image')->first()
+        ->get('entity')
+        ->getTarget()
+        ->getValue();
+      $image_url = file_create_url($image_entity->getFileUri());
+      $variables['background_image'] = $image_url;
+  }
+}

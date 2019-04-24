@@ -3571,10 +3571,15 @@ blockquote p {
 
 /*** banner main ***/
 .main-banner-section {
-    background: url(/modules/custom/tbc_styleguide/templates/assets/images/banner/3.jpg);
-    background-position: center;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+
+  .item {
     background-size: cover;
+  }
 }
+
 .main-banner-section2 {
     background: url(/modules/custom/tbc_styleguide/templates/assets/images/banner/5.jpg);
     background-position: center;

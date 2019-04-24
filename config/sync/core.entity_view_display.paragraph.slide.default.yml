@@ -17,7 +17,7 @@ mode: default
 content:
   field_slide_button:
     weight: 3
-    label: above
+    label: hidden
     settings:
       trim_length: 80
       url_only: false
@@ -29,7 +29,7 @@ content:
     region: content
   field_slide_description:
     weight: 2
-    label: above
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     type: basic_string
@@ -37,7 +37,7 @@ content:
   field_slide_image:
     type: entity_reference_entity_view
     weight: 0
-    label: above
+    label: hidden
     settings:
       view_mode: default
       link: false
@@ -45,7 +45,7 @@ content:
     region: content
   field_slide_title:
     weight: 1
-    label: above
+    label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
