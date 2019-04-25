@@ -8,7 +8,27 @@
  */
 
 /**
- *
+ * @implements hook_preprocess_node().
+ */
+function tbc_preprocess_node(&$variables) {
+  $node = $variables['node'];
+
+  if ($node->bundle() == 'branch') {
+    $media_entity = $node->get('field_image')
+      ->first()
+      ->get('entity')
+      ->getTarget()
+      ->getValue();
+    $image_entity = $media_entity->get('field_media_image')->first()
+      ->get('entity')
+      ->getTarget()
+      ->getValue();
+    $variables['branch_image'] = $image_entity->getFileUri();
+  }
+}
+
+/**
+ * Implements hook_preprocess_paragraph().
  */
 function tbc_preprocess_paragraph(&$variables) {
   $paragraph = $variables['paragraph'];

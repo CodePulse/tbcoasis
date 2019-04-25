@@ -1,0 +1,5 @@
+services:
+  tbc_custom_fields.twig.tbc_image_styles:
+    class: Drupal\tbc_custom_fields\TBCImageStyle
+    tags:
+      - { name: twig.extension }
