@@ -1,0 +1,68 @@
+uuid: fbf9392c-915d-49a7-a094-65e1a97efbeb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.youtube_video_text_button.field_button
+    - field.field.paragraph.youtube_video_text_button.field_text
+    - field.field.paragraph.youtube_video_text_button.field_title
+    - field.field.paragraph.youtube_video_text_button.field_video_snapshot
+    - field.field.paragraph.youtube_video_text_button.field_youtube_video_link
+    - paragraphs.paragraphs_type.youtube_video_text_button
+  module:
+    - link
+    - text
+id: paragraph.youtube_video_text_button.default
+targetEntityType: paragraph
+bundle: youtube_video_text_button
+mode: default
+content:
+  field_button:
+    weight: 2
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_text:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_title:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_video_snapshot:
+    type: entity_reference_entity_view
+    weight: 4
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_youtube_video_link:
+    weight: 3
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+hidden: {  }

@@ -1,0 +1,21 @@
+uuid: 7b6982bc-b295-4474-81f9-6fe0acb2166d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text
+    - paragraphs.paragraphs_type.youtube_video_text_button
+  module:
+    - text
+id: paragraph.youtube_video_text_button.field_text
+field_name: field_text
+entity_type: paragraph
+bundle: youtube_video_text_button
+label: Text
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

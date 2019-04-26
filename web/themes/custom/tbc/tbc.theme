@@ -45,5 +45,24 @@ function tbc_preprocess_paragraph(&$variables) {
         ->getValue();
       $image_url = file_create_url($image_entity->getFileUri());
       $variables['background_image'] = $image_url;
+      break;
+    case 'youtube_video_text_button':
+      $media_entity = $paragraph->get('field_video_snapshot')
+        ->first()
+        ->get('entity')
+        ->getTarget()
+        ->getValue();
+      $image_entity = $media_entity->get('field_media_image')->first()
+        ->get('entity')
+        ->getTarget()
+        ->getValue();
+      $image_uri = $image_entity->getFileUri();
+      $variables['background_image'] = $image_uri;
+
+      $youtubeLink = $paragraph->get('field_youtube_video_link')
+        ->first()
+        ->get('uri')
+        ->getValue();
+      $variables['youtube_link'] = $youtubeLink;
   }
 }

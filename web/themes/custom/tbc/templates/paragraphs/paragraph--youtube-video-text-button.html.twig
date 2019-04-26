@@ -1,0 +1,27 @@
+<section class="sa-video-gallery-section">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12">
+        <div class="sa-leading-video-gallery">
+          <div class="media">
+            <div class="media-left">
+              <div class="sa-video-blog-popup">
+                <div class="thumb">
+                  <img src="{{ applyImageStyle(background_image, 'youtube_snapshot') }}" alt="img">
+                </div>
+                <a class="popup-youtube" href="{{ youtube_link }}"><i class="fa fa-play"></i></a>
+              </div>
+            </div>
+            <div class="media-body">
+              <div class="sa-leading-video-details">
+                <h3>{{ content.field_title }}</h3>
+                <p>{{ content.field_text }}</p>
+                {{ content.field_button }}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

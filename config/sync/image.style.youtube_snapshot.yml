@@ -1,0 +1,15 @@
+uuid: 608aef0a-8d19-416e-b5b0-670fcc414c3c
+langcode: en
+status: true
+dependencies: {  }
+name: youtube_snapshot
+label: 'YouTube Snapshot'
+effects:
+  a1b2d339-25aa-48c8-a12c-1c49e1d1f457:
+    uuid: a1b2d339-25aa-48c8-a12c-1c49e1d1f457
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 560
+      height: 450
+      anchor: center-center

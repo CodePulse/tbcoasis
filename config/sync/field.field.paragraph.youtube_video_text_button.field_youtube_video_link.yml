@@ -1,0 +1,23 @@
+uuid: 85711210-f9b4-40a4-a5f5-7101b4a77f22
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_youtube_video_link
+    - paragraphs.paragraphs_type.youtube_video_text_button
+  module:
+    - link
+id: paragraph.youtube_video_text_button.field_youtube_video_link
+field_name: field_youtube_video_link
+entity_type: paragraph
+bundle: youtube_video_text_button
+label: 'YouTube Video Link'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 0
+field_type: link

@@ -1,0 +1,20 @@
+uuid: 0788fd4b-d868-4977-a3e1-a00ef676a06f
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+    - paragraphs
+id: paragraph.field_video_snapshot
+field_name: field_video_snapshot
+entity_type: paragraph
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

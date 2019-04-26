@@ -5,10 +5,12 @@ dependencies:
   config:
     - field.field.node.article.body
     - field.field.node.article.comment
+    - field.field.node.article.field_image
     - field.field.node.article.field_tags
     - node.type.article
   module:
     - comment
+    - media_library
     - path
     - text
 _core:
@@ -39,6 +41,12 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_image:
+    weight: 121
+    settings: {  }
+    third_party_settings: {  }
+    type: media_library_widget
+    region: content
   field_tags:
     type: entity_reference_autocomplete_tags
     weight: 3
