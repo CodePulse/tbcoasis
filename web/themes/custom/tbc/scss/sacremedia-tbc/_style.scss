@@ -16,11 +16,11 @@ Version:1.1
 		1.6. Table
 		1.7. Accordion
 		1.8. Section-background-color & sectino-heading
-		1.9 Tabs 
+		1.9 Tabs
 		1.10. parallex-background
 		1.11. Modal
-	2. Header	 
-	
+	2. Header
+
 ===========================*/
 
 /*====================
@@ -93,7 +93,7 @@ ul li, ol li {
    margin: 0 0 10px;
 }
 blockquote {
-	background:#fff ;	
+	background:#fff ;
 	position:relative;
 	padding:0 0 0 70px;
 	margin:0 auto 30px;
@@ -116,7 +116,7 @@ blockquote h6 {
 	color:#deb668;
 	font-weight:400;
 	text-transform:uppercase;
-	font-size:15px;	
+	font-size:15px;
 }
 img {
 	max-width:100%;
@@ -127,7 +127,7 @@ img {
 /*-----------------
 	1.2. Button
 -------------------------*/
-.btn {	
+.btn {
   background:#f7edd9;
   border: medium none;
   border-radius:0px;
@@ -182,7 +182,7 @@ img {
 	box-shadow: none;
 }
 .dark-btn:hover {
-	background:#eab244;	
+	background:#eab244;
 }
 .btn-link {
   font-weight: 800;
@@ -214,10 +214,10 @@ img {
 	padding:50px 0;
 }
 .padding_4x4_30 {
-	padding:30px;	
+	padding:30px;
 }
 .padding_4x4_40 {
-	padding:40px;	
+	padding:40px;
 }
 .padding_right {
 	padding-right:60px;
@@ -284,10 +284,10 @@ img {
 	margin:0px;
 }
 .sa-maginb-none {
-	margin-bottom: 0 !important; 
+	margin-bottom: 0 !important;
 }
 .sa-paddingb-none{
-	padding-bottom: 0 !important; 
+	padding-bottom: 0 !important;
 }
 @media all and (max-width: 991px){
 	.res-margin-top-40 {
@@ -325,12 +325,12 @@ textarea.form-control {
 }
 .form-control:hover {
 	box-shadow:none;
-	outline:none	
+	outline:none
 }
 .form-control:focus {
 	box-shadow:none;
 	border-color:#eedab3;
-	outline:none	
+	outline:none
 }
 .select {
 	position:relative;
@@ -341,7 +341,7 @@ textarea.form-control {
    -o-appearance: none;
    -webkit-appearance: none;
    -ms-appearance: none;
-  
+
 }
 .select::after {
   color: #878787;
@@ -361,7 +361,7 @@ textarea.form-control {
 .control-label {
 	color:#555;
 	font-size:15px;
-	font-weight:700;	
+	font-weight:700;
 }
 .radio label, .checkbox label {
   cursor: pointer;
@@ -386,7 +386,7 @@ textarea.form-control {
     left: 0;
 	top:6px;
     position: absolute;
-    width: 20px;	
+    width: 20px;
 }
 .checkbox label::before {
   background-color: rgba(0, 0, 0, 0);
@@ -482,7 +482,7 @@ table thead th, table thead td {
 	margin:0 auto;
 }
 .panel.panel-default:first-child {
-	border-top:#e8e7e7 solid 1px;	
+	border-top:#e8e7e7 solid 1px;
 }
 .panel.panel-default {
 	border-bottom:#e8e7e7 solid 1px;
@@ -516,15 +516,15 @@ table thead th, table thead td {
 	z-index:2;
 }
 .divider {
-	border-top:#ebebeb solid 1px;	
+	border-top:#ebebeb solid 1px;
 }
 .white_text, .white_text p, .white_text h1, .white_text h2, .white_text h3, .white_text h4, .white_text h5, .white_text h6 {
-	color:#fff;	
+	color:#fff;
 }
 
 
 /*--------------------
-	1.9. Tabs 
+	1.9. Tabs
 ------------------------------*/
 .nav.nav-tabs {
   border: medium none;
@@ -539,10 +539,10 @@ table thead th, table thead td {
   padding: 14px 26px;
   text-align: center;
 }
-.nav-tabs > li.active > a, 
-.nav-tabs > li.active > a:focus, 
-.nav-tabs > li.active > a:hover, 
-.nav-tabs > li a:hover, 
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li a:hover,
 .nav-tabs > li a:focus {
   color: #ffffff;
   background:#c7335b;
@@ -745,7 +745,7 @@ header.sticky .header_top {
 @media (min-width:768px) {
 .collapse.navbar-collapse {
 	display: block;
-}	
+}
 }
 .collapse.navbar-collapse {
 	width: auto;
@@ -774,7 +774,7 @@ header.sticky .header_top {
 	margin: 0 auto;
 }
 .navbar-nav li a:hover, .navbar-nav li a.active {
-	color:#ddb668;	
+	color:#ddb668;
 }
 .navbar-nav .btn {
 	font-size:700;
@@ -812,10 +812,10 @@ ul.sub-menu {
 }
 ul.sub-menu ul.sub-menu {
 	left:100%;
-	top:0;	
+	top:0;
 	display:none;
 }
-.navbar .navbar-nav li:hover > ul.sub-menu, 
+.navbar .navbar-nav li:hover > ul.sub-menu,
 .navbar .navbar-nav li ul.sub-menu:hover > ul.sub-menu {
   display: block;
 }
@@ -862,7 +862,7 @@ ul.sub-menu ul.sub-menu {
 }
 .intro_text h1 {
 	font-size:65px;
-	text-transform:uppercase;	
+	text-transform:uppercase;
 	font-weight:700;
 }
 .intro_text p {
@@ -916,13 +916,13 @@ ul.sub-menu ul.sub-menu {
 	position: relative;
 	padding: 10px 0 15px 110px;
 }
- .latest_event_sermons h4 a, 
+ .latest_event_sermons h4 a,
  .latest_event_sermons h6 a {
 	color:#022147;
-}	
-.latest_event_sermons h4 a:hover, 
+}
+.latest_event_sermons h4 a:hover,
 .latest_event_sermons h6 a:hover {
-	color:#deb668;	
+	color:#deb668;
 }
 .latest_event_sermons .event_date {
 	background: no-repeat;
@@ -1089,7 +1089,7 @@ ul.sub-menu ul.sub-menu {
 	line-height:55px;
 	cursor:pointer;
 }
-.audio-player #play-btn .fa-pause, 
+.audio-player #play-btn .fa-pause,
 .audio-player #play-btn.pause .fa-play {
 	display:none;
 }
@@ -1104,7 +1104,7 @@ ul.sub-menu ul.sub-menu {
 	margin-right: 15px;
 }
 .player-controls.scrubber .fa {
-	color:#deb668;	
+	color:#deb668;
 }
 
 
@@ -1113,10 +1113,10 @@ ul.sub-menu ul.sub-menu {
 	Causes
 ======================*/
 #causes {
-	background:url(/modules/custom/tbc_styleguide/templates/assets/images/banner/6.jpg) no-repeat center / cover;	
+	background:url(/modules/custom/tbc_styleguide/templates/assets/images/banner/6.jpg) no-repeat center / cover;
 }
 #causes.causes-bg-1 {
-	background:url(/modules/custom/tbc_styleguide/templates/assets/images/banner/8.jpg) no-repeat center / cover;	
+	background:url(/modules/custom/tbc_styleguide/templates/assets/images/banner/8.jpg) no-repeat center / cover;
 }
 .causes_info {
 	margin:0 auto;
@@ -1130,7 +1130,7 @@ ul.sub-menu ul.sub-menu {
 	text-transform:uppercase;
 	color:#f8b864;
 	font-size:16px;
-	margin:0 auto 50px;	
+	margin:0 auto 50px;
 }
 .causes_chart {
 	overflow:hidden;
@@ -1144,7 +1144,7 @@ ul.sub-menu ul.sub-menu {
 .chart {
 	display:inline-block;
 	vertical-align:middle;
-	margin:0 20px;	
+	margin:0 20px;
 }
 .owl-nav {
 	position: absolute;
@@ -1195,7 +1195,7 @@ ul.sub-menu ul.sub-menu {
 .footer_top .email_input input:focus {
 	outline: 0;
 }
-.footer_bottom {	
+.footer_bottom {
 	padding:36px 0;
 	border-top:#ebebeb solid 1px;
 }
@@ -1231,17 +1231,17 @@ ul.sub-menu ul.sub-menu {
 }
 .follow_us ul li a {
 	color:#a5afbb;
-	font-size:15px;	
+	font-size:15px;
 	padding:7px 2px;
 	display:block;
 }
-.follow_us ul li a:hover, 
-.follow_us ul li a:focus, 
-.footer_links a:hover, 
-.footer_nav li a:hover, 
-.footer_nav li a.active, 
+.follow_us ul li a:hover,
+.follow_us ul li a:focus,
+.footer_links a:hover,
+.footer_nav li a:hover,
+.footer_nav li a.active,
 .footer_widget p a:hover {
-	color:#deb668;	
+	color:#deb668;
 }
 .newsletter {
 	padding: 0 20px;
@@ -1291,13 +1291,13 @@ ul.sub-menu ul.sub-menu {
 	padding-left:0;
 }
 .widget_inner {
-	padding:0 20px;	
+	padding:0 20px;
 }
 .footer_widget h5 {
 	margin: 0 auto 35px;
 }
 .footer_widget p {
-	margin:0 auto 5px;	
+	margin:0 auto 5px;
 }
 .footer_widget p a {
 	color:#555b62;
@@ -1327,7 +1327,7 @@ ul.sub-menu ul.sub-menu {
 }
 .instagram_img li a {
 	background:#000;
-	display:block;	
+	display:block;
 }
 .instagram_img li a img {
 	transition-duration:0.3s;
@@ -1359,7 +1359,7 @@ ul.sub-menu ul.sub-menu {
 }
 .insta_url:hover {
 	color:#fff;
-	background:#deb668;	
+	background:#deb668;
 }
 #back-top {
 	text-align: center;
@@ -1393,19 +1393,19 @@ ul.sub-menu ul.sub-menu {
 =============================*/
 #inner_intro {
 	position:relative;
-	background-color:#4c4c4c;	
+	background-color:#4c4c4c;
 	background-image:url(/modules/custom/tbc_styleguide/templates/assets/images/banner/1.jpg);
 	background-position:center;
 	background-size:cover;
 }
 .inner_wp {
-	padding:250px 0 0;	
+	padding:250px 0 0;
 }
 .inner_wp h1 {
 	margin:0 auto;
 }
 #inner_intro.section-padding {
-	padding:100px 0;	
+	padding:100px 0;
 }
 .breadcrumb {
 	background: none;
@@ -1429,7 +1429,7 @@ ul.sub-menu ul.sub-menu {
 	color:#fff;
 }
 .breadcrumb ul li a:hover {
-	color:#deb668;	
+	color:#deb668;
 }
 .breadcrumb-item + .breadcrumb-item::before {
 	content: "\f105";
@@ -1445,7 +1445,7 @@ ul.sub-menu ul.sub-menu {
 */
 .sa-page-title {
 	position:relative;
-	background-color:#4c4c4c;	
+	background-color:#4c4c4c;
 	background-image:url(/modules/custom/tbc_styleguide/templates/assets/images/banner/1.jpg);;
 	background-position:center;
 	background-size:cover;
@@ -1454,7 +1454,7 @@ ul.sub-menu ul.sub-menu {
 .sa-page-title.donation {
 	background-image:url(/modules/custom/tbc_styleguide/templates/assets/images/banner/donation.jpg);
 }
-.sa-page-title.history { 
+.sa-page-title.history {
 	background-image:url(/modules/custom/tbc_styleguide/templates/assets/images/banner/6.jpg);
 }
 .sa-page-title.prayer {
@@ -1556,10 +1556,10 @@ ul.sermons_meta {
 	overflow: hidden;
 }
 .sermons_info h5 {
-	margin:0 auto 17px;	
+	margin:0 auto 17px;
 }
 .sermons_info h5 a {
-	color:#022147;	
+	color:#022147;
 }
 .sermons_meta li {
 	float: left;
@@ -1567,23 +1567,23 @@ ul.sermons_meta {
 }
 .sermons_meta li i {
 	color:#deb668;
-	margin:0 6px 0 0;	
+	margin:0 6px 0 0;
 }
 .sermons_meta li a {
 	color: #555b62;
 	text-decoration: underline;
 }
 .sermons_meta li a:hover {
-	color:#deb668;	
+	color:#deb668;
 }
 .sermons_inside ul {
 	padding:0;
-	margin:0 auto;	
+	margin:0 auto;
 	list-style:none;
 }
 .sermons_inside ul li {
 	display:inline-block;
-	vertical-align:middle;	
+	vertical-align:middle;
 	color:#aaadb0;
 	font-size:19px;
 	margin:0px 0 0 20px;
@@ -1596,7 +1596,7 @@ ul.sermons_meta {
 	line-height: 50px;
 	text-align:center;
 	border:#e8e7e7 solid 2px;
-	border-radius:6px;	
+	border-radius:6px;
 }
 .filter_wrap {
 	margin:0 auto 40px;
@@ -1607,12 +1607,12 @@ ul.sermons_meta {
 .layout-switcher a {
 	color:#b1b1b1;
 	font-size:22px;
-	margin-left:40px;	
+	margin-left:40px;
 }
-.sermons_info ul li a:hover, 
-.sermons_info h5 a:hover, 
-.sermons_inside ul li a:hover, 
-.layout-switcher a.active, 
+.sermons_info ul li a:hover,
+.sermons_info h5 a:hover,
+.sermons_inside ul li a:hover,
+.layout-switcher a.active,
 .layout-switcher a:hover {
 	color:#deb668;
 }
@@ -1629,7 +1629,7 @@ ul.sermons_meta {
 	right:18px;
 	content:"\f107";
 	font-family:fontawesome;
-}	
+}
 .select_arrow .form-control {
 	width: 155px !important;
 	appearance: none;
@@ -1666,7 +1666,7 @@ ul.sermons_meta {
 }
 .pagination li a:hover, .page-item:last-child .page-link:hover, .page-item.disabled .page-link {
 	color:#deb668;
-	border:#deb668 solid 1px;	
+	border:#deb668 solid 1px;
 	border-radius:0;
 	background:#fff;
 }
@@ -1721,7 +1721,7 @@ ul.sermons_meta {
 	line-height: inherit;
 }
 .post_detail .sermons_inside ul li a:hover {
-	color:#deb668;	
+	color:#deb668;
 }
 
 
@@ -1761,7 +1761,7 @@ ul.sermons_meta {
 	width: 47.4%;
 }
 .event_info h4 a {
-	color:#022147;	
+	color:#022147;
 }
 .event_info p {
 	margin:0 auto 20px;
@@ -1784,7 +1784,7 @@ ul.sermons_meta {
 .event_info h4 a:hover {
 	color:#deb668;
 }
-/*==============	
+/*==============
 	 Event-Detail
 ====================*/
 .sidebar_widgets .event_venue ul {
@@ -1845,24 +1845,24 @@ ul.sermons_meta {
 	color:#fff;
 	font-size:24px;
 	font-weight:700;
-	width:25%;	
+	width:25%;
 	float:left;
 	padding:12px 15px;
 }
 .countdown-period span {
 	display:block;
 	text-transform:uppercase;
-	font-size:14px;	
+	font-size:14px;
 	font-weight:300;
 }
 .venu_map iframe {
 	width:100%;
-	height:200px;	
+	height:200px;
 }
 
 
 
-/*==============	
+/*==============
 	 Blog
 ====================*/
 .blog_info {
@@ -1873,10 +1873,10 @@ ul.sermons_meta {
 	padding:32px 25px;
 	border:#f2f2f2 solid 1px;
 	box-shadow: rgba(0, 0, 0, 0.05) 0px 8px 20px;
-	text-align:center;	
+	text-align:center;
 }
 .blog_info h5 a {
-	color:#022147;	
+	color:#022147;
 }
 .blog_info h5 a:hover {
 	color:#deb668;
@@ -1889,7 +1889,7 @@ ul.sermons_meta {
 	Blog-Detail
 ========================*/
 .post_detail .post_img {
-	margin:0 auto 40px;	
+	margin:0 auto 40px;
 	position:relative;
 }
 .post_meta ul {
@@ -1905,7 +1905,7 @@ ul.sermons_meta {
 }
 .post_meta li i {
 	margin-right:8px;
-	color:#deb668;	
+	color:#deb668;
 }
 .post_detail ul, .post_detail ol {
 	padding: 0;
@@ -1926,17 +1926,17 @@ ul.sermons_meta {
 }
 .psot_tags span, .psot_share span {
 	font-size:16px;
-	color:#022147;	
+	color:#022147;
 	padding-right:10px;
 }
 .psot_tags a, .psot_share a {
-	color:#555b62;	
+	color:#555b62;
 }
 .psot_tags a:hover, .psot_share a:hover {
-	color:#deb668;	
+	color:#deb668;
 }
 .psot_share a {
-	margin-right:15px;	
+	margin-right:15px;
 }
 /*------------
 	Sidebar
@@ -2027,9 +2027,9 @@ ul.sermons_meta {
 }
 .post_thumb img:hover {
 	opacity:0.7;
-}	
+}
 .recent_post h6 {
-	font-size:16px;	
+	font-size:16px;
 	margin:12px 0 6px;
 }
 .recent_post h6 a {
@@ -2041,10 +2041,10 @@ ul.sermons_meta {
 	margin:0 auto 15px;
 }
 .recent_post h6 a:hover {
-	color:#deb668;	
+	color:#deb668;
 }
 .tag_cloud {
-	overflow:hidden;	
+	overflow:hidden;
 }
 .tag_cloud a {
 	display:inline-block;
@@ -2053,7 +2053,7 @@ ul.sermons_meta {
 	background:#f9f9f9;
 	color:#555b62;
 	font-size:14px;
-	margin:0 10px 10px 0;	
+	margin:0 10px 10px 0;
 }
 .tag_cloud a:hover {
 	background:#deb668;
@@ -2061,7 +2061,7 @@ ul.sermons_meta {
 	border-color:#deb668;
 }
 .search {
-	position:relative;	
+	position:relative;
 }
 .search::after {
 	position: absolute;
@@ -2080,7 +2080,7 @@ ul.sermons_meta {
 	padding:35px;
 }
 .all_comments {
-	margin:0 auto 80px;	
+	margin:0 auto 80px;
 }
 .comment-avatar {
 	width: 70px;
@@ -2108,7 +2108,7 @@ ul.sermons_meta {
 	margin:0 auto 10px;
 }
 .comment-text p {
-	line-height:24px;	
+	line-height:24px;
 	margin:0 auto 15px;
 }
 .reply {
@@ -2171,7 +2171,7 @@ ul.sermons_meta {
 }
 .contact_info {
 	background:#022147;
-	padding:45px;	
+	padding:45px;
 	color:#fff;
 	position:relative;
 }
@@ -2191,7 +2191,7 @@ ul.sermons_meta {
 }
 .contact_info p span {
 	display:block;
-	font-size:20px;	
+	font-size:20px;
 }
 .box_heading {
 	margin:0 0 100px;
@@ -2208,7 +2208,7 @@ ul.sermons_meta {
 }
 .box_heading h4 span {
 	 display:block;
-	 font-size:15px;	
+	 font-size:15px;
 	 font-weight:400;
 }
 .box_heading h4:after {
@@ -2231,13 +2231,13 @@ ul.sermons_meta {
 .map_wrap-contact {
 	padding:15px;
 	border: #f2f2f2 solid 1px;
-	box-shadow: rgba(0, 0, 0, 0.05) 0px 8px 10px;	
+	box-shadow: rgba(0, 0, 0, 0.05) 0px 8px 10px;
 	border-radius:3px;
 	margin:0 auto 100px;
 }
 .map_wrap iframe {
 	width:100%;
-	height:100%;	
+	height:100%;
 }
 
 /*================
@@ -2262,7 +2262,7 @@ ul.sermons_meta {
 	}
 }
 .donation_form .form-control {
-	border-radius:4px;	
+	border-radius:4px;
 	padding:5px 10px;
 }
 .select_amount {
@@ -2281,7 +2281,7 @@ ul.sermons_meta {
 .select_amount li:hover, .select_amount li:focus, .select_amount li.active {
 	background:#deb668;
 	border-color:#deb668;
-	color:#fff;	
+	color:#fff;
 }
 .input-group-text {
 	color:#fff;
@@ -2291,7 +2291,7 @@ ul.sermons_meta {
 	border: 1px solid #deb668;
 }
 .donation_form .input-group {
-	max-width:270px;	
+	max-width:270px;
 }
 .sa-donation-form .radio input[type=radio]:checked + label:before {
     line-height: 16px;
@@ -2304,7 +2304,7 @@ ul.sermons_meta {
 	margin:0 auto;
 	max-width:730px;
 	text-align:center;
-	background:url(/modules/custom/tbc_styleguide/templates/assets/images/TBC-New-Logo-copy-big.png) no-repeat center bottom;
+	background:url(/modules/custom/tbc_styleguide/templates/assets/images/vfi-grey-fade.png) no-repeat center bottom;
 	padding:0 0 20px;
 	margin:0 auto 50px;
 }
@@ -2365,7 +2365,7 @@ ul.sermons_meta {
 .features_wrap {
 	position:relative;
 	padding:0 0 0 65px;
-}	
+}
 .features_wrap:after {
 	position:absolute;
 	top:55px;
@@ -2373,7 +2373,7 @@ ul.sermons_meta {
 	content:"";
 	border-right:#e5e5e5 dashed 1px;
 	bottom:0;
-	width:1px;		
+	width:1px;
 }
 .f__icon {
 	position:absolute;
@@ -2499,7 +2499,7 @@ ul.sermons_meta {
 @media (min-width:991px) and (max-width:1200px) {
 .latest_event_sermons .box_wrap {
 	padding: 40px 20px;
-}	
+}
 .player-controls.scrubber {
 	width: 65%;
 }
@@ -3665,7 +3665,7 @@ blockquote p {
 	}
 	.sa-banner-carousel .sa-banner-slider .banner-details .sa-btn-transparent {
 		font-size: 12px;
-	} 
+	}
 }
 @media all and (max-width: 424px) {
 	.sa-banner-slider .banner-details h2 {
@@ -3841,12 +3841,12 @@ blockquote p {
     padding: 10px 0px 32px 0px;
 	font-family: 'Poppins', sans-serif;
     font-size: 12px;
-    text-transform: uppercase; 
+    text-transform: uppercase;
     font-weight: normal;
     color: #7c8187;
 }
 .sa-place-single a{
-	
+
 }
 .sa-place-single img{
 	width: 100%;
@@ -3862,7 +3862,7 @@ blockquote p {
 
 /*
 |---------------------------------------------
-| Upcoming Event Section 
+| Upcoming Event Section
 |---------------------------------------------
 */
 .sa-events-area {
@@ -4072,7 +4072,7 @@ blockquote p {
 	font-weight: bolder;
 	line-height: 28px;
 	margin: 0 0 30px 0;
-	padding: 0;	
+	padding: 0;
 	font-weight: 400;
 }
 .sa-schedules-content {
@@ -4090,7 +4090,7 @@ blockquote p {
 	font-weight: normal;
 	line-height: 42px;
 	margin: 0;
-	padding: 0;	
+	padding: 0;
 }
 .sa-schedule a {
     background-color: #deb668;
@@ -4219,7 +4219,7 @@ blockquote p {
 
 /*
 |---------------------------------------------
-| Intro Section 
+| Intro Section
 |---------------------------------------------
 */
 .sa-intro-section-2 {
@@ -4230,11 +4230,11 @@ blockquote p {
 }
 .sa-intro-bg {
     background: #ba9b5e;
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
 }
 .sa-intro-bg1 {
     background: #deb668;
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
 }
 .sa-intro-area {
     padding: 40px 10px 50px 10px;
@@ -4244,7 +4244,7 @@ blockquote p {
     font-family: 'Poppins', sans-serif;
     color: #fff;
     font-size: 24px;
-    line-height: 30px; 
+    line-height: 30px;
     font-weight: normal;
     text-transform: uppercase;
     margin: 0 0 10px 0;
@@ -4253,7 +4253,7 @@ blockquote p {
 	font-family: 'Nunito', sans-serif;
     color: #fff;
     font-size: 16px;
-    line-height: 28px; 
+    line-height: 28px;
     font-weight: normal;
     margin-bottom: 46px;
 }
@@ -4296,7 +4296,7 @@ blockquote p {
 
 /*
 |---------------------------------------------
-| Intro Section 
+| Intro Section
 |---------------------------------------------
 */
 @media All and (max-width: 1024px) {
@@ -4361,7 +4361,7 @@ blockquote p {
 	list-style: none;
 }
 .sa-living-details li {
-	display: inline-block;	
+	display: inline-block;
 }
 .sa-living-details li a i:hover {
 	border-color: #f5e9d1;
@@ -4397,7 +4397,7 @@ blockquote p {
 
 /*
 |---------------------------------------------
-| video gallery Section 
+| video gallery Section
 |---------------------------------------------
 */
 .sa-video-gallery-section {
@@ -4514,7 +4514,7 @@ blockquote p {
 
 /*
 |---------------------------------------------
-| sa-poster-section 
+| sa-poster-section
 |---------------------------------------------
 */
 .sa-poster-section {
@@ -4535,7 +4535,7 @@ blockquote p {
     overflow: hidden;
     margin-bottom: 30px;
     border-bottom: 4px solid #deb668;
-    padding-bottom: 10px; 
+    padding-bottom: 10px;
 }
 .sa-team-single img{
 	width: 100%;
@@ -4710,7 +4710,7 @@ blockquote p {
   box-sizing: border-box;
 }
 .gallery-mesonary .gallery-item-width-2 {
-  width: 25%; 
+  width: 25%;
 }
 .gallery-mesonary-nonprofit .gallery-item {
   float: left;
@@ -4723,7 +4723,7 @@ blockquote p {
 	  width: 50%;
 	}
 	.gallery-item-width-2 {
-	  width: 50%; 
+	  width: 50%;
 	}
 }*/
 
@@ -4919,7 +4919,7 @@ blockquote p {
     top: 0;
 }
 .sa-stroies-section {
-	background-color: #f8f8f8; 
+	background-color: #f8f8f8;
 }
 .sa-stroies .sa-schedules-heading h2{
 	font-family: 'Poppins', sans-serif;
@@ -4928,7 +4928,7 @@ blockquote p {
 	color: #022147;
 	font-weight: bold;
 	padding-bottom: 26px;
-	margin-bottom: 18px; 
+	margin-bottom: 18px;
 }
 .sa-stroies .sa-schedules-heading h2:after {
     height: 3px;
@@ -4946,7 +4946,7 @@ blockquote p {
 .sa-stroies-service-single{
 	background-color: #fff;
 	padding: 25px;
-	border-radius: 5px; 
+	border-radius: 5px;
 }
 .sa-stroies-service-single-img{
     border: 1px solid #eedab3;
@@ -5020,7 +5020,7 @@ blockquote p {
 .sa-column-thumb ul li {
 	list-style: none;
 	margin: 1%;
-	width: 47%; 
+	width: 47%;
 	display: inline-block;
 }
 
@@ -5110,7 +5110,7 @@ blockquote p {
 	margin: 0 !important;
 	padding: 0 !important;
 	text-align: center;
-} 
+}
 /***** sa-coundown-section-responsive ****/
 @media all and (max-width: 1024px){
     .sa-time-count .countdown-period .c-title {
@@ -5140,7 +5140,7 @@ blockquote p {
 |---------------------------------------------
 */
 .sa-counter-section.counter-bg{
-	background-color:#4c4c4c;	
+	background-color:#4c4c4c;
 	background-image:url(/modules/custom/tbc_styleguide/templates/assets/images/counter/bg.jpg);
 	background-position:center;
 	background-size:cover;
@@ -5178,7 +5178,7 @@ blockquote p {
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 45px;
-	
+
 }
 
 /*
@@ -5187,7 +5187,7 @@ blockquote p {
 |---------------------------------------------
 */
 .doantion-bg{
-	background-color: #022147; 
+	background-color: #022147;
 }
 .sa-donation-section{
 	color: #fff;
@@ -5201,7 +5201,7 @@ blockquote p {
 	line-height: 30px;
 	font-weight: 500;
 	font-family: 'Poppins', sans-serif;
-	margin-bottom: 55px; 
+	margin-bottom: 55px;
 }
 .sa-donation-single a{
 	color: #fff;
@@ -5213,7 +5213,7 @@ blockquote p {
     letter-spacing: 0 !important;
 }
 .sa-donation-single a:hover{
-	background-color: #deb668; 
+	background-color: #deb668;
 }
 .sa-donation-single .donation-details{
 	margin: 38px 0 62px 0;
@@ -5260,7 +5260,7 @@ blockquote p {
 .sa-cta-submit-listing {
 	background-color: #022147;
 	padding: 40px 0 30px 0;
-	position: relative; 
+	position: relative;
 }
 .sa-cta-submit-listing .section-title .title {
 	color: #ffffff;
@@ -5268,13 +5268,13 @@ blockquote p {
 	font-family: "Poppins", sans-serif;
 	font-weight: 500;
 	line-height: 45px;
-	margin-bottom: 10px; 
+	margin-bottom: 10px;
 }
 .sa-cta-submit-listing .section-title p {
 	color: #ffffff;
 	font-family: "Nunito", sans-serif;
 	font-weight: 400;
-	font-size: 15px; 
+	font-size: 15px;
 }
 .sa-cta-submit-listing .dark-btn {
 	position: absolute;
@@ -5284,11 +5284,11 @@ blockquote p {
 @media all and (max-width: 991px) {
 	.sa-cta-submit-listing {
 		text-align: center;
-		padding: 50px 0 80px 0; 
+		padding: 50px 0 80px 0;
 	}
 	.sa-cta-submit-listing .dark-btn {
-		position: inherit; 
-	} 
+		position: inherit;
+	}
 }
 @media all and (max-width: 767px) {
 	.sa-cta-submit-listing .section-title .title {
@@ -5518,13 +5518,13 @@ blockquote p {
 	.style-two-slider .owl-nav {
 		width: 60%;
 		margin-top: 50px;
-	}	
+	}
 	.style-two-slider .owl-nav .owl-next {
 		height: 30px;
 		width: 30px;
 		border-radius: 0;
 		line-height: 30px;
-	}	
+	}
 	.style-two-slider .owl-nav .owl-prev {
 		height: 30px;
 		width: 30px;
@@ -6010,7 +6010,7 @@ blockquote p {
     line-height: 24px;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
-    cursor: pointer !important; 
+    cursor: pointer !important;
 }
 .sa-shop-search-area form .input-group {
 	height: 50px;
@@ -6119,7 +6119,7 @@ blockquote p {
 
 /*
 |---------------------------------------------
-| shop Section 
+| shop Section
 |---------------------------------------------
 */
 /* shop heading */
@@ -6406,7 +6406,7 @@ blockquote p {
 }
 .sa-blog-post .meta-share .share {
 	margin-left: -5px;
-	border-radius: 0 6px 6px 0;	
+	border-radius: 0 6px 6px 0;
 }
 /**** sa-sidebar *****/
 .widget {
@@ -6429,7 +6429,7 @@ blockquote p {
 	border-bottom: 0;
 }
 .sa-widget-search .search .form-control {
-	font-family: 'Nunito', sans-serif; 
+	font-family: 'Nunito', sans-serif;
 	border: 1px solid #ebebeb;
 	margin-bottom: 16px;
 	font-size: 16px;
@@ -6445,7 +6445,7 @@ blockquote p {
 .sa-widget-search .search .dark-btn {
 	width: 100%;
 	background-color: #0e2b4e;
-	font-family: 'Nunito', sans-serif; 
+	font-family: 'Nunito', sans-serif;
 	font-size: 16px;
 	line-height: 24px;
 	font-weight: 500;
@@ -6833,7 +6833,7 @@ transition: .3s;
 .sa-timeline-nodes:nth-child(odd) .sa-timeline-date {
     text-align: left;
 }
- 
+
 .sa-timeline-nodes:nth-child(even) .sa-timeline-date {
     text-align: right;
 }
@@ -6882,7 +6882,7 @@ transition: .3s;
 	display: inline-flex;
 }
 .sa-timelines-tab-menu ul li a {
-    padding: 10px 46px; 
+    padding: 10px 46px;
     display: block;
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
@@ -7076,7 +7076,7 @@ ul.sa-speaker-event-schedule li.day .entry-day .entry-thumb {
 	height: 70px;
 	border-radius: 50%;
     text-align: center;
-    line-height: 65px;    
+    line-height: 65px;
     background: #fff;
     border: 2px solid #e1bd76;
 }
@@ -7342,7 +7342,7 @@ ul.sa-speaker-event-schedule li.day:last-child .entry-dot:after {
 
 /*
 |---------------------------------------------
-| Product details page 
+| Product details page
 |---------------------------------------------
 */
 .sa-mrt30{

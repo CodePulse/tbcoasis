@@ -16,11 +16,11 @@ Version:1.1
 		1.6. Table
 		1.7. Accordion
 		1.8. Section-background-color & sectino-heading
-		1.9 Tabs 
+		1.9 Tabs
 		1.10. parallex-background
 		1.11. Modal
-	2. Header	 
-	
+	2. Header
+
 ===========================*/
 /*====================
 	1. General code
@@ -700,7 +700,7 @@ table thead th, table thead td {
 }
 
 /*--------------------
-	1.9. Tabs 
+	1.9. Tabs
 ------------------------------*/
 /* line 529, ../scss/sacremedia-tbc/_style.scss */
 .nav.nav-tabs {
@@ -2370,7 +2370,7 @@ ul.sermons_meta {
   color: #deb668;
 }
 
-/*==============	
+/*==============
 	 Event-Detail
 ====================*/
 /* line 1790, ../scss/sacremedia-tbc/_style.scss */
@@ -2469,7 +2469,7 @@ ul.sermons_meta {
   height: 200px;
 }
 
-/*==============	
+/*==============
 	 Blog
 ====================*/
 /* line 1868, ../scss/sacremedia-tbc/_style.scss */
@@ -3068,7 +3068,7 @@ ul.sermons_meta {
   margin: 0 auto;
   max-width: 730px;
   text-align: center;
-  background: url(/modules/custom/tbc_styleguide/templates/assets/images/TBC-New-Logo-copy-big.png) no-repeat center bottom;
+  background: url(/modules/custom/tbc_styleguide/templates/assets/images/vfi-grey-fade.png) no-repeat center bottom;
   padding: 0 0 20px;
   margin: 0 auto 50px;
 }
@@ -5256,7 +5256,7 @@ ul.sermons_meta {
 }
 /*
 |---------------------------------------------
-| Upcoming Event Section 
+| Upcoming Event Section
 |---------------------------------------------
 */
 /* line 3868, ../scss/sacremedia-tbc/_style.scss */
@@ -5697,7 +5697,7 @@ ul.sermons_meta {
 }
 /*
 |---------------------------------------------
-| Intro Section 
+| Intro Section
 |---------------------------------------------
 */
 /* line 4225, ../scss/sacremedia-tbc/_style.scss */
@@ -5798,7 +5798,7 @@ ul.sermons_meta {
 
 /*
 |---------------------------------------------
-| Intro Section 
+| Intro Section
 |---------------------------------------------
 */
 @media All and (max-width: 1024px) {
@@ -5923,7 +5923,7 @@ ul.sermons_meta {
 }
 /*
 |---------------------------------------------
-| video gallery Section 
+| video gallery Section
 |---------------------------------------------
 */
 /* line 4403, ../scss/sacremedia-tbc/_style.scss */
@@ -6080,7 +6080,7 @@ ul.sermons_meta {
 }
 /*
 |---------------------------------------------
-| sa-poster-section 
+| sa-poster-section
 |---------------------------------------------
 */
 /* line 4520, ../scss/sacremedia-tbc/_style.scss */
@@ -6344,7 +6344,7 @@ ul.sermons_meta {
 	  width: 50%;
 	}
 	.gallery-item-width-2 {
-	  width: 50%; 
+	  width: 50%;
 	}
 }*/
 /*
@@ -8141,7 +8141,7 @@ ul.sermons_meta {
 }
 /*
 |---------------------------------------------
-| shop Section 
+| shop Section
 |---------------------------------------------
 */
 /* shop heading */
@@ -9727,7 +9727,7 @@ ul.sa-speaker-event-schedule li.day:last-child .entry-dot:after {
 
 /*
 |---------------------------------------------
-| Product details page 
+| Product details page
 |---------------------------------------------
 */
 /* line 7348, ../scss/sacremedia-tbc/_style.scss */
@@ -10027,6 +10027,11 @@ ul.sa-speaker-event-schedule li.day:last-child .entry-dot:after {
 
 /* line 2, ../scss/component/_tbc_header.scss */
 .navbar-header img {
-  height: 50px;
+  height: 100px;
   width: auto;
+}
+
+/* line 2, ../scss/component/_footer.scss */
+.footer_logo img {
+  height: 100px;
 }
