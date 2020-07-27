@@ -1,0 +1,20 @@
+uuid: 869540b2-f37f-4a5f-a0de-30234da03539
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+    - node
+id: node.field_sermon_file
+field_name: field_sermon_file
+entity_type: node
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

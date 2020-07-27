@@ -1,0 +1,47 @@
+uuid: ee5b131e-1610-41f1-a719-748eb913d2df
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.message.body
+    - field.field.node.message.field_sermon_file
+    - field.field.node.message.field_type
+    - node.type.message
+  module:
+    - options
+    - text
+    - user
+id: node.message.default
+targetEntityType: node
+bundle: message
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_sermon_file:
+    type: entity_reference_entity_view
+    weight: 102
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_type:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

@@ -1,0 +1,18 @@
+uuid: 9357676f-0643-4178-8201-6d292d203eeb
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Message
+type: message
+description: ''
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

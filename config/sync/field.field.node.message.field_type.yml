@@ -1,0 +1,21 @@
+uuid: d8226837-e90d-4153-8921-e6eb7a7921c0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_type
+    - node.type.message
+  module:
+    - options
+id: node.message.field_type
+field_name: field_type
+entity_type: node
+bundle: message
+label: Type
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string
