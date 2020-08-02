@@ -1,0 +1,8 @@
+vfi_api.api_endpoints:
+  path: '/api/messages/{endpoint}'
+  defaults:
+    _controller: '\Drupal\vfi_api\Controller\VFIMediaCentreEndpoint::view'
+    _title: 'VFI Endpoint'
+  methods:  [GET]
+  requirements:
+    _permission: 'access content'

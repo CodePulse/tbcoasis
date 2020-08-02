@@ -30,6 +30,7 @@
         "drupal/paragraphs": "^1.8",
         "drupal/pathauto": "^1.4",
         "drupal/recaptcha": "^2.4",
+        "drupal/restui": "^1.18",
         "drupal/webform": "^5.2",
         "drush/drush": "^9.0.0",
         "vlucas/phpdotenv": "^2.4",

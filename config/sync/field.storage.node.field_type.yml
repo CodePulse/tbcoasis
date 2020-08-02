@@ -26,6 +26,9 @@ settings:
     -
       value: sunday-sermon
       label: 'Sunday Sermon'
+    -
+      value: forty-days
+      label: '40 Days Fasting & Prayer'
   allowed_values_function: ''
 module: options
 locked: false
