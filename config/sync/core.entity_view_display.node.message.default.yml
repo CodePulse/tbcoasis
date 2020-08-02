@@ -3,25 +3,36 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.message.body
+    - field.field.node.message.field_author
+    - field.field.node.message.field_message_date
     - field.field.node.message.field_sermon_file
     - field.field.node.message.field_type
     - node.type.message
   module:
+    - datetime
     - options
-    - text
     - user
 id: node.message.default
 targetEntityType: node
 bundle: message
 mode: default
 content:
-  body:
-    label: hidden
-    type: text_default
-    weight: 101
-    settings: {  }
+  field_author:
+    weight: 105
+    label: above
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
+    type: string
+    region: content
+  field_message_date:
+    weight: 104
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
     region: content
   field_sermon_file:
     type: entity_reference_entity_view

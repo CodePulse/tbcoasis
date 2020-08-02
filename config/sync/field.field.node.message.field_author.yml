@@ -1,0 +1,19 @@
+uuid: 0e19b913-a02d-4ee5-86ea-266902695592
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_author
+    - node.type.message
+id: node.message.field_author
+field_name: field_author
+entity_type: node
+bundle: message
+label: Author
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

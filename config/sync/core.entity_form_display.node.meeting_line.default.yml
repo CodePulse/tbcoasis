@@ -1,58 +1,53 @@
-uuid: fdb2bdd5-3501-4d7a-8832-8f57660a4d07
+uuid: 1cd8ba20-d663-4d17-90a4-97d641f3f48a
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.message.field_author
-    - field.field.node.message.field_message_date
-    - field.field.node.message.field_sermon_file
-    - field.field.node.message.field_type
-    - node.type.message
+    - field.field.node.meeting_line.field_meeting_link
+    - field.field.node.meeting_line.field_phone_number
+    - field.field.node.meeting_line.field_pin
+    - node.type.meeting_line
   module:
-    - datetime
-    - media_library
+    - link
     - path
-id: node.message.default
+id: node.meeting_line.default
 targetEntityType: node
-bundle: message
+bundle: meeting_line
 mode: default
 content:
   created:
     type: datetime_timestamp
-    weight: 2
+    weight: 10
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_author:
-    weight: 7
+  field_meeting_link:
+    weight: 121
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_phone_number:
+    weight: 122
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
     region: content
-  field_message_date:
-    weight: 9
-    settings: {  }
-    third_party_settings: {  }
-    type: datetime_default
-    region: content
-  field_sermon_file:
-    type: media_library_widget
-    weight: 8
+  field_pin:
+    weight: 123
     settings:
-      media_types: {  }
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
-    region: content
-  field_type:
-    weight: 10
-    settings: {  }
-    third_party_settings: {  }
-    type: options_select
+    type: string_textfield
     region: content
   path:
     type: path
-    weight: 5
+    weight: 30
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -60,26 +55,26 @@ content:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 3
+    weight: 15
     region: content
     third_party_settings: {  }
   status:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 6
+    weight: 120
     region: content
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 4
+    weight: 16
     region: content
     third_party_settings: {  }
   title:
     type: string_textfield
-    weight: 0
+    weight: -5
     region: content
     settings:
       size: 60
@@ -87,7 +82,7 @@ content:
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 1
+    weight: 5
     settings:
       match_operator: CONTAINS
       size: 60

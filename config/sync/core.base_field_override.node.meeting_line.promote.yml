@@ -1,0 +1,22 @@
+uuid: 555e2037-dbca-4b03-b3f5-4c2e18556734
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.meeting_line
+id: node.meeting_line.promote
+field_name: promote
+entity_type: node
+bundle: meeting_line
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

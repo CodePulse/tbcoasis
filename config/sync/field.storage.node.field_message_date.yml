@@ -1,0 +1,20 @@
+uuid: 23cf8d2f-eb1a-4c26-9f6e-434bb49bb27d
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime
+    - node
+id: node.field_message_date
+field_name: field_message_date
+entity_type: node
+type: datetime
+settings:
+  datetime_type: date
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

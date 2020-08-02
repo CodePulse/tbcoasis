@@ -1,0 +1,26 @@
+uuid: fac352c6-02c9-4a76-83eb-d48bb4b5ecf1
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.meeting_line.field_meeting_link
+    - field.field.node.meeting_line.field_phone_number
+    - field.field.node.meeting_line.field_pin
+    - node.type.meeting_line
+  module:
+    - user
+id: node.meeting_line.teaser
+targetEntityType: node
+bundle: meeting_line
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_meeting_link: true
+  field_phone_number: true
+  field_pin: true

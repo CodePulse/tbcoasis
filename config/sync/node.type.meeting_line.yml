@@ -1,0 +1,18 @@
+uuid: 02ad7162-6945-4c20-9324-04c318346a85
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Meeting line'
+type: meeting_line
+description: ''
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

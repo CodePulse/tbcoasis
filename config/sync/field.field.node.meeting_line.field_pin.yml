@@ -1,0 +1,19 @@
+uuid: c9b00b45-2786-49a4-a7f1-8d2fe2e49563
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pin
+    - node.type.meeting_line
+id: node.meeting_line.field_pin
+field_name: field_pin
+entity_type: node
+bundle: meeting_line
+label: PIN
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

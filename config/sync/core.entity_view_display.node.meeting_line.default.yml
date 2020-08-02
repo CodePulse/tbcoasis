@@ -1,0 +1,51 @@
+uuid: 453d40a6-b523-497f-873a-9a43ff326bed
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.meeting_line.field_meeting_link
+    - field.field.node.meeting_line.field_phone_number
+    - field.field.node.meeting_line.field_pin
+    - node.type.meeting_line
+  module:
+    - link
+    - user
+id: node.meeting_line.default
+targetEntityType: node
+bundle: meeting_line
+mode: default
+content:
+  field_meeting_link:
+    weight: 101
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_phone_number:
+    weight: 102
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_pin:
+    weight: 103
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

@@ -4,31 +4,25 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.message.body
+    - field.field.node.message.field_author
+    - field.field.node.message.field_message_date
     - field.field.node.message.field_sermon_file
     - field.field.node.message.field_type
     - node.type.message
   module:
-    - text
     - user
 id: node.message.teaser
 targetEntityType: node
 bundle: message
 mode: teaser
 content:
-  body:
-    label: hidden
-    type: text_summary_or_trimmed
-    weight: 101
-    settings:
-      trim_length: 600
-    third_party_settings: {  }
-    region: content
   links:
     weight: 100
     settings: {  }
     third_party_settings: {  }
     region: content
 hidden:
+  field_author: true
+  field_message_date: true
   field_sermon_file: true
   field_type: true
