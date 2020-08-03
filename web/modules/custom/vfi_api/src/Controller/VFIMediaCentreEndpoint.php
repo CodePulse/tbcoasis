@@ -63,6 +63,13 @@ class VFIMediaCentreEndpoint extends ControllerBase {
       }
     }
 
+    // Sort by the custom date field in descending order.
+    usort($apiFormattedNodes, function($a, $b) {
+      $t1 = strtotime($a['date']);
+      $t2 = strtotime($b['date']);
+      return $t2 - $t1;
+
+    });
     return $apiFormattedNodes;
   }
 
