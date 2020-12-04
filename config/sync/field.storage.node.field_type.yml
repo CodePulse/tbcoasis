@@ -29,10 +29,16 @@ settings:
     -
       value: forty-days
       label: '40 Days Fasting & Prayer'
+    -
+      value: mothers-outcry
+      label: 'Mothers Outcry'
+    -
+      value: month-fast
+      label: 'Monthly Fast'
   allowed_values_function: ''
 module: options
 locked: false
-cardinality: 1
+cardinality: -1
 translatable: true
 indexes: {  }
 persist_with_no_fields: false
