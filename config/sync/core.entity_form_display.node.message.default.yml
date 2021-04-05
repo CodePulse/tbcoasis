@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.message.field_author
+    - field.field.node.message.field_fireflies_id
     - field.field.node.message.field_message_date
     - field.field.node.message.field_sermon_file
     - field.field.node.message.field_type
@@ -25,6 +26,14 @@ content:
     third_party_settings: {  }
   field_author:
     weight: 7
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_fireflies_id:
+    weight: 26
     settings:
       size: 60
       placeholder: ''

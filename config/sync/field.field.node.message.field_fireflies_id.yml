@@ -1,0 +1,19 @@
+uuid: 15f9382b-6ef9-4a68-9f76-8772897fc58d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fireflies_id
+    - node.type.message
+id: node.message.field_fireflies_id
+field_name: field_fireflies_id
+entity_type: node
+bundle: message
+label: 'FireFlies ID'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

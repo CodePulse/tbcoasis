@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.message.field_author
+    - field.field.node.message.field_fireflies_id
     - field.field.node.message.field_message_date
     - field.field.node.message.field_sermon_file
     - field.field.node.message.field_type
@@ -23,6 +24,7 @@ content:
     region: content
 hidden:
   field_author: true
+  field_fireflies_id: true
   field_message_date: true
   field_sermon_file: true
   field_type: true
