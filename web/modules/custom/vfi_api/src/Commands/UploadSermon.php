@@ -103,7 +103,7 @@ class UploadSermon extends DrushCommands {
 
   protected function createFileEntity($audio_url) {
     $name = basename($audio_url);
-    $destination = "public://again-$name";
+    $destination = "public://$name";
     $audio = file_get_contents($audio_url);
     $file = file_save_data($audio, $destination);
     $this->output()->writeln('Downloaded the sermon and uploaded as a file');
