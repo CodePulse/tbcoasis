@@ -98,7 +98,7 @@ class UploadSermon extends DrushCommands {
       $id = $transcript->data->transcript->id;
     }
     $this->output()->writeln('URL created: ' . $url);
-    return ['url' => $url, 'id' => $id, 'title' => $titleProcess];
+    return ['url' => $url, 'id' => $recent_transcript, 'title' => $titleProcess];
   }
 
   protected function createFileEntity($audio_url) {
