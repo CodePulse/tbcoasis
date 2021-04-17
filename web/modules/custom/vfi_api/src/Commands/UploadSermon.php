@@ -26,8 +26,7 @@ class UploadSermon extends DrushCommands {
    * @usage sermon:upload
    */
   public function upload() {
-    $recent_transcript = $this->getRecentTranscript();
-    $getAudioData = $this->getAudioData($recent_transcript);
+    $getAudioData = $this->getAudioData();
     $sermonType = $this->processType($getAudioData['title']);
     if (!$this->sermonExists($getAudioData['id'], $sermonType)) {
       $fileEntity = $this->createFileEntity($getAudioData['url']);
@@ -68,37 +67,25 @@ class UploadSermon extends DrushCommands {
     $result = curl_exec($ch);
     $json_result = json_decode($result);
     curl_close($ch);
-    return $json_result;
+    return $json_result->data->transcripts[0];
   }
 
-  protected function getRecentTranscript() {
-    $query = '{"query":"query {user{email,recent_transcript}}"}';
-
-    $recent_transcript = $this->getResponse($query);
-
-    if (!empty($recent_transcript) && isset($recent_transcript->data->user->recent_transcript)) {
-      $this->output()->writeln('Got the latest transcript!');
-      return $recent_transcript->data->user->recent_transcript;
-    }
-    return '';
-  }
-
-  protected function getAudioData($recent_transcript) {
-    $query = '{"query":"{\n  transcript(id: \"' . $recent_transcript . '\"){\n    id\n    title\n    fireflies_users\n    participants\n    date\n    transcript_url\n    duration\n  }\n}"}';
+  protected function getAudioData() {
+    $query = '{"query":"query transcripts($user_id: String, $limit: Int, $skip: Int){\n  transcripts(user_id: $user_id, limit: $limit, skip: $skip){\n    id\n    title\n    host_email\n    organizer_email\n    fireflies_users\n    participants\n    date\n    transcript_url\n    duration\n    custom_topics{\n      sentence_index\n      sentence\n      name\n      phrases\n    }\n  }\n}"}';
     $transcript = $this->getResponse($query);
     $url = '';
     $id = '';
     $titleProcess = '';
 
     if (!empty($transcript)) {
-      $title = trim($transcript->data->transcript->title);
-      $titleProcess = trim($transcript->data->transcript->title);
+      $title = trim($transcript->title);
+      $titleProcess = trim($transcript->title);
       $title = str_replace(' ', '', $title);
-      $url = "https://rtmp-server-ff.s3.amazonaws.com/$recent_transcript/$title-$recent_transcript.mp3";
-      $id = $transcript->data->transcript->id;
+      $url = "https://rtmp-server-ff.s3.amazonaws.com/$transcript->id/$title-$transcript->id.mp3";
+      $id = $transcript->id;
     }
     $this->output()->writeln('URL created: ' . $url);
-    return ['url' => $url, 'id' => $recent_transcript, 'title' => $titleProcess];
+    return ['url' => $url, 'id' => $id, 'title' => $titleProcess];
   }
 
   protected function createFileEntity($audio_url) {
