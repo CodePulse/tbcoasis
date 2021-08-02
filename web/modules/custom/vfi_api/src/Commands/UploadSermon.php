@@ -45,6 +45,7 @@ class UploadSermon extends DrushCommands {
       'Bible Studies' => 'bible-studies',
       'Friday Intercession' => 'friday-intercession',
       'Sunday Intercession' => 'sunday-intercession',
+      'All Night' => 'friday-intercession',
       'Sunday Sermon' => 'sunday-sermon'
     ];
 
