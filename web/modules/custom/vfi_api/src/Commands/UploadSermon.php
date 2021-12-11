@@ -3,7 +3,6 @@
 namespace Drupal\vfi_api\Commands;
 
 use Drupal\Core\Entity\EntityStorageException;
-use Drupal\file\Entity\File;
 use Drupal\media\Entity\Media;
 use Drupal\node\Entity\Node;
 use Drush\Commands\DrushCommands;
@@ -82,7 +81,8 @@ class UploadSermon extends DrushCommands {
       $title = trim($transcript->title);
       $titleProcess = trim($transcript->title);
       $title = str_replace(' ', '', $title);
-      $url = "https://rtmp-server-ff.s3.amazonaws.com/$transcript->id/$title-$transcript->id.mp3";
+//      $url = "https://rtmp-server-ff.s3.amazonaws.com/$transcript->id/$title-$transcript->id.mp3"; // old format
+      $url = "https://rtmp-server-ff.s3.amazonaws.com/$transcript->id/audio.mp3";
       $id = $transcript->id;
     }
     $this->output()->writeln('URL created: ' . $url);
