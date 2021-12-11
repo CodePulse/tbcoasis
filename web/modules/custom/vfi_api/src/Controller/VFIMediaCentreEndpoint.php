@@ -3,6 +3,7 @@
 namespace Drupal\vfi_api\Controller;
 
 use Drupal\Core\Controller\ControllerBase;
+use Drupal\media\Entity\Media;
 use Symfony\Component\HttpFoundation\JsonResponse;
 
 class VFIMediaCentreEndpoint extends ControllerBase {
@@ -99,13 +100,10 @@ class VFIMediaCentreEndpoint extends ControllerBase {
   protected function processMedia($node) {
     if ($node->hasField('field_sermon_file') && !$node->get('field_sermon_file')
         ->isEmpty()) {
-      /** @var \Drupal\file\Entity\File $mediaFile */
-      $mediaEntity = $node->get('field_sermon_file')
-        ->first()
-        ->get('entity')
-        ->getTarget()
-        ->getValue();
 
+      $mediaId = $node->get('field_sermon_file')->getString();
+      $mediaEntity = Media::load($mediaId);
+      
       if (!empty($mediaEntity)) {
         $fileEntity = $mediaEntity->get('field_media_audio_file')
           ->first()
