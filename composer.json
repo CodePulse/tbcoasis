@@ -32,6 +32,7 @@
         "drupal/paragraphs": "^1.8",
         "drupal/pathauto": "^1.4",
         "drupal/recaptcha": "^3.0",
+        "drupal/redirect": "^1.7",
         "drupal/restui": "^1.18",
         "drupal/webform": "^6.1",
         "drush/drush": "^10.6",
