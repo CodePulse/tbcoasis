@@ -103,7 +103,7 @@ class VFIMediaCentreEndpoint extends ControllerBase {
 
       $mediaId = $node->get('field_sermon_file')->getString();
       $mediaEntity = Media::load($mediaId);
-      
+
       if (!empty($mediaEntity)) {
         $fileEntity = $mediaEntity->get('field_media_audio_file')
           ->first()
