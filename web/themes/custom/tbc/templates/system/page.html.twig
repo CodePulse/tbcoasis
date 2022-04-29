@@ -57,9 +57,12 @@
 {% block main %}
   <div role="main" class="main-container js-quickedit-main-content">
     {# Header #}
+    <div class="container">
+
     {% if page.header %}
       {{ page.header }}
     {% endif %}
+    </div>
 
     {# Sidebar First #}
     {% if page.sidebar_first %}
@@ -72,7 +75,7 @@
 
     {# Content #}
 
-    <section{{ content_attributes.addClass(content_classes) }}>
+    <section{{ content_attributes.addClass(container) }}>
       {# Content #}
       {% block content %}
         <a id="main-content"></a>
