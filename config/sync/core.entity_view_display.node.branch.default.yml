@@ -17,31 +17,31 @@ bundle: branch
 mode: default
 content:
   body:
-    label: hidden
     type: text_default
-    weight: 101
+    label: hidden
     settings: {  }
     third_party_settings: {  }
+    weight: 101
     region: content
   field_address:
-    weight: 102
+    type: address_default
     label: above
     settings: {  }
     third_party_settings: {  }
-    type: address_default
+    weight: 102
     region: content
   field_image:
     type: entity_reference_entity_view
-    weight: 103
     label: above
     settings:
       view_mode: default
       link: false
     third_party_settings: {  }
+    weight: 103
     region: content
   links:
-    weight: 100
     settings: {  }
     third_party_settings: {  }
+    weight: 100
     region: content
 hidden: {  }

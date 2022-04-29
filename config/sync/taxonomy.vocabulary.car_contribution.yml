@@ -1,0 +1,8 @@
+uuid: 25330692-28db-46a4-bfc7-fa27cbab9719
+langcode: en
+status: true
+dependencies: {  }
+name: 'Car Contribution'
+vid: car_contribution
+description: ''
+weight: 0

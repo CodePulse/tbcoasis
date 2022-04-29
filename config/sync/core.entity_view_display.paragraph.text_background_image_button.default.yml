@@ -18,15 +18,15 @@ mode: default
 content:
   field_background_image:
     type: entity_reference_entity_view
-    weight: 1
     label: above
     settings:
       view_mode: default
       link: false
     third_party_settings: {  }
+    weight: 1
     region: content
   field_button:
-    weight: 2
+    type: link
     label: above
     settings:
       trim_length: 80
@@ -35,21 +35,21 @@ content:
       rel: ''
       target: ''
     third_party_settings: {  }
-    type: link
+    weight: 2
     region: content
   field_text:
-    weight: 3
+    type: text_default
     label: above
     settings: {  }
     third_party_settings: {  }
-    type: text_default
+    weight: 3
     region: content
   field_title:
-    weight: 4
+    type: string
     label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    type: string
+    weight: 4
     region: content
 hidden: {  }

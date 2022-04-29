@@ -1,0 +1,23 @@
+uuid: 61f05780-f8fe-4575-b039-12dccf572316
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_payment
+    - taxonomy.vocabulary.car_contribution
+id: taxonomy_term.car_contribution.field_payment
+field_name: field_payment
+entity_type: taxonomy_term
+bundle: car_contribution
+label: Payment
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: £
+  suffix: ''
+field_type: decimal
