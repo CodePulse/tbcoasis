@@ -25,8 +25,7 @@
   <div class="container">
     <div class="navbar-header">
       <div class="logo">
-        <a href="index.html"><img src="/themes/custom/tbc/images/vfi-logo-min.png"
-                                  alt="image"/></a>
+        <a href="/"><img src="/themes/custom/tbc/images/vfi-logo-min.png" alt="image"/></a>
       </div> <!-- /Logo -->
       <button id="menu_slide" data-target="#navigation" aria-expanded="false" data-toggle="collapse"
               class="navbar-toggle collapsed" type="button">
@@ -39,22 +38,10 @@
       <ul class="nav navbar-nav">
         {% if items %}
           {% for item in items %}
-            <li><a href="{{ item.url }}">{{ item.title }} <span class="nav_arrow"></span></a>
-              {#<ul class="sub-menu">#}
-                {#<li><a href="home-1.html">Home 01</a></li>#}
-                {#<li><a href="home-2.html">Home 02</a></li>#}
-                {#<li><a href="home-3.html">Home 03</a></li>#}
-                {#<li><a href="home-4.html">Home 04</a></li>#}
-                {#<li><a href="home-5.html">Home 05</a></li>#}
-              {#</ul>#}
-            </li>
+            <li><a href="{{ item.url }}">{{ item.title }} <span class="nav_arrow"></span></a></li>
           {% endfor %}
-        <li><a href="#">{{ 'Upcoming events' }} <span class="nav_arrow"></span></a></li>
-        <li><a href="#">{{ 'Gallery' }} <span class="nav_arrow"></span></a></li>
-        <li><a href="#">{{ 'Get in touch' }} <span class="nav_arrow"></span></a></li>
-
-          {% endif %}
-        <li><a class="btn dark-btn" href="#">{{ 'Give' }}</a></li>
+        {% endif %}
+        <li><a class="btn dark-btn" href="">{{ 'Sow a Seed' }}</a></li>
       </ul>
     </div>
   </div>
