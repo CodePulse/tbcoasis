@@ -1,7 +1,15 @@
 uuid: 16a994d9-048c-43cc-8546-046fea366d4b
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  config:
+    - filter.format.restricted_html
+  module:
+    - comment
+    - filter
+    - media
+    - search
+    - system
 _core:
   default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
 id: anonymous
@@ -12,7 +20,6 @@ permissions:
   - 'access comments'
   - 'access content'
   - 'access site-wide contact form'
-  - 'edit any message content'
   - 'search content'
   - 'use text format restricted_html'
   - 'view media'

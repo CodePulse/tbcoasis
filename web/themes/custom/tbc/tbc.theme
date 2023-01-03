@@ -25,6 +25,37 @@ function tbc_preprocess_node(&$variables) {
       ->getValue();
     $variables['branch_image'] = $image_entity->getFileUri();
   }
+  if ($node->bundle() == 'message') {
+    $type = $node->get('field_type')->getString();
+    $variables['type_resource'] = _tbc_sermon_type_resource($type);
+    $d=0;
+  }
+}
+
+function _tbc_sermon_type_resource($type) {
+  $types = [
+    'sunday-sermon' => [
+      'title' => 'Sunday Sermon',
+      'image_filename' => 'vf_service'
+    ],
+    'monday-prayer' => [
+      'title' => 'Monday Prayer',
+      'image_filename' => 'vf_mp'
+    ],
+    'bible-studies' => [
+      'title' => 'Bible Studies',
+      'image_filename' => 'vf_bs'
+    ],
+    'morning-glory' => [
+      'title' => 'Morning Glory',
+      'image_filename' => 'vf_mg'
+    ],
+    'sunday-intercession' => [
+      'title' => 'Sunday Intercession',
+      'image_filename' => 'vf_service'
+    ],
+  ];
+  return $types[$type];
 }
 
 /**

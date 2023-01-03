@@ -57,7 +57,6 @@
 {% block main %}
   <div role="main" class="main-container js-quickedit-main-content">
     {# Header #}
-
     {% if page.header %}
       {{ page.header }}
     {% endif %}
@@ -73,7 +72,7 @@
 
     {# Content #}
 
-    <section{{ content_attributes.addClass(container) }}>
+    <section>
       {# Content #}
       {% block content %}
         <a id="main-content"></a>
@@ -85,100 +84,59 @@
 
 <!-- Events -->
 {#<section class="pd-default-2 bg-gray">#}
-  {#<div class="container">#}
-    {#<div class="row justify-content-center">#}
-      {#<div class="col-lg-7">#}
-        {#<div class="sa-section-title text-center">#}
-          {#<h2>Upcoming Events</h2>#}
-          {#<p>Upcoming events at Trinity Baptist Church</p>#}
-        {#</div>#}
-      {#</div>#}
-    {#</div>#}
-    {#<!-- Events-1 -->#}
-    {#<div class="events_wrap">#}
-      {#<div class="event_date">#}
-        {#<span>29</span> May'19#}
-      {#</div>#}
-      {#<div class="event_img">#}
-        {#<a href="#"><img src="/modules/custom/tbc_styleguide/templates/assets/images/IC2019-Banner.jpeg" alt="image"></a>#}
-      {#</div>#}
-      {#<div class="event_info">#}
-        {#<h4><a href="#">Integrity Conference ~#IC 2019 Programme</a></h4>#}
-        {#<p>This event is text text text</p>#}
-        {#<ul>#}
-          {#<li><i class="fa fa-clock-o"></i>Tuesday  (9:00 am - 11:00 am)</li>#}
-          {#<li><i class="fa fa-map-marker"></i> 5-9 Peall Rd, Croydon, CR0 3EX, United Kingdom</li>#}
-        {#</ul>#}
-      {#</div>#}
-    {#</div>#}
-    {#<!-- /Events-1 -->#}
+{#  <div class="container">#}
+{#    <div class="row justify-content-center">#}
+{#      <div class="col-lg-7">#}
+{#        <div class="sa-section-title text-center">#}
+{#          <h2>Upcoming Events</h2>#}
+{#          <p>Upcoming events at Trinity Baptist Church</p>#}
+{#        </div>#}
+{#      </div>#}
+{#    </div>#}
+{#    <!-- Events-1 -->#}
+{#    <div class="events_wrap">#}
+{#      <div class="event_date">#}
+{#        <span>29</span> May'19#}
+{#      </div>#}
+{#      <div class="event_img">#}
+{#        <a href="#"><img src="/modules/custom/tbc_styleguide/templates/assets/images/IC2019-Banner.jpeg" alt="image"></a>#}
+{#      </div>#}
+{#      <div class="event_info">#}
+{#        <h4><a href="#">Integrity Conference ~#IC 2019 Programme</a></h4>#}
+{#        <p>This event is text text text</p>#}
+{#        <ul>#}
+{#          <li><i class="fa fa-clock-o"></i>Tuesday  (9:00 am - 11:00 am)</li>#}
+{#          <li><i class="fa fa-map-marker"></i> 5-9 Peall Rd, Croydon, CR0 3EX, United Kingdom</li>#}
+{#        </ul>#}
+{#      </div>#}
+{#    </div>#}
+{#    <!-- /Events-1 -->#}
 
-    {#<!-- Events-2 -->#}
-    {#<div class="events_wrap">#}
-      {#<div class="event_date">#}
-        {#<span>11</span> Nov'19#}
-      {#</div>#}
-      {#<div class="event_img">#}
-        {#<a href="#"><img src="/modules/custom/tbc_styleguide/templates/assets/images/Resurrection-Easter-10.jpeg" alt="image"></a>#}
-      {#</div>#}
-      {#<div class="event_info">#}
-        {#<h4><a href="#">#}
-            {#The Power Of The Resurrection#}
-          {#</a></h4>#}
-        {#<p>This is another event is text text text</p>#}
-        {#<ul>#}
-          {#<li><i class="fa fa-clock-o"></i>Sunday  (9:00 am - 11:00 am)</li>#}
-          {#<li><i class="fa fa-map-marker"></i> 5-9 Peall Rd, Croydon, CR0 3EX, United Kingdom</li>#}
-        {#</ul>#}
-      {#</div>#}
-    {#</div>#}
-    {#<!-- /Events-2 -->#}
-  {#</div>#}
+{#    <!-- Events-2 -->#}
+{#    <div class="events_wrap">#}
+{#      <div class="event_date">#}
+{#        <span>11</span> Nov'19#}
+{#      </div>#}
+{#      <div class="event_img">#}
+{#        <a href="#"><img src="/modules/custom/tbc_styleguide/templates/assets/images/Resurrection-Easter-10.jpeg" alt="image"></a>#}
+{#      </div>#}
+{#      <div class="event_info">#}
+{#        <h4><a href="#">#}
+{#            The Power Of The Resurrection#}
+{#          </a></h4>#}
+{#        <p>This is another event is text text text</p>#}
+{#        <ul>#}
+{#          <li><i class="fa fa-clock-o"></i>Sunday  (9:00 am - 11:00 am)</li>#}
+{#          <li><i class="fa fa-map-marker"></i> 5-9 Peall Rd, Croydon, CR0 3EX, United Kingdom</li>#}
+{#        </ul>#}
+{#      </div>#}
+{#    </div>#}
+{#    <!-- /Events-2 -->#}
+{#  </div>#}
 {#</section>#}
 <!-- /Events -->
 
-<!-- Latest-Blog -->
-{#<section class="latest_blog section-padding">#}
-  {#<div class="container">#}
-    {#<div class="blog">#}
-      {#<div class="section-header text-center">#}
-        {#<h2>Latest News</h2>#}
-      {#</div>#}
-      {#<div class="row">#}
-        {#<article class="col-md-6 col-12">#}
-          {#<div class="blog_wrap">#}
-            {#<div class="blog_img">#}
-              {#<a href="#"><img src="/modules/custom/tbc_styleguide/templates/assets/images/TBC_OasisHouse56.jpg" alt="image"></a>#}
-            {#</div>#}
-            {#<div class="blog_info">#}
-              {#<div class="post_date"><a href="#">April 19, 2019</a></div>#}
-              {#<h5><a href="#">Guest speaker attending</a></h5>#}
-              {#<p>This is the text that will go into more detail regarding this article. You can make more enquiries. </p>#}
-              {#<a href="#" class="btn">Read more <i class="fa fa-caret-right"></i> </a>#}
-            {#</div>#}
-          {#</div>#}
-        {#</article>#}
 
-        {#<article class="col-md-6 col-12">#}
-          {#<div class="blog_wrap">#}
-            {#<div class="blog_img">#}
-              {#<a href="#"><img src="/modules/custom/tbc_styleguide/templates/assets/images/default-image.jpg" alt="image"></a>#}
-            {#</div>#}
-            {#<div class="blog_info">#}
-              {#<div class="post_date"><a href="#">April 23, 2019</a></div>#}
-              {#<h5><a href="#">On the other hand</a></h5>#}
-              {#<p>This is the text that will go into more detail regarding this article. You can make more enquiries. </p>#}
-              {#<a href="#" class="btn">Read more <i class="fa fa-caret-right"></i> </a>#}
-            {#</div>#}
-          {#</div>#}
-        {#</article>#}
-      {#</div>#}
-    {#</div>#}
-    {#<div class="cta-area mg-top-50">#}
-      {#<a href="#" class="btn btn-sm pull-right">See All News</a>#}
-    {#</div>#}
-  {#</div>#}
-{#</section>#}
 <footer id="footer">
   <!-- Footer-Widgets -->
   <div class="container">

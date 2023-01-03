@@ -15,6 +15,9 @@ settings:
       value: morning-glory
       label: 'Morning Glory'
     -
+      value: monday-prayer
+      label: 'Monday Prayer'
+    -
       value: bible-studies
       label: 'Bible Studies'
     -

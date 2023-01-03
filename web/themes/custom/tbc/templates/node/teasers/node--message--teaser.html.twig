@@ -1,0 +1,12 @@
+<article class="col-md-6 col-12">
+    <div class="blog_wrap">
+        <div class="blog_img">
+            <a href="/node/{{ node.id() }}"><img src="/themes/custom/tbc/images/teasers/{{ type_resource.image_filename }}.png" alt="image"></a>
+        </div>
+        <div class="blog_info">
+            <div class="post_date"><a href="#">{{ type_resource.title }}</a></div>
+            <h5><a href="/node/{{ node.id() }}">{{ content.field_message_date|date("d F Y") }}</a></h5>
+            <a href="/node/{{ node.id() }}" class="btn">Play Recording <i class="fa fa-caret-right"></i> </a>
+        </div>
+    </div>
+</article>

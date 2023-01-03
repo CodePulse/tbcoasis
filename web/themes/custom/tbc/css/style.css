@@ -10031,6 +10031,17 @@ ul.sa-speaker-event-schedule li.day:last-child .entry-dot:after {
   width: auto;
 }
 
+/* line 7, ../scss/component/_tbc_header.scss */
+#navigation_bar {
+  background: #052147;
+}
+
+/* line 10, ../scss/component/_tbc_header.scss */
+.tabs {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 /* line 2, ../scss/component/_footer.scss */
 .footer_logo img {
   height: 100px;
