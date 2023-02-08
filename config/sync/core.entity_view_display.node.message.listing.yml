@@ -1,0 +1,68 @@
+uuid: df5ef45e-1296-4911-81fa-be4a50c8e1ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.listing
+    - field.field.node.message.field_author
+    - field.field.node.message.field_fireflies_id
+    - field.field.node.message.field_message_date
+    - field.field.node.message.field_sermon_file
+    - field.field.node.message.field_type
+    - node.type.message
+  module:
+    - datetime
+    - options
+    - user
+id: node.message.listing
+targetEntityType: node
+bundle: message
+mode: listing
+content:
+  field_author:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_fireflies_id:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  field_message_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_sermon_file:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_type:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

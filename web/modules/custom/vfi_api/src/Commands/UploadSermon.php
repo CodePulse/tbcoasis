@@ -123,7 +123,7 @@ class UploadSermon extends DrushCommands {
 
     $messageNode = Node::create([
       'type' => 'message',
-      'title' => 'Title Coming Soon',
+      'title' => 'New Recording',
       'uid' => 1,
       'status' => 1,
       'field_sermon_file' => [
