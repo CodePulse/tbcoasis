@@ -71,7 +71,7 @@ class UploadSermon extends DrushCommands {
   }
 
   protected function getAudioData() {
-    $query = '{"query":"query transcripts($user_id: String, $limit: Int, $skip: Int){\n  transcripts(user_id: $user_id, limit: $limit, skip: $skip){\n    id\n    title\n    host_email\n    organizer_email\n    fireflies_users\n    participants\n    date\n    transcript_url\n    duration\n    custom_topics{\n      sentence_index\n      sentence\n      name\n      phrases\n    }\n  }\n}"}';
+    $query = '{"query":"query transcripts($user_id: String, $limit: Int, $skip: Int){\n  transcripts(user_id: $user_id, limit: $limit, skip: $skip){\n    id\n    title\n    host_email\n    organizer_email\n    fireflies_users\n    participants\n    date\n    transcript_url\n    duration\n  }\n}"}';
     $transcript = $this->getResponse($query);
     $url = '';
     $id = '';
