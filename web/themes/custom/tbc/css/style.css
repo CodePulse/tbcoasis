@@ -419,7 +419,7 @@ img {
 /* line 311, ../scss/sacremedia-tbc/_style.scss */
 .form-control {
   background: #fff none repeat scroll 0 0;
-  border: 0 none;
+  border: 1px solid #ccc;
   border-radius: 0;
   border-bottom: #ccc solid 1px;
   box-shadow: none;
